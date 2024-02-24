@@ -8,7 +8,7 @@ const CategoryCard = ({ category }) => {
         {category.name}
       </h1>
       <div className="md:grid md:mx-auto ">
-        <div className="lg:ml-5 lg:mb-5">
+        <div className="lg:ml-5 lg:mb-5 pb-3">
           <div className="w-16 border-t-[3px] border-red-600 mt-5"></div>
         </div>
         <div className="overflow-x-scroll snap-x lg:overflow-x-hidden ">

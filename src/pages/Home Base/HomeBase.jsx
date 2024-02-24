@@ -1,10 +1,14 @@
 import BookList from "../../components/Book Card/BookLIst";
+import Carousel from "../../components/Carousel/Carousel";
 import data from "../../json/products.json";
 
-const HomeBase = () => (
-  <div>
-    <BookList data={data} />
-  </div>
-);
+const HomeBase = () => {
+  return (
+    <>
+      <Carousel />
+      <BookList data={data} />
+    </>
+  );
+};
 
 export default HomeBase;

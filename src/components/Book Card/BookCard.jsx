@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
-const BookCard = ({ name, image, author, price, discon }) => {
+const BookCard = ({ id, name, image, author, price, discon }) => {
   const shortName = name.length > 20 ? name.substring(0, 20) + "..." : name;
 
   return (
-    <li className="snap-start group">
+    <li key={id} className="snap-start group">
       <a href="">
-        <div className="border border-gray-600  border-opacity-0 rounded-lg hover:border-opacity-50">
+        <div className="border border-gray-600  border-opacity-0 rounded-lg hover:border-opacity-50 transition-all duration-300">
           <div className="relative py-8 overflow-hidden flex justify-center">
             <img
               className="h-40 w-32 lg:w-36 rounded-tl-lg rounded-tr-lg "
@@ -13,7 +13,7 @@ const BookCard = ({ name, image, author, price, discon }) => {
               alt={name}
             />
             <div className="absolute flex items-center justify-center w-full  h-full transition-all duration-300 opacity-0 bg-white/50 bottom-10 group-hover:bottom-0 group-hover:opacity-90">
-              <p className="p-1 text-sm text-white bg-gray-800 rounded-sm">
+              <p className="p-1 text-sm text-white bg-gray-800 rounded-md">
                 {name}
               </p>
             </div>

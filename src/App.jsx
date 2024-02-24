@@ -1,7 +1,7 @@
-import Layout from "./components/Layout/Layout";
+import HomeBase from "./pages/Home Base/HomeBase";
 
 function App() {
-  return <Layout />;
+  return <HomeBase />;
 }
 
 export default App;
