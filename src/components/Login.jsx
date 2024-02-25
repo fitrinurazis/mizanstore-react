@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Image from "../assets/Image/BookLogo.jpg";
-import Logo from "../assets/Image/GoogleLogo.jpg";
+import Image from "../assets/img/BookLogo.jpg";
+import Logo from "../assets/img/GoogleLogo.jpg";
 
 function Login() {
   const [email, setEmail] = useState("");
