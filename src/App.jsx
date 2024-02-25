@@ -1,9 +1,7 @@
+import HomeBase from "./pages/Home Base/HomeBase";
+
 function App() {
-  return (
-    <>
-      <h1>Kelompok 3</h1>
-    </>
-  );
+  return <HomeBase />;
 }
 
 export default App;
