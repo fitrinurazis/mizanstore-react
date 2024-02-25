@@ -1,4 +1,3 @@
-// src/components/Login.js
 import React, { useState } from "react";
 import Image from "../assets/Image/BookLogo.jpg";
 import Logo from "../assets/Image/GoogleLogo.jpg";
@@ -7,6 +6,7 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleLogin = () => {
     //validasi email dan password
@@ -16,6 +16,10 @@ function Login() {
     } else {
       setError("Alamat email atau password yang dimasukkan salah.");
     }
+  };
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
   };
 
   return (
@@ -28,11 +32,26 @@ function Login() {
             <h1 className="mb-3 text-2xl font-bold">
               <a href="#">Mizan Store</a>
             </h1>
-            <p className="text-sm first-letter:text-4xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-1 first-letter:float-left">Kemampuan membaca itu sebuah rahmat.Kegemaran membaca;sebuah kebahagiaan</p>
+            <p className="text-sm first-letter:text-4xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-1 ">Kemampuan membaca itu sebuah rahmat.Kegemaran membaca;sebuah kebahagiaan</p>
             <form className="flex flex-col gap-4">
               <input className="p-2 duration-200 border mt-7 rounded-2xl hover:scale-110 bg-slate-100" type="text" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="example@gmail.com" />
-              <input className="p-2 duration-200 border rounded-2xl hover:scale-110 bg-slate-100" type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="your password" />
-              <button onClick={handleLogin} className="flex items-center justify-center w-1/2 text-sm duration-200 mx-14 bg-slate-100 rounded-2xl hover:scale-110">
+              <input
+                className="p-2 duration-200 border rounded-2xl hover:scale-110 bg-slate-100"
+                type={showPassword ? "text" : "password"}
+                name="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="password"
+              />
+              {/* toogle */}
+              <div className="mt-px">
+                <input type="checkbox" id="showPassword" checked={showPassword} onChange={togglePasswordVisibility} />
+                <label htmlFor="showPassword" className="ml-2">
+                  Show Password
+                </label>
+              </div>
+              {/* toogle end */}
+              <button onClick={handleLogin} className="flex items-center justify-center w-2xl h-6 text-sm duration-200 mx-14 bg-slate-100 rounded-2xl hover:scale-110">
                 Login
               </button>
               {error && <p className="text-red-500">{error}</p>}

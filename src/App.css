@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+  /* Aturan CSS untuk perangkat seluler dengan lebar layar maksimum 768px */
+  .login-content {
+    flex-direction: column-reverse; /* Tata letak kolom saat layar kecil */
+  }
+
+  .form-container,
+  .image-container {
+    width: 100%; /* Lebar kontainer form dan gambar 100% */
+  }
+}
