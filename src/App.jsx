@@ -1,13 +1,7 @@
-// src/App.js
-import React from "react";
-import Login from "./components/Login";
-import "./App.css";
+import HomeBase from "./pages/Home Base/HomeBase";
+
 function App() {
-  return (
-    <div>
-      <Login />
-    </div>
-  );
+  return <HomeBase />;
 }
 
 export default App;
