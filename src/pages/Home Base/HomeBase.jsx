@@ -1,6 +1,6 @@
 import BookList from "../../components/Book Card/BookLIst";
 import Carousel from "../../components/Carousel/Carousel";
-import data from "../../json/products.json";
+import data from "../../JSON/products.json";
 
 const HomeBase = () => {
   return (

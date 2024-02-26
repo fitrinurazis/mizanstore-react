@@ -9,7 +9,7 @@
       "publisher": "Pastel Book",
       "price": "80.000",
       "discon": "15",
-      "category": "Product Special",
+      "category": "Special Offer & Pre Order",
       "genres": [
         {
           "genreOne": "Sastra & Filsafat"
@@ -50,7 +50,7 @@
       "publisher": "Pastel Book",
       "price": "85.000",
       "discon": "14",
-      "category": "Product Special",
+      "category": "Special Offer & Pre Order",
       "genres": [
         {
           "genreOne": "Sastra & Filsafat"
@@ -91,7 +91,7 @@
       "publisher": "Mizan Publishing",
       "price": "110.000",
       "discon": "14",
-      "category": "Product Special",
+      "category": "Special Offer & Pre Order",
       "genres": [
         {
           "genreOne": "Agama & Spiritualitas"
@@ -132,7 +132,7 @@
       "publisher": "Mizan Publishing",
       "price": "100.000",
       "discon": "15",
-      "category": "Product Special",
+      "category": "Special Offer & Pre Order",
       "genres": [
         {
           "genreOne": "Agama & Spiritualitas"
@@ -173,7 +173,7 @@
       "publisher": "Noura Books",
       "price": "59.000",
       "discon": "15",
-      "category": "Product Special",
+      "category": "Special Offer & Pre Order",
       "genres": [],
       "overview": "Periode Pre Order: 22 Januari - 5 Februari 2024 Pengiriman Buku: 6 Februari 2024 Benefit Pre Order: Free Stiker Limited Edition Dongeng Seru Serangga berisi 10 dongeng serangga yang seru dan penuh kejutan: kepik yang dikejar burung besar, belalang daun yang pandai berkamuflase, capung yang mencari tempat tinggal, dan tujuh kisah…",
       "description": "Periode Pre Order: 22 Januari - 5 Februari 2024 Pengiriman Buku: 6 Februari 2024 Benefit Pre Order: Free Stiker Limited Edition Dongeng Seru Serangga berisi 10 dongeng serangga yang seru dan penuh kejutan: kepik yang dikejar burung besar, belalang daun yang pandai berkamuflase, capung yang mencari tempat tinggal, dan tujuh kisah menarik lainnya! Selain itu, terdapat juga beberapa fakta menarik seputar serangga di setiap akhir cerita, yang sangat penting untuk diketahui para pembaca anak-anak. Selamat membaca dan mengetahui lebih banyak tentang serangga! Keunggulan: Memiliki pesan moral yang cukup positif di setiap dongengnya. Dilengkapi dengan fakta unik dari hewan-hewan yang dikisahkan. Mengajarkan nilai-nilai keberanian, kesabaran, kejujuran, dan hal-hal positif lainnya kepada anak-anak.",
@@ -207,7 +207,7 @@
       "publisher": "Iiman",
       "price": "125.000",
       "discon": "20",
-      "category": "Product Special",
+      "category": "Special Offer & Pre Order",
       "genres": [
         {
           "genreOne": "Hiburan, Seni & Budaya"
@@ -248,7 +248,7 @@
       "publisher": "Noura Books",
       "price": "89.000",
       "discon": "15",
-      "category": "Buku Anak",
+      "category": "Buku Anak Terlaris",
       "genres": [
         {
           "genreOne": "Agama"
@@ -289,7 +289,7 @@
       "publisher": "Pelangi Mizan",
       "price": "79.000",
       "discon": "15",
-      "category": "Buku Anak",
+      "category": "Buku Anak Terlaris",
       "genres": [
         {
           "genreOne": "Agama"
@@ -330,7 +330,7 @@
       "publisher": "Noura Books",
       "price": "110.000",
       "discon": "15",
-      "category": "Buku Anak",
+      "category": "Buku Anak Terlaris",
       "genres": [
         {
           "genreOne": "Agama"
@@ -368,7 +368,7 @@
       "publisher": "Noura Books",
       "price": "59.000",
       "discon": "15",
-      "category": "Buku Anak",
+      "category": "Buku Anak Terlaris",
       "genres": [
         {
           "genreOne": "Keluarga"
@@ -405,7 +405,7 @@
       "author": "Dian Dabila",
       "price": "59.000",
       "discon": "15",
-      "category": "Buku Anak",
+      "category": "Buku Anak Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -419,7 +419,7 @@
       "author": "Erna Fitrini, dkk",
       "price": "139.000",
       "discon": "15",
-      "category": "Buku Anak",
+      "category": "Buku Anak Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -433,7 +433,7 @@
       "author": "PIDI BAIQ",
       "price": "98.000",
       "discon": "15",
-      "category": "Buku Novel",
+      "category": "Buku Novel Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -447,7 +447,7 @@
       "author": "PIPI BAIQ",
       "price": "89.000",
       "discon": "15",
-      "category": "Buku Novel",
+      "category": "Buku Novel Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -461,7 +461,7 @@
       "author": "Zoulifa Katouh",
       "price": "129.000",
       "discon": "15",
-      "category": "Buku Novel",
+      "category": "Buku Novel Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -475,7 +475,7 @@
       "author": "Andrea Hirata",
       "price": "99.000",
       "discon": "15",
-      "category": "Buku Novel",
+      "category": "Buku Novel Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -489,7 +489,7 @@
       "author": "George Orwell",
       "price": "99.000",
       "discon": "15",
-      "category": "Buku Novel",
+      "category": "Buku Novel Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -503,7 +503,7 @@
       "author": "George Orwell",
       "price": "49.000",
       "discon": "15",
-      "category": "Buku Novel",
+      "category": "Buku Novel Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -517,7 +517,7 @@
       "author": "Haidar Bagir",
       "price": "69.000",
       "discon": "15",
-      "category": "Buku Agama",
+      "category": "Buku Agama Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -531,7 +531,7 @@
       "author": "Mustafa Akyal",
       "price": "139.000",
       "discon": "15",
-      "category": "Buku Agama",
+      "category": "Buku Agama Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -545,7 +545,7 @@
       "author": "Haidar Bagir",
       "price": "69.000",
       "discon": "15",
-      "category": "Buku Agama",
+      "category": "Buku Agama Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -559,7 +559,7 @@
       "author": "K.H. Zulfa Mustofa",
       "price": "120.00",
       "discon": "15",
-      "category": "Buku Agama",
+      "category": "Buku Agama Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -573,7 +573,7 @@
       "author": "SUJIWO TEJO & DRAMAWAN",
       "price": "90.000",
       "discon": "15",
-      "category": "Buku Agama",
+      "category": "Buku Agama Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",
@@ -587,7 +587,7 @@
       "author": "KHADIJAH PEGGY MELANI",
       "price": "135.000",
       "discon": "15",
-      "category": "Buku Agama",
+      "category": "Buku Agama Terlaris",
       "overview": "",
       "description": "",
       "primacy": "",

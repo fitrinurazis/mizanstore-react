@@ -1,11 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
-import PropTypes from "prop-types";
 
 const IncrementDecrementButton = ({ minValues, maxValues }) => {
-  IncrementDecrementButton.propTypes = {
-    minValues: PropTypes.string.isRequired,
-    maxValues: PropTypes.string.isRequired,
-  };
   const [count, setCount] = useState(minValues);
 
   const handleIncrement = () => {
