@@ -1,0 +1,765 @@
+{
+  "detail": [
+    {
+      "status": true,
+      "idProduct": 1,
+      "name": "Paket A - Mungkin Puisi Special Offer",
+      "image": "/src/assets/img/paket_a_-_mungkin_puisi_special_offer_thumb_2631.jpg",
+      "author": "Panji Sakti",
+      "publisher": "Pastel Book",
+      "price": "80.000",
+      "discon": "15",
+      "category": "Special Offer & Pre Order",
+      "genres": [
+        {
+          "genreOne": "Sastra & Filsafat"
+        },
+        {
+          "genreTwo": "Puisi"
+        }
+      ],
+      "overview": "Periode Special Offer (SO) : 25 Januari-5 Februari 2024 Benefit:  - Mungkin Postcard TTD Panji Sakti (Persediaan Terbatas) Paket A: - Buku Mungkin Puisi               - Mungkin Postcard TTD Panji Sakti (Persediaan Terbatas) Blurb: “Membaca Panji adalah membaca puisi: misteri kata-kata dalam selaput makna; tipis lembut bagai pengalaman namun memasukinya menjebakkan…",
+      "description": "Periode Special Offer (SO) : 25 Januari-5 Februari 2024 Benefit: - Mungkin Postcard TTD Panji Sakti (Persediaan Terbatas)Paket A: - Buku Mungkin Puisi - Mungkin Postcard TTD Panji Sakti (Persediaan Terbatas) Blurb: “Membaca Panji adalah membaca puisi: misteri kata-kata dalam selaput makna; tipis lembut bagai pengalaman namun memasukinya menjebakkan perasaan.” —Chandra Malik 'Diksi-diksi Panji begitu menyentuh inti hati, kadang bikin senyum-senyum sendiri, menangis, dan tertampar bertubi-tubi'. —Haidar Bagir Apresiasi di dalam Buku: Begini Caraku Menikmati Mungkin Puisi Mungkin Panji Tanpa nada Kata Tetap bertenaga Tetap bermakna Jika kita mau menekurinya Di goresan tangan dan nurani Panji Makna itu memiliki kedalaman tersendiri Berkat eksplorasi-eksplorasi yang melibatkan ketakterbatasan hati nurani Sekaligus mengajak kita sebisa mungkin untuk ikut mengeksplorasi Dan menanyakannya pada diri sendiri Seraya mengingatkan Ketakterbatasan itu ternyata keterbatasan Sehingga perlu mengundang Tuhan untuk datang menjenguk Sebelum sendu itu membuat diri terpuruk Mengapa begitu? Dengan segala ketakterbatasan Yang ternyata dilingkupi keterbatasan Kita masih suka menikmati dusta-dusta di atas derita jiwa yang sendu Panji Mungkin sakti Mungkin juga tidak sakti Tapi setidaknya, ia tidak menyakiti Ia hanya mengiris-iris diri ini Yang hidup berlimpah rezeki Tapi malas mencuci diri Mungkin saja Panji tidak menyadari ini Tapi aku telah teriris oleh lirik lirisnya, seraya menyerbuku dengan tanya pada diri sendiri: Kapan kau mau mencuci diri Sebelum pergi Dan tiada kembali lagi?",
+      "primacy": null,
+      "about": "Panji Sakti, pernah dicatat sebagai mahasiswa Seni Rupa Pertunjukan STSI Bandung (sekarang ISBI), sebelumnya sudah menjadi mahasiswa Seni Rupa di IKIP Bandung (sekarang UPI) setelah lulus dari SMAN 1 Cimahi, SMPN 1 Padalarang, dan masa pendidikan dasarnya di SDN 1 Cimareme. Tahun 2005 menjadi awal kariernya sebagai penulis lagu di KRU Music, Sdn. Bhd., sejak 2009 s.d. 2022 bernaung di bawah Sony Music Publisher/ATV Malaysia, dan baru sejak Desember 2022 hingga sekarang bekerja sebagai penulis lagu di Sony Music Publisher Indonesia.Menulis puisi yang utuh adalah hal yang baru dilakukannya, meski sebagian besar lirik lagu bikinannya sangat puitis. Tak kurang selama dua tahun terakhir, Panji belajar menulis puisi kepada Arip Senjaya, Willy Fahmy Agiska, Fajar M. Fitrah, dan Puji Jagad, hingga lahirlah antologi puisi pertamanya. Sebelum ini, telah terbit dua buku anak karya Panji Sakti dengan tagar #BukuBernyanyi berjudul Agar-Agar dan Sayur Juara.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "PKT-1314",
+          "isbn": "978-623-5866-42-0",
+          "weight": "480",
+          "dimensi": [
+            {
+              "panjang": "12",
+              "lebar": "17",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "108",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": 2,
+      "name": "Paket B - Mungkin Puisi Special Offer",
+      "image": "/src/assets/img/paket_b_-_mungkin_puisi_special_offer_thumb_2758.jpg",
+      "author": "Panji Sakti",
+      "publisher": "Pastel Book",
+      "price": "85.000",
+      "discon": "14",
+      "category": "Special Offer & Pre Order",
+      "genres": [
+        {
+          "genreOne": "Sastra & Filsafat"
+        },
+        {
+          "genreTwo": "Puisi"
+        }
+      ],
+      "overview": "Periode Special Offer (SO) : 25 Januari-5 Februari 2024 Benefit:  - Mungkin Postcard TTD Panji Sakti (Persediaan Terbatas) Paket A: - Buku Mungkin Puisi               - Mungkin Postcard TTD Panji Sakti (Persediaan Terbatas) Blurb: “Membaca Panji adalah membaca puisi: misteri kata-kata dalam selaput makna; tipis lembut bagai pengalaman namun memasukinya menjebakkan…",
+      "description": "Periode Special Offer (SO) : 25 Januari-5 Februari 2024 Benefit: - Mungkin Postcard TTD Panji Sakti (Persediaan Terbatas)Paket A: - Buku Mungkin Puisi - Mungkin Postcard TTD Panji Sakti (Persediaan Terbatas) Blurb: “Membaca Panji adalah membaca puisi: misteri kata-kata dalam selaput makna; tipis lembut bagai pengalaman namun memasukinya menjebakkan perasaan.” —Chandra Malik 'Diksi-diksi Panji begitu menyentuh inti hati, kadang bikin senyum-senyum sendiri, menangis, dan tertampar bertubi-tubi'. —Haidar Bagir Apresiasi di dalam Buku: Begini Caraku Menikmati Mungkin Puisi Mungkin Panji Tanpa nada Kata Tetap bertenaga Tetap bermakna Jika kita mau menekurinya Di goresan tangan dan nurani Panji Makna itu memiliki kedalaman tersendiri Berkat eksplorasi-eksplorasi yang melibatkan ketakterbatasan hati nurani Sekaligus mengajak kita sebisa mungkin untuk ikut mengeksplorasi Dan menanyakannya pada diri sendiri Seraya mengingatkan Ketakterbatasan itu ternyata keterbatasan Sehingga perlu mengundang Tuhan untuk datang menjenguk Sebelum sendu itu membuat diri terpuruk Mengapa begitu? Dengan segala ketakterbatasan Yang ternyata dilingkupi keterbatasan Kita masih suka menikmati dusta-dusta di atas derita jiwa yang sendu Panji Mungkin sakti Mungkin juga tidak sakti Tapi setidaknya, ia tidak menyakiti Ia hanya mengiris-iris diri ini Yang hidup berlimpah rezeki Tapi malas mencuci diri Mungkin saja Panji tidak menyadari ini Tapi aku telah teriris oleh lirik lirisnya, seraya menyerbuku dengan tanya pada diri sendiri: Kapan kau mau mencuci diri Sebelum pergi Dan tiada kembali lagi?",
+      "primacy": null,
+      "about": "Panji Sakti, pernah dicatat sebagai mahasiswa Seni Rupa Pertunjukan STSI Bandung (sekarang ISBI), sebelumnya sudah menjadi mahasiswa Seni Rupa di IKIP Bandung (sekarang UPI) setelah lulus dari SMAN 1 Cimahi, SMPN 1 Padalarang, dan masa pendidikan dasarnya di SDN 1 Cimareme. Tahun 2005 menjadi awal kariernya sebagai penulis lagu di KRU Music, Sdn. Bhd., sejak 2009 s.d. 2022 bernaung di bawah Sony Music Publisher/ATV Malaysia, dan baru sejak Desember 2022 hingga sekarang bekerja sebagai penulis lagu di Sony Music Publisher Indonesia.Menulis puisi yang utuh adalah hal yang baru dilakukannya, meski sebagian besar lirik lagu bikinannya sangat puitis. Tak kurang selama dua tahun terakhir, Panji belajar menulis puisi kepada Arip Senjaya, Willy Fahmy Agiska, Fajar M. Fitrah, dan Puji Jagad, hingga lahirlah antologi puisi pertamanya. Sebelum ini, telah terbit dua buku anak karya Panji Sakti dengan tagar #BukuBernyanyi berjudul Agar-Agar dan Sayur Juara.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "PKT-1315",
+          "isbn": "978-623-5866-42-0",
+          "weight": "300",
+          "dimensi": [
+            {
+              "panjang": "12",
+              "lebar": "17",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "108",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": "3",
+      "name": "Paket 1 - Lelaki Sunni di Kota Syiah Pre Order",
+      "image": "/src/assets/img/paket_1_-_lelaki_sunni_di_kota_syiah_pre_order_thumb_2008.jpg",
+      "author": "Iqbal Aji Daryantoi",
+      "publisher": "Mizan Publishing",
+      "price": "110.000",
+      "discon": "14",
+      "category": "Special Offer & Pre Order",
+      "genres": [
+        {
+          "genreOne": "Agama & Spiritualitas"
+        },
+        {
+          "genreTwo": "Agama Islam"
+        }
+      ],
+      "overview": "Periode Pre-Order (PO) : 25 Januari-5 Februari 2024 Benefit: TTD Penulis (Persediaan Terbatas) Estimasi Pengiriman : 6-10 Februari 2024 Sinopsis “I just wanna cry,” kata Iqbal Aji Daryono yang tak kuasa menahan haru menyaksikan jutaan orang berbondong-bondong, berjalan dengan tertib dan damai untuk menjadi tamu keluarga Nabi Muhammad Saw. dalam perjalanan dari…",
+      "description": "Periode Pre-Order (PO) : 25 Januari-5 Februari 2024 Benefit: 1 Set Postcard +TTD Penulis (Persediaan Terbatas) Estimasi Pengiriman : 6-10 Februari 2024 Sinopsis “I just wanna cry,” kata Iqbal Aji Daryono yang tak kuasa menahan haru menyaksikan jutaan orang berbondong-bondong, berjalan dengan tertib dan damai untuk menjadi tamu keluarga Nabi Muhammad Saw. dalam perjalanan dari Najaf ke Karbala, Irak. Selama berabad-abad, jutaan masyarakat Muslim Syi‘ah dari seluruh dunia rutin menggelar Ziarah Arbain. Ini adalah peringatan tahunan hari ke-40 atas syahidnya Sayidina Husain. Di sisi lain, dalam beberapa dekade terakhir, Syi‘ah sering kali mendapat tuduhan-tuduhan miring. Mulai dari kawin kontrak, menabikan Sayidina Ali bin Abi Thalib, hingga dicap sesat dan telah keluar dari Islam. Iqbal yang dibesarkan di tengah lingkungan Sunni Muhammadiyah sudah sejak sembilan tahun menimbang-nimbang untuk berangkat ke Karbala. Dia ingin melihat sendiri bagaimana masyarakat Muslim Syi‘ah menjalankan ritualnya. Seorang lelaki Sunni di tengah jutaan pemeluk Syi‘ah! Kisah epik perjalanan Iqbal ke Karbala dituangkan ke dalam buku ini. Apa yang dituliskannya dapat menjawab berbagai pertanyaan tentang Syi‘ah yang sering diajukan oleh masyarakat Muslim Indonesia yang mayoritas bermazhab Sunni. Buku ini juga dilengkapi foto-foto, sehingga pembaca dapat menikmati panorama perjalanan pemeluk Syi‘ah melaksanakan ritual tahunan ini dengan lebih hidup—di tengah kerenyahan tulisan khas Iqbal yang santai, mengalir, sekaligus menghibur. “Ini perjalanan yang ‘ghost busting’, membongkar ‘hantu’ dan prasangka. Iqbal seorang Sunni/Muhammadiyah dan berani melakukan perjalanan ke tanah ‘suci’ Syi‘ah. Ini tindakan menerobos batas.” —Ulil Abshar Abdalla, cendekiawan Nahdlatul Ulama “Perbedaan hanya akan menyebabkan mudarat apabila dikotori prasangka-prasangka negatif. Iqbal, seorang Sunni warga Muhammadiyah, berangkat ke Karbala dengan niat yang baik dan kepala yang jernih demi mewujudkan kesalingpahaman di antara sesama saudara seagama Islam.” —Haidar Bagir, penulis buku Inilah Mazhabku “Iqbal penulis yang peka terhadap humor, ironi, dan anekdot kemanusiaan. Lewat catatan perjalanannya yang ringan, dia mengajak kaum Sunni untuk mengenal saudara Syi‘ah mereka secara ‘up, close, and personal’; menepis praduga dan stereotype yang keliru tanpa harus menyetujuinya; serta menerima keragaman sebagai rahmat.” —Farid Gaban, jurnalis senior, penulis “Iqbal menelusuri jembatan panjang persatuan kaum Muslim, bahkan persaudaraan sesama umat manusia: saling membantu, berkhidmat, dan memberi hormat.” —Miftah Fauzi Rakhmat, penulis buku The Prophetic Wisdom: Kisah-Kisah Kearifan Para Nabi “Iqbal berusaha membongkar kesalahpahaman dan menghapus prasangka dan stigma buruk tentang Syi‘ah yang ada di sebagian masyarakat Indonesia. Ini langkah yang berani.” —Prof. Ahmad Najib Burhani, cendekiawan Muhammadiyah “Dengan bahasa yang ciamik, kita akan dibawa ke sebuah pengembaraan di mana tak ada lagi kata ‘liyan’, penoda agama, atau aliran sesat. Sebaliknya, kita akan disuguhi kisah-kisah perjalanan yang sarat akan nilai-nilai spiritualitas yang terekam dengan jenaka dan apa adanya.” —Maria Fauzi, penulis buku Muslimah Bukan Agen Moral: Menggali Ragam Ekspresi Kesalehan Perempuan",
+      "primacy": null,
+      "about": "Iqbal Aji Daryono adalah penulis dan tukang jalan-jalan. Ratusan esainya tersebar di media-media daring. Buku-bukunya yang telah terbit bertema sosial dan budaya, kajian bahasa, juga buku perjalanan. Salah satu bukunya yang cukup ramai berjudul Sapiens di Ujung Tanduk, membahas dinamika pergeseran karakter manusia di era digital. Adapun bukunya yang bergenre perjalanan ada dua. Yang pertama berisi kisah petualangannya saat menjadi sopir truk di Australia. Buku perjalanan yang satunya lagi ditulis setelah dia menjelajah ke berbagai sudut Indonesia, mulai pusat jaringan narkoba di pantai timur Aceh hingga zona merah kelompok bersenjata di pegunungan Papua. Lelaki Sunni di Kota Syi‘ah ini adalah buku perjalanannya yang ketiga",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "PKT-1318",
+          "isbn": "978-602-441",
+          "weight": "500",
+          "dimensi": [
+            {
+              "panjang": "21",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "192",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": "4",
+      "name": "Paket 2 - Lelaki Sunni di Kota Syiah Pre Order",
+      "image": "/src/assets/img/paket_2_-_lelaki_sunni_di_kota_syiah_pre_order_thumb_3435.jpg",
+      "author": "Iqbal Aji Daryanto",
+      "publisher": "Mizan Publishing",
+      "price": "100.000",
+      "discon": "15",
+      "category": "Special Offer & Pre Order",
+      "genres": [
+        {
+          "genreOne": "Agama & Spiritualitas"
+        },
+        {
+          "genreTwo": "Agama Islam"
+        }
+      ],
+      "overview": "Periode Pre-Order (PO) : 25 Januari-5 Februari 2024 Benefit: TTD Penulis (Persediaan Terbatas) Estimasi Pengiriman : 6-10 Februari 2024 Sinopsis “I just wanna cry,” kata Iqbal Aji Daryono yang tak kuasa menahan haru menyaksikan jutaan orang berbondong-bondong, berjalan dengan tertib dan damai untuk menjadi tamu keluarga Nabi Muhammad Saw. dalam perjalanan dari…",
+      "description": "Periode Pre-Order (PO) : 25 Januari-5 Februari 2024 Benefit: 1 Set Postcard +TTD Penulis (Persediaan Terbatas) Estimasi Pengiriman : 6-10 Februari 2024 Sinopsis “I just wanna cry,” kata Iqbal Aji Daryono yang tak kuasa menahan haru menyaksikan jutaan orang berbondong-bondong, berjalan dengan tertib dan damai untuk menjadi tamu keluarga Nabi Muhammad Saw. dalam perjalanan dari Najaf ke Karbala, Irak. Selama berabad-abad, jutaan masyarakat Muslim Syi‘ah dari seluruh dunia rutin menggelar Ziarah Arbain. Ini adalah peringatan tahunan hari ke-40 atas syahidnya Sayidina Husain. Di sisi lain, dalam beberapa dekade terakhir, Syi‘ah sering kali mendapat tuduhan-tuduhan miring. Mulai dari kawin kontrak, menabikan Sayidina Ali bin Abi Thalib, hingga dicap sesat dan telah keluar dari Islam. Iqbal yang dibesarkan di tengah lingkungan Sunni Muhammadiyah sudah sejak sembilan tahun menimbang-nimbang untuk berangkat ke Karbala. Dia ingin melihat sendiri bagaimana masyarakat Muslim Syi‘ah menjalankan ritualnya. Seorang lelaki Sunni di tengah jutaan pemeluk Syi‘ah! Kisah epik perjalanan Iqbal ke Karbala dituangkan ke dalam buku ini. Apa yang dituliskannya dapat menjawab berbagai pertanyaan tentang Syi‘ah yang sering diajukan oleh masyarakat Muslim Indonesia yang mayoritas bermazhab Sunni. Buku ini juga dilengkapi foto-foto, sehingga pembaca dapat menikmati panorama perjalanan pemeluk Syi‘ah melaksanakan ritual tahunan ini dengan lebih hidup—di tengah kerenyahan tulisan khas Iqbal yang santai, mengalir, sekaligus menghibur. “Ini perjalanan yang ‘ghost busting’, membongkar ‘hantu’ dan prasangka. Iqbal seorang Sunni/Muhammadiyah dan berani melakukan perjalanan ke tanah ‘suci’ Syi‘ah. Ini tindakan menerobos batas.” —Ulil Abshar Abdalla, cendekiawan Nahdlatul Ulama “Perbedaan hanya akan menyebabkan mudarat apabila dikotori prasangka-prasangka negatif. Iqbal, seorang Sunni warga Muhammadiyah, berangkat ke Karbala dengan niat yang baik dan kepala yang jernih demi mewujudkan kesalingpahaman di antara sesama saudara seagama Islam.” —Haidar Bagir, penulis buku Inilah Mazhabku “Iqbal penulis yang peka terhadap humor, ironi, dan anekdot kemanusiaan. Lewat catatan perjalanannya yang ringan, dia mengajak kaum Sunni untuk mengenal saudara Syi‘ah mereka secara ‘up, close, and personal’; menepis praduga dan stereotype yang keliru tanpa harus menyetujuinya; serta menerima keragaman sebagai rahmat.” —Farid Gaban, jurnalis senior, penulis “Iqbal menelusuri jembatan panjang persatuan kaum Muslim, bahkan persaudaraan sesama umat manusia: saling membantu, berkhidmat, dan memberi hormat.” —Miftah Fauzi Rakhmat, penulis buku The Prophetic Wisdom: Kisah-Kisah Kearifan Para Nabi “Iqbal berusaha membongkar kesalahpahaman dan menghapus prasangka dan stigma buruk tentang Syi‘ah yang ada di sebagian masyarakat Indonesia. Ini langkah yang berani.” —Prof. Ahmad Najib Burhani, cendekiawan Muhammadiyah “Dengan bahasa yang ciamik, kita akan dibawa ke sebuah pengembaraan di mana tak ada lagi kata ‘liyan’, penoda agama, atau aliran sesat. Sebaliknya, kita akan disuguhi kisah-kisah perjalanan yang sarat akan nilai-nilai spiritualitas yang terekam dengan jenaka dan apa adanya.” —Maria Fauzi, penulis buku Muslimah Bukan Agen Moral: Menggali Ragam Ekspresi Kesalehan Perempuan",
+      "primacy": null,
+      "about": "Iqbal Aji Daryono adalah penulis dan tukang jalan-jalan. Ratusan esainya tersebar di media-media daring. Buku-bukunya yang telah terbit bertema sosial dan budaya, kajian bahasa, juga buku perjalanan. Salah satu bukunya yang cukup ramai berjudul Sapiens di Ujung Tanduk, membahas dinamika pergeseran karakter manusia di era digital. Adapun bukunya yang bergenre perjalanan ada dua. Yang pertama berisi kisah petualangannya saat menjadi sopir truk di Australia. Buku perjalanan yang satunya lagi ditulis setelah dia menjelajah ke berbagai sudut Indonesia, mulai pusat jaringan narkoba di pantai timur Aceh hingga zona merah kelompok bersenjata di pegunungan Papua. Lelaki Sunni di Kota Syi‘ah ini adalah buku perjalanannya yang ketiga",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "PKT-1319",
+          "isbn": "978-602-441",
+          "weight": "400",
+          "dimensi": [
+            {
+              "panjang": "21",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "192",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": "5",
+      "name": "Dongeng Seru Serangga Pre Order",
+      "image": "/src/assets/img/dongeng_seru_serangga_pre_order_thumb_4516.jpg",
+      "author": "Essenza Bachreisy",
+      "publisher": "Noura Books",
+      "price": "59.000",
+      "discon": "15",
+      "category": "Special Offer & Pre Order",
+      "genres": [],
+      "overview": "Periode Pre Order: 22 Januari - 5 Februari 2024 Pengiriman Buku: 6 Februari 2024 Benefit Pre Order: Free Stiker Limited Edition Dongeng Seru Serangga berisi 10 dongeng serangga yang seru dan penuh kejutan: kepik yang dikejar burung besar, belalang daun yang pandai berkamuflase, capung yang mencari tempat tinggal, dan tujuh kisah…",
+      "description": "Periode Pre Order: 22 Januari - 5 Februari 2024 Pengiriman Buku: 6 Februari 2024 Benefit Pre Order: Free Stiker Limited Edition Dongeng Seru Serangga berisi 10 dongeng serangga yang seru dan penuh kejutan: kepik yang dikejar burung besar, belalang daun yang pandai berkamuflase, capung yang mencari tempat tinggal, dan tujuh kisah menarik lainnya! Selain itu, terdapat juga beberapa fakta menarik seputar serangga di setiap akhir cerita, yang sangat penting untuk diketahui para pembaca anak-anak. Selamat membaca dan mengetahui lebih banyak tentang serangga! Keunggulan: Memiliki pesan moral yang cukup positif di setiap dongengnya. Dilengkapi dengan fakta unik dari hewan-hewan yang dikisahkan. Mengajarkan nilai-nilai keberanian, kesabaran, kejujuran, dan hal-hal positif lainnya kepada anak-anak.",
+      "primacy": null,
+      "about": "Essenza Bachreisy Essenza Bachreisy, biasa dipanggil Kak Echa, mendongeng sejak masa kuliah. Dia aktif membuat konten edukasi yang menghibur di media sosial melalui akun Sarang Cerita. Selain itu, pendongeng asal Depok ini telah mendongeng sampai ke negeri India dan Jepang. Kak Echa senang bertualang dalam cerita dan nada. Cita-citanya sejak kecil adalah menjadi penulis cerita. Dongeng Seru Serangga adalah buku cerita anak pertamanya yang ia persembahkan untuk Ightaniemo, Hamiemo, dan untukmu. Nurul Ashari Sejak memiliki anak, Nurul Ashari fokus membuat ilustrasi untuk tema anak-anak. Ilustrator yang tinggal di Yogyakarta ini suka menggambar manusia dan hewan-hewan. Tema favoritnya adalah keluarga dan fantasi. Dia terbiasa mengerjakan ilustrasi secara digital dengan pilihan warna vibrant menggunakan aplikasi Adobe Photoshop. Dia suka menikmati sore dengan bersepeda atau jalan-jalan mengendarai sekuter bersama keluarga",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "PKT-1312",
+          "isbn": "978-623-8094-22-6",
+          "weight": "500",
+          "dimensi": [
+            {
+              "panjang": "21",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "64",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": "6",
+      "name": "Keajaiban Sungai Han Korea Selatan Mengguncang Dunia Pre Order",
+      "image": "/src/assets/img/keajaiban_sungai_han_korea_selatan_mengguncang_dunia_pre_order_thumb_4737.jpg",
+      "author": "Sigit Aris Prasetyo",
+      "publisher": "Iiman",
+      "price": "125.000",
+      "discon": "20",
+      "category": "Special Offer & Pre Order",
+      "genres": [
+        {
+          "genreOne": "Hiburan, Seni & Budaya"
+        },
+        {
+          "genreTwo": "Budaya Daerah"
+        }
+      ],
+      "overview": "Perioder Pre Order : 20 s.d. 30 Januari 2024 Benefit Pre Order   : TTD Penulis ( Persediaan Terbatas) + Diskon 20% Pengiriman Buku    : 1 s.d. 3 Februari 2024   Korea Selatan mengguncang Dunia! Negeri Ginseng telah bertransformasi menjadi negara maju, bahkan merajai dunia. Mulai dari industri teknologi tingginya yang…",
+      "description": "Perioder Pre Order : 20 s.d. 30 Januari 2024 Benefit Pre Order : TTD Penulis ( Persediaan Terbatas) + Diskon 20% Pengiriman Buku : 1 s.d. 3 Februari 2024 Korea Selatan mengguncang Dunia! Negeri Ginseng telah bertransformasi menjadi negara maju, bahkan merajai dunia. Mulai dari industri teknologi tingginya yang menghasilkan brand terbaik dunia hingga budaya populernya, terutama drama Korea (drakor) dan musik pop (K-pop) menjangkit ke seantero dunia. Supergrup K-pop, seperti BigBang, BTS, Blackpink, EXO, Seventeen, dan New Jeans berhasil memikat kalangan muda mudi milenial dan Gen Z. Tanpa mengalami penolakan,  malah digandrungi dan disambut dengan suka cita. Negara berjuluk Tanah di Pagi yang Tenang (Land of the Morning Calm) ini berhasil menciptakan lompatan-lompatan hebat dan dahsyat di abad II. Para ahli sejarah, ekonomi dan politik internasional menyebutnya sebagai Miracle of Han River atau Keajaiban Sungai Han. Sebuah transformasi yang tentunya tidak terwujud dalam satu malam. Bangsa ini mewujudkannya melalui kerja keras, ketekunan, kedisiplinan, bahkan pengorbanan demi mimpi kemajuan dan kemakmuran. Sebuah kebangkitan yang disiapkan secara serius, konsisten dan berkesinambungan. Buku ini mengupas secara lengkap sisi-sisi yang jarang terungkap tentang rahasia keberhasilan, sejarah peradaban, nilai-nilai local wisdom, dan semangat perjuangan Korea Selatan. Semoga menginspirasi Bangsa Indonesia! Endorsemen: “Buku ini disusun bertepatan dengan peringatan 50 Tahun Hubungan Bilateral Indonesia-Korea Selatan tahun ini yang mengambil tema Closer Friendship Stronger Partnership. Saya berharap buku ini dapat menjadi sumber inspirasi bagi siapa saja, khususnya kalangan muda di Indonesia, untuk dapat meniru mentalitas juang, tahan banting, dan semangat pantang menyerah orang Korea Selatan dalam mengubah nasib mereka.” “Saya melihat tidak banyak tulisan atau referensi mengenai perkembangan dan kemajuan Korea Selatan yang ditulis oleh penulis Indonesia. Jika ada, mungkin jumlahnya sangat terbatas. Ini cukup aneh, mengingat Korea Selatan telah menjadi perhatian dunia, termasuk para pemuda pemudi Indonesia yang terhipnotis oleh ‘Gelombang Korea’ atau Hallyu. Untuk itu, buku ini dapat menjadi reservoir bagi para pembaca di Tanah Air untuk lebih mengenal dan memahami sejarah, perkembangan Korea Selatan yang awalnya sebagai negara miskin dan terbelakang, namun sekarang menjadi kekuatan ekonomi global. “ —Yang Mulia Gandi Sulistiyanto, Duta Besar RI di Korea Selatan “Buku berjudul Keajaiban Sungai Han: Korea Selatan Mengguncang Dunia karya Dr. Sigit Aris Prasetyo adalah sebuah karya komprehensif dan analitis dari seorang scholar dan diplomat karier yang meneliti penyebab mendasar transformasi Korea Selatan dari negara miskin menjadi kekuatan manufaktur global. Penulis seolah berusaha memandu pembaca untuk menelusuri titik-titik penting dalam sejarah perkembangan Korea Selatan, mulai masa-masa awal kehancuran ekonomi akibat pendudukan Jepang dan Perang Korea hingga periode pertumbuhan eksplosif menuju perekonomian yang dipenuhi dengan manufaktur berteknologi tinggi.” —Dr. Jaehoon Lee, Dosen di Hankuk University of Foreign Studies (HUFS), Seoul “Buku berjudul Keajaiban Sungai Han: Korea Selatan Mengguncang Dunia ini didasarkan pada hasil penelitian kualitatif, di mana penulis mengumpulkan data-data dari berbagai narasumber, khususnya di Korea Selatan, perpustakaan Pemerintah Korea Selatan, buku-buku tentang keajaiban Korea Selatan di toko buku, perpustakaan, berbagai universitas di Korea Selatan, serta wawancara langsung dengan para ahli di bidangnya. Buku ini ditulis melalui pendekatan deskripsi sejarah, teori akultrasi dan inkulturasi antropologis. Semoga para pembaca, khususnya para remaja Indonesia, dapat menambah wawasan khususnya tentang Korea Selatan.” —Dr. Ali, An Sun Geun, MA, Dosen UIN Jakarta/Staf khusus MPR RI untuk Korea Selatan-Indonesia, Penulis buku Carilah Ilmu ke Negeri Korea: Mewujudkan Hubungan Bilateral yang Harmoni antara Indonesia dan Korea",
+      "primacy": null,
+      "about": null,
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "PKT-1308",
+          "isbn": "978-602-7926-66-0",
+          "weight": "700",
+          "dimensi": [
+            {
+              "panjang": "16",
+              "lebar": "24",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "398",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": "7",
+      "name": "Cerita islam Pertamaku 25 Nabi dan Rasul",
+      "image": "/src/assets/img/cerita_islam_pertamaku_25_nabi_dan_rasul_boardbook_thumb_3807.jpg",
+      "author": "Now H. Dee",
+      "publisher": "Noura Books",
+      "price": "89.000",
+      "discon": "15",
+      "category": "Buku Anak Terlaris",
+      "genres": [
+        {
+          "genreOne": "Agama"
+        },
+        {
+          "genreTwo": "Board Books"
+        }
+      ],
+      "overview": "Ini adalah Cerita Islam Pertamaku, tentang Nabi Muhammad yang mulia. Teladan adab, akhlak, dan ilmu, dicintai umatnya di seluruh dunia.",
+      "description": "Ini adalah Cerita Islam Pertamaku, tentang Nabi Muhammad yang mulia. Teladan adab, akhlak, dan ilmu, dicintai umatnya di seluruh dunia.",
+      "primacy": "Cerita Islam Pertamaku: Nabi Muhammad Saw. berisi kisah-kisah menakjubkan Nabi Muhammad, mulai sejak lahir sampai wafat Dikisahkan dengan kalimat berima dan dipadukan dengan ilustrasi yang indah dan penuh warna, anak-anak akan sangat menyukai kisah-kisah yang terdapat di dalamnya.Format boardbook dengan busa di sampulnya sangat cocok dibaca oleh balita.",
+      "about": "Noor H. Dee adalah seorang editor buku anak di Noura Publishing. Dia telah membidani beberapa seri buku anak, seperti Seri Sepatu Dahlan, Spooky Stories, Holidaylicious, Duet Series, Seri Anak Hebat, Seri Metal Cican, dan Bacaan Anak Muslim. Selain menjadi editor buku anak, dia juga seorang penulis buku anak. Dia telah menulis dan menerbitkan tiga belas judul buku anak, dan empat di antaranya telah diterjemahkan ke dalam bahasa Inggris oleh Kube Publishing, London, Inggris. Selain penulis buku anak, dia juga seorang penulis cerita pendek. Buku kumpulan cerpen pertamanya berjudul Sepasang Mata untuk Cinta yang Buta (terbitan Lingkar Pena Publishing House). Salah satu cerita pendeknya yang berjudul Mengejar Kupu-Kupu dimuat di dalam buku antologi cerpen yang berjudul Kupu-Kupu dan Tambuli (terbitan Dewan Kesenian Jakarta). Beberapa cerpennya juga pernah dimuat di Koran Tempo, Media Indonesia, The Jakarta Post, Tribun Jabar, dan beberapa media nasional lainnya. Saat ini penulis tinggal di kota Depok bersama istri dan kedua anaknya",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "NR-434",
+          "isbn": "978-623-99912-5-8",
+          "weight": "420",
+          "dimensi": [
+            {
+              "panjang": "17",
+              "lebar": "17",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "24",
+          "jenis_cover": "Hard Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": "8",
+      "name": "Halo Balita Penuntun Aku Belajar Pipis di Toilet",
+      "image": "/src/assets/img/halo-balitapenuntun-aku-belajar-pipis-di-toilet-boardbook_thumb.jpg",
+      "author": "Benny Rhamdani",
+      "publisher": "Pelangi Mizan",
+      "price": "79.000",
+      "discon": "15",
+      "category": "Buku Anak Terlaris",
+      "genres": [
+        {
+          "genreOne": "Agama"
+        },
+        {
+          "genreTwo": "Board Books"
+        }
+      ],
+      "overview": "Aku belajar pipis sendiri di toilet. Dari mulai pipis hingga selesai, semua aku kerjakan sendiri, loh! Wah, aku senang sekali. Aku jadi bisa pipis sendiri!  ",
+      "description": "Aku belajar pipis sendiri di toilet. Dari mulai pipis hingga selesai, semua aku kerjakan sendiri, loh! Wah, aku senang sekali. Aku jadi bisa pipis sendiri!  ",
+      "primacy": "Keunggulan dan Manfaat: Mengajarkan kemandirian kepada anak Melatih anak untuk buang air di toilet melalui ilustrasi yang menarik Mengajarkan keberanian Melatih anak dalam mengambil inisiatif",
+      "about": null,
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "GP-398",
+          "isbn": "9786024722692",
+          "weight": "410",
+          "dimensi": [
+            {
+              "panjang": "17",
+              "lebar": "17",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "20",
+          "jenis_cover": "Hard Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": "9",
+      "name": "Juz Amma for Kids",
+      "image": "/src/assets/img/juz_amma_for_kids_thumb_0637.png",
+      "author": "-",
+      "publisher": "Noura Books",
+      "price": "110.000",
+      "discon": "15",
+      "category": "Buku Anak Terlaris",
+      "genres": [
+        {
+          "genreOne": "Agama"
+        }
+      ],
+      "overview": "Yuk, ajak anak cintai Al-Quran sejak dini! Menghafal dan memahami Juz Amma adalah salah satu caranya. Buku ini akan membuat aktivitas itu jadi menyenangkan. -Transliterasi - Terjemahan ayat - Kandungan surah - Asbabun Nuzul - Ilustrasi full color",
+      "description": "Yuk, ajak anak cintai Al-Quran sejak dini! Menghafal dan memahami Juz Amma adalah salah satu caranya. Buku ini akan membuat aktivitas itu jadi menyenangkan. Transliterasi, Terjemahan ayat, Kandungan surah, Asbabun Nuzul, Ilustrasi full color",
+      "primacy": "Juz Amma for Kids adalah teman terbaik anak yang ingin memperlancar belajar membaca dan menghafal Al-Quran. Berikut ini keunggulan lain yang ada pada Juz Amma for Kids. Ada transliterasi yang memudahkan anak yang belum bisa/lancar membaca tulisan Arab Ada terjemahan ayat, mengajak anak mengetahui arti tiap ayat Ada kandungan surah, mengajak anak memahami dan mendalami makna surah Dilengkapi asbabun nuzul, memberi pengetahuan kepada anak sebab dan konteks turunnya ayat/surah Ilustrasi playful-colorful dan berbeda di setiap surah, sehingga tidak membosankan Ujung buku rounded, aman untuk anak",
+      "about": "Ibu dua anak ini berdomisili di Bandung. Karya pertamanya, sebuah cerita pendek berjudul Now or Never, dimuat di media massa berskala nasional pada tahun 1995. Sejak tahun itu juga, ia menjadi penulis lepas. Ratusan cerpen anak dan remaja telah dimuat berbagai majalah dan surat kabar (Aneka, Kawanku, Anita Cemerlang, Mode Indonesia, Sekar, Kartika, Story, Bobo, Aku Anak Saleh, Orbit, Ceria Remaja, Gaul, kitakita.com, ilmuiman.net, Muslimah, Tribun Jabar). Buku anak, novel remaja dan dewasa, kumpulan cerpen, serta buku nonfiksi karyanya juga telah terbit di berbagai penerbit. Di antaranya Mizan, Gramedia Pustaka Utama, dan Tiga Serangkai. Pernah menjadi dosen dan pustakawan, ia juga kerap menulis artikel, resensi, dan advertorial di majalah dan surat kabar. Lulusan Fakultas Ilmu Komunikasi Universitas Padjajaran ini pun sering menjuarai berbagai kompetisi kepenulisan dan mengedit ratusan buku di berbagai penerbit.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "NDS-026",
+          "isbn": "978-602-385-977-1",
+          "weight": "590",
+          "dimensi": [
+            {
+              "panjang": "18",
+              "lebar": "23",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "128",
+          "jenis_cover": "Hard Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": "10",
+      "name": "Dongeng Seru Penghantar Tidur",
+      "image": "/src/assets/img/dongeng_seru_pengantar_tidur_thumb_4116.png",
+      "author": "Mauline D Agnesia",
+      "publisher": "Noura Books",
+      "price": "59.000",
+      "discon": "15",
+      "category": "Buku Anak Terlaris",
+      "genres": [
+        {
+          "genreOne": "Keluarga"
+        }
+      ],
+      "overview": "Dongeng Seru Pengantar Tidur berisi 10 dongeng memikat yang sangat cocok untuk menemani anak sebelum tidur. Dongeng tentang kelomang yang memiliki rumah baru, burung manyar yang pandai membangun sarang, katak yang ingin menjadi pangeran, dan dongeng-dongeng hewan seru lainnya. Selain cerita yang penuh makna dan ilustrasi yang sangat indah, terdapat…",
+      "description": "Dongeng Seru Pengantar Tidur berisi 10 dongeng memikat yang sangat cocok untuk menemani anak sebelum tidur. Dongeng tentang kelomang yang memiliki rumah baru, burung manyar yang pandai membangun sarang, katak yang ingin menjadi pangeran, dan dongeng-dongeng hewan seru lainnya. Selain cerita yang penuh makna dan ilustrasi yang sangat indah, terdapat juga fakta menarik tentang hewan di setiap akhir cerita.",
+      "primacy": "Memiliki pesan moral yang cukup positif di setiap dongengnya. Dilengkapi dengan fakta unik dari hewanhewan yang dikisahkan. Mengajarkan nilai-nilai keberanian, kesabaran, kejujuran, dan hal-hal positif lainnya kepada anak-anak.",
+      "about": "Mauline D. Agnesia adalah seorang digital marketing di Penerbit Noura. Perempuan lulusan Antropologi, Universitas Indonesia ini sejak kecil sangat menyenangi dongeng dan cerita rakyat. Buku Dongeng Seru Pengantar Tidur adalah karya pertamanya. Penulis bisa dikontak via Instagram: @maulineda.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "NR-435",
+          "isbn": "978-623-99912-6-5",
+          "weight": "160",
+          "dimensi": [
+            {
+              "panjang": "21",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "64",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
+    },
+    {
+      "status": true,
+      "idProduct": "11",
+      "name": "Dongeng Sebelum Tidur Warna - Warni Balon Rubi",
+      "image": "/src/assets/img/dongeng_sebelum_tidur_warna-warni_balon_rubi_sc_-_special_offer_thumb_1938.jpg",
+      "author": "Dian Dabila",
+      "price": "59.000",
+      "discon": "15",
+      "category": "Buku Anak Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "12",
+      "name": "Kisah 25 Nabi dan Rasul (Pelangi) - Toys Book",
+      "image": "/src/assets/img/covGP-91_thumb.jpg",
+      "author": "Erna Fitrini, dkk",
+      "price": "139.000",
+      "discon": "15",
+      "category": "Buku Anak Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "13",
+      "name": "Ancika Dia Yang Bersamaku Tahun 1995",
+      "image": "/src/assets/img/ancika_dia_yang_bersamaku_tahun_1995_thumb_0539.jpg",
+      "author": "PIDI BAIQ",
+      "price": "98.000",
+      "discon": "15",
+      "category": "Buku Novel Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "14",
+      "name": "Dilan Dia Adalah Dilanku Tahun 1991",
+      "image": "/src/assets/img/dilan_dia_adalah_dilanku_tahun_1991_thumb_0207.png",
+      "author": "PIPI BAIQ",
+      "price": "89.000",
+      "discon": "15",
+      "category": "Buku Novel Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "15",
+      "name": "As Long As The Lemon Thees Grow",
+      "image": "/src/assets/img/as_long_as_the_lemon_trees_grow_thumb_5701.jpg",
+      "author": "Zoulifa Katouh",
+      "price": "129.000",
+      "discon": "15",
+      "category": "Buku Novel Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "16",
+      "name": "Guru Aini",
+      "image": "/src/assets/img/guru_aini_thumb_2905.jpg",
+      "author": "Andrea Hirata",
+      "price": "99.000",
+      "discon": "15",
+      "category": "Buku Novel Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "17",
+      "name": "1984 - Republish COV Hijau",
+      "image": "/src/assets/img/1984_-_republish_cov_hijau_thumb_0935.jpg",
+      "author": "George Orwell",
+      "price": "99.000",
+      "discon": "15",
+      "category": "Buku Novel Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "18",
+      "name": "Animal Farm Ne",
+      "image": "/src/assets/img/animal_farm-new_thumb_3230.png",
+      "author": "George Orwell",
+      "price": "49.000",
+      "discon": "15",
+      "category": "Buku Novel Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "19",
+      "name": "Sang Belas Kasih",
+      "image": "/src/assets/img/sang_belas_kasih_thumb_3934.jpg",
+      "author": "Haidar Bagir",
+      "price": "69.000",
+      "discon": "15",
+      "category": "Buku Agama Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "20",
+      "name": "Reopening Muslim Minds",
+      "image": "/src/assets/img/reopening_muslim_minds_thumb_4754.jpg",
+      "author": "Mustafa Akyal",
+      "price": "139.000",
+      "discon": "15",
+      "category": "Buku Agama Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "21",
+      "name": "Makrifat Sakit dan Kematian",
+      "image": "/src/assets/img/makrifat_sakit_dan_kematian_thumb_1350.jpg",
+      "author": "Haidar Bagir",
+      "price": "69.000",
+      "discon": "15",
+      "category": "Buku Agama Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "22",
+      "name": "Syaikh Nawawi Al Bantani Biografi Sosial Intelektual dan Spiritual",
+      "image": "/src/assets/img/syaikh_nawawi_al-bantani_biografi_sosial_intelektual_dan_spiritual_thumb_4548.png",
+      "author": "K.H. Zulfa Mustofa",
+      "price": "120.00",
+      "discon": "15",
+      "category": "Buku Agama Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "23",
+      "name": "Tuhan Maha Asyik 2",
+      "image": "./src/assets/img/tuhan_maha_asyik_2_thumb_1512.jpg",
+      "author": "SUJIWO TEJO & DRAMAWAN",
+      "price": "90.000",
+      "discon": "15",
+      "category": "Buku Agama Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "24",
+      "name": "Kun Fayakun Menembus Palestina",
+      "image": "./src/assets/img/kun_fayakun_menembus_palestina_thumb_4122.jpg",
+      "author": "KHADIJAH PEGGY MELANI",
+      "price": "135.000",
+      "discon": "15",
+      "category": "Buku Agama Terlaris",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "25",
+      "name": "What Is Religious authority",
+      "image": "./src/assets/img/what_is_religious_authority_thumb_4810.jpg",
+      "author": "ISMAIL FAJRIE ALATAMA",
+      "price": "175.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "26",
+      "name": "Kado Untuk Bangsa",
+      "image": "./src/assets/img/kado_untuk_bangsa_thumb_4530.jpg",
+      "author": "Audrey Yu Jia Hui",
+      "price": "54.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "27",
+      "name": "Orang Makan Orang",
+      "image": "./src/assets/img/orang_makan_orang_thumb_2905.jpg",
+      "author": "SENO GUMIRA AJIDARMA",
+      "price": "89.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "28",
+      "name": "Lessons In Chemistry",
+      "image": "./src/assets/img/lessons_in_chemistry_thumb_0857.jpg",
+      "author": "Bonnie Gamos",
+      "price": "159.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "29",
+      "name": "Krak! Krak! Krak",
+      "image": "./src/assets/img/krak_krak_krak_bilingual_thumb_1847.jpg",
+      "author": "Benny Rhamdani",
+      "price": "59.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "30",
+      "name": "Belanja Bersama Ayah",
+      "image": "./src/assets/img/belanja_bersama_ayah_bilingual_thumb_3717.jpg",
+      "author": "Rei El Tsurayya A.",
+      "price": "59.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "31",
+      "name": "Ori Si Pemberani",
+      "image": "./src/assets/img/ori_si_pemberani_bilingual_thumb_4426.jpg",
+      "author": "Irawati Subrata",
+      "price": "59.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "32",
+      "name": "SCB: Aku Tidak Suka Memukul",
+      "image": "./src/assets/img/scb_aku_tidak_suka_memukul_-_bilingual_boardbook_thumb_1348.jpg",
+      "author": "Rien Nur Azizah",
+      "price": "79.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "33",
+      "name": "My First Book Of 101 Animals Boardbook",
+      "image": "./src/assets/img/my_first_book_of_101_animals_boardbook_thumb_3704.jpg",
+      "author": "Hafizh Nurul Faizah",
+      "price": "79.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "34",
+      "name": "Komik Next G Vol 563 Jujur Sejak Kecil",
+      "image": "./src/assets/img//komik_next_g_vol_563_jujur_sejak_kecil_thumb_3628.jpg",
+      "author": "Bryan Kwan & Puja",
+      "price": "39.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "35",
+      "name": "Seri Panduan Anak Muslim Shalat Yuk Panduan Shalat Wudhu dan Zikir",
+      "image": "./src/assets/img/seri_panduan_anak_muslim_shalat_yuk_panduan_shalat_wudu_dan_zikir_thumb_2931.png",
+      "author": "ALI ABDULLAH",
+      "price": "54.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    },
+    {
+      "status": true,
+      "idProduct": "36",
+      "name": "Komik KKPK Roadshow 5 MyPegasus Friend",
+      "image": "./src/assets/img/komik_kkpk_roadshow_5_my_pegasus_friend_thumb_5120.jpg",
+      "author": "Defitri Annisa dkk",
+      "price": "39.000",
+      "discon": "15",
+      "category": "Buku Terbaru",
+      "overview": "",
+      "description": "",
+      "primacy": "",
+      "qty": 0
+    }
+  ]
+}
