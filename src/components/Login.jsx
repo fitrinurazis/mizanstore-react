@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Image from "../assets/img/BookLogo.jpg";
 import Logo from "../assets/img/GoogleLogo.jpg";
 
@@ -32,9 +31,19 @@ function Login() {
             <h1 className="mb-3 text-2xl font-bold">
               <a href="#">Mizan Store</a>
             </h1>
-            <p className="text-sm first-letter:text-4xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-1 ">Kemampuan membaca itu sebuah rahmat.Kegemaran membaca;sebuah kebahagiaan</p>
+            <p className="text-sm first-letter:text-4xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-1 ">
+              Kemampuan membaca itu sebuah rahmat.Kegemaran membaca;sebuah
+              kebahagiaan
+            </p>
             <form className="flex flex-col gap-4">
-              <input className="p-2 duration-200 border mt-7 rounded-2xl hover:scale-110 bg-slate-100" type="text" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="example@gmail.com" />
+              <input
+                className="p-2 duration-200 border mt-7 rounded-2xl hover:scale-110 bg-slate-100"
+                type="text"
+                name="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="example@gmail.com"
+              />
               <input
                 className="p-2 duration-200 border rounded-2xl hover:scale-110 bg-slate-100"
                 type={showPassword ? "text" : "password"}
@@ -45,13 +54,21 @@ function Login() {
               />
               {/* toogle */}
               <div className="mt-px">
-                <input type="checkbox" id="showPassword" checked={showPassword} onChange={togglePasswordVisibility} />
+                <input
+                  type="checkbox"
+                  id="showPassword"
+                  checked={showPassword}
+                  onChange={togglePasswordVisibility}
+                />
                 <label htmlFor="showPassword" className="ml-2">
                   Show Password
                 </label>
               </div>
               {/* toogle end */}
-              <button onClick={handleLogin} className="flex items-center justify-center w-2xl h-6 text-sm duration-200 mx-14 bg-slate-100 rounded-2xl hover:scale-110">
+              <button
+                onClick={handleLogin}
+                className="flex items-center justify-center w-2xl h-6 text-sm duration-200 mx-14 bg-slate-100 rounded-2xl hover:scale-110"
+              >
                 Login
               </button>
               {error && <p className="text-red-500">{error}</p>}
@@ -62,12 +79,15 @@ function Login() {
               </div>
               {/* logo google */}
               <button className="flex items-center justify-center w-full py-2 text-sm duration-200 border bg-slate-100 rounded-xl hover:scale-110">
-                <img className="h-5 mr-2 bg-none" src={Logo} alt="" /> Login dengan Google
+                <img className="h-5 mr-2 bg-none" src={Logo} alt="" /> Login
+                dengan Google
               </button>
               {/* logo google end */}
               <div className="flex items-center justify-between mt-3 text-xs text">
                 <p>Tidak punya akun?</p>
-                <button className="px-5 py-2 duration-200 border bg-slate-100 rounded-xl hover:scale-110">Daftar sekarang!</button>
+                <button className="px-5 py-2 duration-200 border bg-slate-100 rounded-xl hover:scale-110">
+                  Daftar sekarang!
+                </button>
               </div>
             </form>
           </div>
