@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import Image from "../../assets/img/BookLogo.jpg";
 import Logo from "../../assets/img/GoogleLogo.jpg";
+import { useState } from "react";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -85,9 +87,11 @@ function Login() {
               {/* logo google end */}
               <div className="flex items-center justify-between mt-3 text-xs text">
                 <p>Tidak punya akun?</p>
-                <button className="px-5 py-2 duration-200 border bg-slate-100 rounded-xl hover:scale-110">
-                  Daftar sekarang!
-                </button>
+                <Link to="/register">
+                  <button className="px-5 py-2 duration-200 border bg-slate-100 rounded-xl hover:scale-110">
+                    Daftar sekarang!
+                  </button>
+                </Link>
               </div>
             </form>
           </div>

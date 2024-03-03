@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import BookCard from "./BookCard";
 
 const CategoryCard = ({ category }) => {
@@ -14,15 +15,17 @@ const CategoryCard = ({ category }) => {
         <div className="overflow-x-scroll snap-x lg:overflow-x-hidden ">
           <ul className="flex lg:flex-wrap gap-3 lg:gap-7 w-0 md:w-[830px] lg:w-[1024px] mb-5">
             {category.items.map((item) => (
-              <BookCard
-                key={item.id}
-                id={item.id}
-                name={item.name}
-                image={item.image}
-                author={item.author}
-                price={item.price}
-                discon={item.discon}
-              />
+              <Link key={item.id} to={`product/${item.id}`}>
+                <BookCard
+                  key={item.id}
+                  id={item.id}
+                  name={item.name}
+                  image={item.image}
+                  author={item.author}
+                  price={item.price}
+                  discon={item.discon}
+                />
+              </Link>
             ))}
           </ul>
         </div>

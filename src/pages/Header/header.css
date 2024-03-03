@@ -1,0 +1,188 @@
+/* Mohamad yusup Header/Navbar */
+
+/* header  */
+
+header {
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.head {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+  background-color: #ce2e2e;
+  align-items: center;
+}
+
+.head ul.left {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.head ul.right {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.head ul.right li {
+  display: flex;
+  gap: 0.5rem;
+  align-items: end;
+}
+
+.head ul .right li a svg {
+  width: 1px;
+  height: fit-content;
+}
+.head .right svg {
+  fill: white;
+}
+
+.head ul.left a,
+.head ul.right a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Nav Bar */
+nav {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: rgb(239, 241, 242);
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .logo {
+  font-size: x-large;
+  color: #ce2e2e;
+}
+
+nav .logo a {
+  color: #ce2e2e;
+  text-decoration: none;
+}
+
+nav .nav-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .nav-bar .search {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .nav-bar .search input {
+  display: flex;
+  flex: 1;
+  border: 1px solid;
+}
+
+nav .nav-bar .search button {
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border: 0;
+  border-radius: 3px;
+  background-color: #ce2e2e;
+  cursor: pointer;
+}
+
+nav .nav-bar .search button svg {
+  fill: white;
+}
+nav .nav-bar .nav-list-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+nav .nav-bar .nav-list-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  gap: 1rem;
+}
+nav .nav-bar .nav-list-menu button {
+  display: none;
+  border: none;
+  width: 40px;
+  height: 30px;
+}
+
+nav .nav-bar .nav-list-menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* responsive header navbar */
+@media screen and (max-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .head ul {
+    justify-content: space-around;
+  }
+
+  .head ul.left {
+    gap: 0.5rem;
+    font-size: x-small;
+  }
+
+  .head ul.right {
+    font-size: x-small;
+    gap: 0.5rem;
+  }
+
+  nav .logo {
+    font-size: large;
+    color: #ce2e2e;
+  }
+
+  nav .nav-bar .nav-list-menu .hidden {
+    display: none;
+  }
+  nav .nav-bar .nav-list-menu ul {
+    position: fixed;
+    margin-top: 8.2rem;
+    padding-top: 2rem;
+    width: 30%;
+    right: 0;
+    top: -10px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3rem;
+    background: #ce2e2e;
+  }
+
+  nav .nav-bar .nav-list-menu ul li a {
+    color: white;
+  }
+
+  nav .nav-bar .nav-list-menu ul .slash {
+    display: none;
+  }
+
+  nav .nav-bar .nav-list-menu button {
+    display: block;
+    background: none;
+  }
+
+  nav .nav-bar .nav-list-menu {
+    justify-content: flex-end;
+  }
+}

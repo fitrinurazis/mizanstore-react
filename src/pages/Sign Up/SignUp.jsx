@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logoGoogle from "../../assets/img/google.png";
 
 const SignUp = () => (
@@ -82,7 +83,11 @@ const SignUp = () => (
       </div>
       <div className="py-3 text-center ">
         <p>
-          Don’t have an account? <a className="text-blue-600">Login</a>
+          Don’t have an account?{" "}
+          <Link to="/login">
+            {" "}
+            <button className="text-blue-600">Login</button>{" "}
+          </Link>
         </p>
       </div>
     </div>

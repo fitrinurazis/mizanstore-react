@@ -1,4 +1,10 @@
 import "./style.css";
+import partner from "../../assets/img/partner1.png";
+import idea from "../../assets/img/MS-FOOTER-IDEA.jpg";
+import logoMizanBawah from "../../assets//img/logo-mizanstore-bawah.png";
+import iconHome from "../../assets//img/icons8-home-64.png";
+import iconWhastApp from "../../assets/img/icons8-whatsapp-50.png";
+import iconMail from "../../assets/img/icons8-mail-50.png";
 
 function Footer() {
   return (
@@ -6,21 +12,21 @@ function Footer() {
       <div className="content-footer">
         <div className="partner-idea">
           <div className="partner">
-            <img src="img/partner1.png"></img>
+            <img src={partner}></img>
           </div>
           <div className="idea">
-            <img src="img/MS-FOOTER-IDEA.jpg" alt="" />
+            <img src={idea} alt="" />
           </div>
         </div>
         <div className="list-boxes">
           <div className="contact">
             <div className="logo">
               <a title="logo" href="">
-                <img src="./img/logo-mizanstore-bawah.png" alt="" />
+                <img src={logoMizanBawah} alt="" />
               </a>
             </div>
             <div className="home">
-              <img src="./img/icons8-home-64.png" alt="" />
+              <img src={iconHome} alt="" />
               <span>PT. Millennia Tijara Semesta</span>
               <p>Jl. Joe No. 11</p>
               <p>Jagakarsa, Jakarta Selatan</p>
@@ -28,12 +34,12 @@ function Footer() {
             </div>
             <div className="whatsapp">
               <a href="">
-                <img src="./img/icons8-whatsapp-50.png" alt="" />
+                <img src={iconWhastApp} alt="" />
                 <span>Whatsapp</span>
               </a>
             </div>
             <div className="mail">
-              <img src="./img/icons8-mail-50.png" alt="" />
+              <img src={iconMail} alt="" />
               <span>cs@mizan.com</span>
             </div>
           </div>

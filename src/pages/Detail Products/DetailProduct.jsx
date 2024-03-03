@@ -7,7 +7,7 @@ import BookCard from "../../components/Book Card/BookCard";
 
 const DetailProduct = () => {
   const params = useParams();
-
+  console.log(params);
   const dataProductParams = detail.detail.filter(
     (item) => item.idProduct == params.id
   );
