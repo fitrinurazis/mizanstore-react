@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: white;
+}
+footer {
+  background: #ce2e2e;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+footer .content-footer {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+/* bagian gambar partner dan idea */
+footer .content-footer .partner-idea {
+  display: flex;
+  justify-content: space-between;
+}
+.partner img {
+  width: 945px;
+  height: 165px;
+}
+.idea img {
+  width: 80px;
+  height: 40px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+/* bagian kontak logo */
+.logo img {
+  width: 185px;
+  height: 62px;
+}
+.home img {
+  height: 14px;
+  width: 14px;
+  background: white;
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 4px;
+}
+.whatsapp img {
+  height: 14px;
+  width: 14px;
+  background: white;
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 4px;
+}
+.mail img {
+  height: 14px;
+  width: 14px;
+  background: white;
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 4px;
+}
+/* style kontak */
+.contact,
+.contact a {
+  color: white;
+  font-size: 14px;
+}
+.contact a {
+  text-decoration: none;
+}
+/* .contact p {
+  margin-top: -2px;
+} */
+
+ul {
+  list-style-type: none;
+}
+/* bagian list teks */
+
+.home p {
+  margin-left: 18px;
+  line-height: 5px;
+  padding: 5px 5px 5px 5px;
+}
+.list-box i {
+  margin-right: 10px;
+}
+
+.list-box {
+  font-size: 14px;
+  color: white;
+}
+/* .list-box a {
+  font-size: 14px;
+  color: white; 
+  text-decoration: none;
+} */
+.list-name {
+  font-size: 16px; /* 
+  margin-bottom: 30px;
+  margin-top: 20px; */
+}
+
+footer .content-footer .list-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .content-footer .list-boxes .contact {
+  position: relative;
+  width: 300px;
+}
+footer .content-footer .list-boxes .list-box {
+  width: calc(100% / 5 - 4px);
+}
+.content-footer .list-boxes .list-box li {
+  margin: 6px 0px;
+  list-style: none;
+  line-height: 1.5;
+}
+.content-footer .list-boxes .list-box li a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.content-footer .list-boxes .list-box li a:hover {
+  color: #ce2e2e;
+  text-decoration: underline;
+}
+.input-box {
+  color: white;
+}
+.title-input {
+  font-size: 16px;
+}
+.content-footer .list-boxes .input-box {
+  margin-right: 10px;
+}
+.list-boxes .input-box input {
+  height: 30px;
+  width: calc(100% + 10px);
+  border: none;
+}
+.list-boxes .input-box button {
+  height: 30px;
+  width: calc(100% + 10px);
+  background: #ff9900;
+  border-radius: 4px;
+  border: none;
+}
+.list-boxes .input-box input::placeholder {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 1100px) {
+  footer .content-footer .partner-idea {
+    display: none;
+  }
+  footer .content-footer .list-boxes {
+    flex-wrap: wrap;
+  }
+  footer.content-footer .list-boxes .input-box {
+    width: 40%;
+  }
+}
+@media (max-width: 840px) {
+  footer .content-footer .list-boxes .list-box {
+    width: calc(100% / 3 - 4px);
+  }
+}
+@media (max-width: 520px) {
+  footer .content-footer .list-boxes .list-box {
+    width: calc(100% / 1 - 4px);
+  }
+}
