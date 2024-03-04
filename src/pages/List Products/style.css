@@ -1,0 +1,132 @@
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.list-product {
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  width: 1280px;
+  padding: 56px;
+}
+
+.nav-list {
+  padding-bottom: 20px;
+  color: #555;
+}
+
+.judul {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 32px;
+}
+
+.title {
+  color: #ce2e2e;
+}
+
+.urutkan {
+  color: #1e293d;
+  font-family: lato, sans-serif;
+}
+
+.list {
+  display: flex;
+  justify-content: start;
+  margin-left: 1em;
+  padding-bottom: 24px;
+}
+
+.image1 {
+  height: 200px;
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(49, 53, 59, 0.96);
+  opacity: 0.96;
+  height: 32px;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  width: 200px;
+}
+
+.penjual {
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  margin-top: -23px;
+  margin-bottom: 9px;
+}
+
+.nilai-awal {
+  text-decoration: line-through;
+  color: #555;
+  font-weight: 600;
+  font-size: 12px;
+  font-weight: 700;
+  height: 12px;
+}
+
+.diskon {
+  background-color: #ce2e2e;
+  font-size: 10px;
+  position: absolute;
+  width: 32px;
+  height: 14px;
+  text-align: center;
+  color: #fff;
+  border-radius: 15%;
+}
+
+.nilai-akhir {
+  color: #ce2e2e;
+  font-weight: 600;
+  font-size: 14px;
+  font-weight: 700;
+  height: 24px;
+}
+
+.star {
+  height: 10px;
+  justify-content: flex-start;
+}
+
+.total-rating {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #555;
+}
+
+.product1 {
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.product2 {
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.isi-product {
+  padding-right: 24px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .list-product {
+    width: 100%;
+  }
+  .nav {
+    display: none;
+  }
+}
