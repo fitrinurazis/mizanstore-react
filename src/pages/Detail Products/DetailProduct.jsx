@@ -1,31 +1,73 @@
-import detail from "../../JSON/details.json";
-import product from "../../JSON/products.json";
-import productAll from "../../JSON/productsAll.json";
 import { useParams } from "react-router-dom";
 import SectionContent from "../../components/SectionPageDetailProduct/SectionContent";
 import BookCard from "../../components/Book Card/BookCard";
+import axios from "axios";
+import { useEffect, useState } from "react";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 const DetailProduct = () => {
+  const [detail, setDetail] = useState();
+  const [product, setProduct] = useState();
+  const [productAll, setProductAll] = useState();
   const params = useParams();
-  console.log(params);
-  const dataProductParams = detail.detail.filter(
+  const fetchDataDetail = async () => {
+    try {
+      const response = await axios.get(
+        `https://mocki.io/v1/f460ee8d-848e-46c7-9f76-aabec0617370`
+      );
+      setDetail(response.data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const fetchDataCategory = async () => {
+    try {
+      const response = await axios.get(
+        "https://mocki.io/v1/79d0d4b9-fb89-4a3f-9fdb-c66db76df118"
+      );
+
+      setProduct(response.data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const fetchDataProductAll = async () => {
+    try {
+      const response = await axios.get(
+        "https://mocki.io/v1/06fa080d-3fc1-4e61-a07d-0153cf52a292"
+      );
+
+      setProductAll(response.data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+  useEffect(() => {
+    fetchDataDetail();
+    fetchDataCategory();
+    fetchDataProductAll();
+  }, []);
+  const dataProductParams = detail?.detail?.filter(
     (item) => item.idProduct == params.id
   );
+  const dataCategoryParams = dataProductParams?.map((item) => item.category);
 
-  const dataCategoryParams = dataProductParams.map((item) => item.category);
-
-  const categoryProduct = product.categories.filter(
+  const categoryProduct = product?.categories?.filter(
     (item) => item.name == dataCategoryParams
   );
 
-  const dataAuthorParams = dataProductParams.map((item) => item.author);
-  const getAuthorProduct = productAll.products.filter(
+  const dataAuthorParams = dataProductParams?.map((item) => item.author);
+  const getAuthorProduct = productAll?.products?.filter(
     (item) => item.author == dataAuthorParams
   );
 
   return (
     <>
-      {dataProductParams.map((item, index) => {
+      <Header />
+      {dataProductParams?.map((item, index) => {
         return (
           <main className="mt-44 container-md md:mt-0" key={index}>
             <div className="h-full mx-0 bg-white rounded-sm md:mx-10 lg:mx-40">
@@ -43,7 +85,7 @@ const DetailProduct = () => {
                 </div>
                 <hr className="mx-5" />
                 <div className="flex flex-row p-5 overflow-x-scroll pt-7 gap-7 md:gap-5">
-                  {getAuthorProduct.map((item) => (
+                  {getAuthorProduct?.map((item) => (
                     <BookCard
                       key={item.id}
                       id={item.id}
@@ -67,7 +109,7 @@ const DetailProduct = () => {
                 </div>
                 <hr className="mx-5" />
                 <div className="flex flex-row p-5 overflow-x-scroll pt-7 gap-7 md:gap-5">
-                  {categoryProduct.map((item) =>
+                  {categoryProduct?.map((item) =>
                     item.items
                       .filter((itm) => itm.id <= 5)
                       .map((i, index) => (
@@ -88,6 +130,8 @@ const DetailProduct = () => {
           </main>
         );
       })}
+      \
+      <Footer />
     </>
   );
 };
