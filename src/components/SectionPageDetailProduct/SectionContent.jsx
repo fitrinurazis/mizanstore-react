@@ -46,12 +46,7 @@ const SectionContent = (props) => {
         <div className="flex flex-col justify-center lg:flex-row gap-y-3 lg:gap-x-6">
           <div className="w-full lg:basis-[34%] lg:ml-3 flex flex-col items-center lg:block mt-5 lg:mt-0">
             <div className="flex justify-center items-center border-2 border-solid border-gray-200 lg:h-[31rem] w-80 lg:w-auto">
-              <img
-                src={item.image}
-                alt="fotoBuku"
-                width={200}
-                className="absolute"
-              />
+              <img src={item.image} alt="fotoBuku" width={200} />
             </div>
             <div className="flex flex-row items-center justify-center">
               <div className="grid w-32 border-2 border-gray-200 border-solid place-content-center h-28 hover:cursor-pointer">

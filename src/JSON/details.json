@@ -403,13 +403,40 @@
       "name": "Dongeng Sebelum Tidur Warna - Warni Balon Rubi",
       "image": "/src/assets/img/dongeng_sebelum_tidur_warna-warni_balon_rubi_sc_-_special_offer_thumb_1938.jpg",
       "author": "Dian Dabila",
+      "publisher": "Mizan Publishing",
       "price": "59.000",
       "discon": "15",
       "category": "Buku Anak Terlaris",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Keluarga"
+        },
+        {
+          "genreTwo": "Referensi"
+        }
+      ],
+      "overview": "Seri Dongeng Sebelum Tidur kini kembali untuk menemani anak-anak. Dongeng Sebelum Tidur: Warna Warni Balon Rubi adalah lanjutan dari Seri Dongeng Sebelum Tidur yang pertama. Hadir untuk melengkapi eksplorasi anak dalam kesehariannya, buku ini menyajikan delapan cerita yang seru dan menarik.      - Tema kisah yang sederhana. - Ceritanya…",
+      "description": "Seri Dongeng Sebelum Tidur kini kembali untuk menemani anak-anak. Dongeng Sebelum Tidur: Warna Warni Balon Rubi adalah lanjutan dari Seri Dongeng Sebelum Tidur yang pertama. Hadir untuk melengkapi eksplorasi anak dalam kesehariannya, buku ini menyajikan delapan cerita yang seru dan menarik. Tema kisah yang sederhana, Ceritanya singkat dan mudah dipahami, Mengajak anak-anak untuk peduli terhadap sesama dan lingkungan, Mengajarkan anak agar bertanggung jawab, dan Menyajikan problem solving sederhana yang mudah dicerna oleh anak-anak hingga usia SD, Buku ini sangat tepat untuk menemani anak sebelum tidur, Yuk, Ayah-Bunda, bacakan buku Dongeng Sebelum Tidur ini untuk anak-anak di rumah",
+      "primacy": "Buku ini didesain dengan gambar yang lucu dan warna yang lembut dengan gaya coretan khas anak, Dibuat dengan karakter hewan dan tanaman yang dekat dengan anak, Menceritakan mengenai kehidupan sehari-hari dan penyelesaian masalah, sehingga anak bisa memetik pesan moral yang ada dalam setiap cerita. Buku ini sangat tepat untuk menemani anak sebelum tidur. Yuk, Ayah-Bunda, bacakan buku Dongeng Sebelum Tidur ini untuk anak-anak di rumah!",
+      "about": "Dian Dahlia, seorang dokter sekaligus penulis. Kecintaannya kepada anak-anak dan buku menginspirasinya untuk  membuat buku kliping karton dan membacakannya secara rutin untuk kedua putrinya sejak kecil hingga mereka bisa membaca sendiri kisah-kisahnya. Dia lalu menulis dan menggambar sederhana beberapa seri cerita agar anak-anak Indonesia yang lain berkesempatan menikmati bacaan yang berkualitas seperti anak-anaknya. Buku-bukunya yang telah terbit antara lain: Petualangan Tiga Hari (novel anak-remaja, pemenang ke-3 KMI 2019), Aku Coba Meski Itu Bukan Duniaku (novel dewasa), Kumpulan Kisah Pertemuan: Bukan Cinta Biasa (antologi).",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "RS-502",
+          "isbn": "978-623-254-244-0",
+          "weight": "500",
+          "dimensi": [
+            {
+              "panjang": "21",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "68",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -417,13 +444,37 @@
       "name": "Kisah 25 Nabi dan Rasul (Pelangi) - Toys Book",
       "image": "/src/assets/img/covGP-91_thumb.jpg",
       "author": "Erna Fitrini, dkk",
+      "publisher": "Pelangi Mizan",
       "price": "139.000",
       "discon": "15",
       "category": "Buku Anak Terlaris",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Board Books"
+        }
+      ],
+      "overview": "Teman-Teman, lihat susunan nama nabi di isi buku. Urutan nama nabi yang pertama hingga terakhir, sama dengan urutan gambar di sampul depan dari kiri ke kanan, kecuali kotak logo Pelangi Mizan. Selanjutnya, Teman-Teman bisa mengingat nama-nama nabi dengan mengingat gambar-gambar di sampul depan. Misalnya, gambar buah berarti Nabi Adam, gambar…",
+      "description": "Teman-Teman, lihat susunan nama nabi di isi buku. Urutan nama nabi yang pertama hingga terakhir, sama dengan urutan gambar di sampul depan dari kiri ke kanan, kecuali kotak logo Pelangi Mizan. Selanjutnya, Teman-Teman bisa mengingat nama-nama nabi dengan mengingat gambar-gambar di sampul depan. Misalnya, gambar buah berarti Nabi Adam, gambar unta berarti Nabi Shaleh, dan begitu seterusnya. Selamat mencoba, ya ....",
       "primacy": "",
-      "qty": 0
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "GP-91",
+          "isbn": "9786020863399",
+          "weight": "800",
+          "dimensi": [
+            {
+              "panjang": "0",
+              "lebar": "0",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "120",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -431,13 +482,40 @@
       "name": "Ancika Dia Yang Bersamaku Tahun 1995",
       "image": "/src/assets/img/ancika_dia_yang_bersamaku_tahun_1995_thumb_0539.jpg",
       "author": "PIDI BAIQ",
+      "publisher": "Mizan Publishing",
       "price": "98.000",
       "discon": "15",
       "category": "Buku Novel Terlaris",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Fiksi"
+        },
+        {
+          "genreTwo": "Novel"
+        }
+      ],
+      "overview": "Bismillahirrahmannirahiim. Asalamualaikum, Cika. Jangan sampai Ciwastra berubah, menjadi kekacauan, seperti Angola, Mozambik, Sudan atau Rhodesia. Kita harus berdoa untuk Ciwastra, untuk Buah Batu, untuk Sekelimus, Sapan, Derwati dan daerah-daerah lain di Bandung. Mudah-mudahan semua jalan yang memutar bergerak menuju kasih sayang. Nanti aku akan memberitahumu cukup banyak, bahwa yang aku…",
+      "description": "Bismillahirrahmannirahiim. Asalamualaikum, Cika. Jangan sampai Ciwastra berubah, menjadi kekacauan, seperti Angola, Mozambik, Sudan atau Rhodesia. Kita harus berdoa untuk Ciwastra, untuk Buah Batu, untuk Sekelimus, Sapan, Derwati dan daerah-daerah lain di Bandung. Mudah-mudahan semua jalan yang memutar bergerak menuju kasih sayang. Nanti aku akan memberitahumu cukup banyak, bahwa yang aku katakan ini tidak benar. Dilan, hamba Allah. “Menurut kamu, kalau misal ada orang, yang nanya-nanya nama …. ke teman-temanmu … sampai nanya udah nikah belum, menurut kamu orang itu seperti apa?” “Seperti Dilan!” “Ha ha ha!” “Sekarang … boleh nanya lagi?” “Apa?” “Kalau ada yang pernah ketemu kamu di rumah kakekmu … terus orang itu bilang ke Mamamu, dia belum pernah ketemu .... padahal …” “Itu juga Dilan.” 'kamu harus tahu, cinta memang buta tapi rasa cemburu itu jeli.' —Ancika, 1994 “Saya gak bisa suka ke orang yang ngandelin penampilan. Penampilan emang penting, tapi kepribadian lebih penting. Saya tuh gak suka kalau harus dipaksa-paksain ngegaya, padahal dirinya tersiksa.” —Ancika, 1994 “Aku suka Mike Tyson, aku suka kamu, aku suka Maradona, aku suka Mick Jagger.” —Dilan, 1994 Novel Ancika: Dilan yang Bersamaku telah dinantikan oleh para pembaca dan penggemar novel Seri Dilan karya Ayah Pidi. Novel ini akan menjawab kerinduan terhadap seri novel Dilan. Ancika Mehrunisa Rabu adalah pacar Dilan, setelah Dilan putus dengan Milea. Sosok Ancika pernah muncul secara di dalam novel Milea: Suara dari Dilan. Di dalam novel terbaru Ayah Pidi ini, Ancika akan menceritakan kisah yang terjadi pada 24 tahun yang lalu, ketika Ancika berumur 17 tahun atau pada masa-masa remajanya bersama Dilan. Meskipun Ancika memiliki sifat dan karakter yang berbeda dengan Milea, tetapi novel yang diceritakan oleh Ancika ini tidak bermaksud untuk membanding-bandingkan antara dirinya dengan Milea. Bagaimanapun, kisah Milea dan Dilan merupakan kisah lalu mereka. Di dalam novel ini, pembaca akan diajak melihat Dilan yang mulai menginjak usia dewasa. Dilan kini bukan lagi seorang panglima tempur geng motor yang disegani di Kota Bandung, melainkan tumbuh menjadi mahasiswa yang cerdas dan kreatif. Meskipun begitu, tingkah dan tutur kata Dilan yang lucu tetap melekat pada diri Dilan. Selain itu, sosok Ancika pun tidak kalah menarik daripada Dilan. Dilan dan Ancika walaupun tidak memiliki karakter yang mirip, tapi seolah-olah bahwa mereka berdua memang diciptakan untuk saling mengisi dan saling melengkapi. Apakah Ancika adalah alasan satu-satunya mengapa Dilan tidak bisa balikan dengan Milea? Baca kisah lengkap Ancika di dalam novel ini!",
+      "primacy": "Kelanjutan kisah cinta Dilan setelah putus dari Milea sudah lama ditunggu oleh pembacanya. Ancika adalah pacar Dilan setelah Dilan putus dengan Milea. Sebagaimana tokoh Milea yang memiliki karakter yang khas, Ancika pun memiliki karakter yang kuat. Meskipun demikian, novel ini tidak bermaksud membanding-bandingkan antara Ancika dengan Milea. Seri Dilan yang hingga kini telah mencapai jutaan pembaca ini akan melanjutkan kisahnya. Seri ini telah terserap jutaan copy dan menarik jutaan penonton saat naik ke layar lebar. Di dalam novel ini juga pembaca akan melihat Dilan yang mulai tumbuh dewasa. Nantikan Ancika: Dilan yang Bersamaku untuk melepas kerinduanmu terhadap cerita tentang Dilan.",
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "RY-89",
+          "isbn": "978-602-6716-89-7",
+          "weight": "320",
+          "dimensi": [
+            {
+              "panjang": "14",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "344",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -445,13 +523,40 @@
       "name": "Dilan Dia Adalah Dilanku Tahun 1991",
       "image": "/src/assets/img/dilan_dia_adalah_dilanku_tahun_1991_thumb_0207.png",
       "author": "PIPI BAIQ",
+      "publisher": "Pastel Book",
       "price": "89.000",
       "discon": "15",
       "category": "Buku Novel Terlaris",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Novel Dewasa"
+        },
+        {
+          "genreTwo": "Fiksi"
+        }
+      ],
+      "overview": " 'Milea kamu cantik, tapi aku belum mencintaimu. Enggak tahu kalau sore. Tunggu aja.' (Dilan 1990) 'Milea jangan pernah bilang ke aku ada yang menyakitimu., nanti besoknya, orang itu akan hilang.' (Dilan 1990) 'Cinta sejati adalah kenyamanan, kepercayaan, dan dukungan. Kalau kamu tidak setuju, aku tidak peduli.' (Milea 1990)",
+      "description": "'Milea kamu cantik, tapi aku belum mencintaimu. Enggak tahu kalau sore. Tunggu aja.' (Dilan 1990) 'Milea jangan pernah bilang ke aku ada yang menyakitimu., nanti besoknya, orang itu akan hilang.' (Dilan 1990) 'Cinta sejati adalah kenyamanan, kepercayaan, dan dukungan. Kalau kamu tidak setuju, aku tidak peduli.' (Milea 1990)",
+      "primacy": "REPUBLISH",
+      "about": "Pidi baiq mengaku sebagai imigran dari Sorga yang diselundupkan ke Bumi oleh ayahnya di Kamar Pengantin dan tegang. Di Bumi, kemudian menjadi Imam Besar The Panasdalam. Menulis buku Drunken Monster, Drunken Molen, Drunken Mama, Drunken Marmut, Al-Asbun, at-twitter, dan Hanya Salju dan Pisau Batu. Membuat akun twitter dengan nama @pidibaiq dan tidak suka jus rumput. Pernah lapar, pernah ngantuk, tapi alhamdulillah semuanya bisa diatasi.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "RN-221",
+          "isbn": "978-602-7870-86-4",
+          "weight": "300",
+          "dimensi": [
+            {
+              "panjang": "14",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "348",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -459,13 +564,39 @@
       "name": "As Long As The Lemon Thees Grow",
       "image": "/src/assets/img/as_long_as_the_lemon_trees_grow_thumb_5701.jpg",
       "author": "Zoulifa Katouh",
+      "publisher": "Mizan Publishing",
       "price": "129.000",
       "discon": "15",
       "category": "Buku Novel Terlaris",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Fiksi"
+        },
+        {
+          "genreTwo": "Novel"
+        }
+      ],
+      "overview": "Amazon Best Young Adult Books of the Year 2022 Akibat perang Suriah, Salama kehilangan orangtua, dan Hamza, kakaknya ditawan, entah masih hidup atau sudah mati. Kini, Salama harus menjaga Layla, kakak iparnya yang sedang hamil. Hamza berpesan agar Salama menjaga Layla dan calon bayinya. Satu-satunya cara menjaga Layla dari perang Akibat perang Suriah, Salama kehilangan orangtua, dan Hamza, kakaknya ditawan, entah masih hidup atau sudah mati. Kini, Salama harus menjaga Layla, kakak iparnya yang sedang hamil. Hamza berpesan agar Salama menjaga Layla dan calon bayinya. Satu-satunya cara menjaga Layla dari perang adalah mengungsi ke Eropa, tapi setiap kali melihat para korban perang, rasa bersalah menikam Salama. Haruskah dia pergi dari Suriah, ketika bangsanya bergelimpangan akibat perang? Keputusasaan dan ketakutan bercampur hingga mewujud dalam sosok pria bermata dingin, Khaft, yang mendorong Salama untuk pergi. Namun, Salama bertemu Kenan, pemuda bermata hijau dengan semangat membara membela negara. Kini, Salama harus memilih antara tetap tinggal untuk negaranya, ataukah pergi demi memenuhi janjinya kepada Hamza. Novel debut Zoulfa Katouh yang mengisahkan Suriah, perjuangan, cinta, serta harapan ini sangatlah fenomenal. Tagar #aslongasthelemontreesgrow menjadi trending  di TikTok dan juga mendapat pujian berbintang dari para kritikus. As Long as the Lemon Trees Grow sudah diterjemahkan ke dalam 21 bahasa serta mendapat berbagai pengharagaan, salah satunya masuk sebagai kandidat Shortlisted Book of the Year Discover di The British Book Awards 2023.  Endorsement Depan Cover: “Kisah mencari belas kasih di tengah kegilaan, dan harapan di tengah tragedi. Wajib baca!”  -Sabaa Tahir, penulis An Ember in the Ashes  “Brilian, indah, kuat. Kisah ini akan meninggalkan jejak dalam jiwamu.”  -S.K.Ali, penulis Love from A to Z “Kisah tentang cinta, pengorbanan, serta kekuatan yang dibutuhkan untuk berjuang demi keyakinan.”  -Publishers Weekly, kajian berbintang Endorsement Balik Cover: “Liris dan menggugah hati, As Long as the Lemon Trees Grow adalah suara baru memesona di dunia literasi young adult. Zoulfa Katouh mengingatkan kita akan kekuatan cinta, harapan, dan kegigihan di tengah situasi keputusasaan. Bacaan menarik dan menakjubkan. Kau tak akan bisa berhenti membacanya.” —Samira Ahmed, penulis Internment, New York Times bestseller",
       "primacy": "",
-      "qty": 0
+      "about": "Zoulfa Katouh adalah penulis Kanada yang berasal dari Suriah. Dia kini berbasis di Swiss mengejar gelar master jurusan farmasi. Dia mendapatkan inspirasi ala Studio Ghibli dari pegunungan, danau, dan bintang-bintang yang mengelilinginya di Swiss. Ketika tidak bicara sendirian di hutan, Zoulfa suka minum es kopi, memanggang biskuit estetik dan kue, dan menceritakan kepada siapa pun yang mau mendengar tentang BTS. Salah satu mimpinya adalah membuat Kim Namjoon membaca bukunya. As Long as the Lemon Trees Grow adalah novel pertamanya dan kau bisa mengunjungi Zoulfa di zoulfakatouh.com",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "QN-137",
+          "isbn": "978-602-441-313-2",
+          "weight": "350",
+          "dimensi": [
+            {
+              "panjang": "13",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "480",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -473,13 +604,40 @@
       "name": "Guru Aini",
       "image": "/src/assets/img/guru_aini_thumb_2905.jpg",
       "author": "Andrea Hirata",
+      "publisher": "Bentang Pustaka",
       "price": "99.000",
       "discon": "15",
       "category": "Buku Novel Terlaris",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Fiksi"
+        },
+        {
+          "genreTwo": "Novel"
+        }
+      ],
+      "overview": "“Ini persamaan hidupku sekarang, Bu,” Desi menyodorkan buku catatan ke tengah meja. Bu Amanah, yang juga guru matematika, tersenyum getir melihat persamaan garis lurus dengan variabel-variabel yang didefinisikan sendiri oleh Desi, x1: pendidikan, x2: kecerdasan. Yang menarik perhatiannya adalah konstanta a: pengorbanan. “Pendidikan memerlukan pengorbanan, Bu. Pengorbanan itu nilai tetap,…",
+      "description": "“Ini persamaan hidupku sekarang, Bu,” Desi menyodorkan buku catatan ke tengah meja. Bu Amanah, yang juga guru matematika, tersenyum getir melihat persamaan garis lurus dengan variabel-variabel yang didefinisikan sendiri oleh Desi, x1: pendidikan, x2: kecerdasan. Yang menarik perhatiannya adalah konstanta a: pengorbanan. “Pendidikan memerlukan pengorbanan, Bu. Pengorbanan itu nilai tetap, konstan, tak boleh berubah” Konon, berdasarkan penelitian antah berantah, umumnya idealisme anak muda yang baru tamat dari perguruan tinggi bertahan paling lama 4 bulan. Setelah itu mereka akan menjadi pengeluh, penggerutu, dan penyalah seperti banyak orang lainnya, lalu secara menyedihkan terseret arus deras sungai besar rutinitas dan basa-basi birokrasi lalu tunduk patuh pada sistem yang buruk. Dalam kenyataan hidup seperti itu, seberapa jauh Desi berani mempertahankan idealismenya menjadi guru matematika di sekolah pelosok?",
       "primacy": "",
-      "qty": 0
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "BT-589",
+          "isbn": "",
+          "weight": "280",
+          "dimensi": [
+            {
+              "panjang": "13",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "312",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -487,13 +645,40 @@
       "name": "1984 - Republish COV Hijau",
       "image": "/src/assets/img/1984_-_republish_cov_hijau_thumb_0935.jpg",
       "author": "George Orwell",
+      "publisher": "Bentang Pustaka",
       "price": "99.000",
       "discon": "15",
       "category": "Buku Novel Terlaris",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Fiksi"
+        },
+        {
+          "genreTwo": "Novel"
+        }
+      ],
+      "overview": "Sepanjang hidupnya, Winston berusaha menjadi warga negara yang baik dengan mematuhi setiap aturan Partai meski jauh di dalam hati dan pikirannya bersemayam antipati terhadap kediktatoran yang ada di negaranya. Walaupun begitu, Winston tidak berani melakukan perlawanan secara terbuka. Tidak mengherankan, karena Polisi Pikiran, teleskrin, dan mikrofon tersembunyi membuat privasi hanya…",
+      "description": "Sepanjang hidupnya, Winston berusaha menjadi warga negara yang baik dengan mematuhi setiap aturan Partai meski jauh di dalam hati dan pikirannya bersemayam antipati terhadap kediktatoran yang ada di negaranya. Walaupun begitu, Winston tidak berani melakukan perlawanan secara terbuka. Tidak mengherankan, karena Polisi Pikiran, teleskrin, dan mikrofon tersembunyi membuat privasi hanya serupa fantasi. Bahkan, sejarah ditulis ulang sesuai kehendak Partai. Negara berkuasa mutlak atas rakyatnya. Yang berbeda atau bertentangan akan segera diuapkan. 1984 merupakan satire tajam, menyajikan gambaran tentang luluhnya kehidupan masyarakat totalitarian masa depan yang di dalamnya setiap gerak warga dipelajari, setiap kata yang terucap disadap, dan setiap pemikiran dikendalikan. Hingga kini, 1984 merupakan karya penting Orwell yang mengantarkannya ke puncak kemasyhuran",
+      "primacy": "Novel 1984 adalah karya klasik yang dianggap relevan dari zaman ke zaman karena menggambarkan wajah kekuasaan, Novel 1984 mengangkat tema nasionalisme, penyensoran, kontrol, kepatuhan, dan prediksi masa depan, Prediksi-prediksi yang dituliskan dalam novel 1984 dipandang banyak mewujud dari tahun ke tahun, sekalipun zaman bergeser, penguasa berganti, dan rezim muncul tenggelam, 1984 merupakan jenis naskah yang sifatnya long lasting, naskah klasik, Time menobatkannya sebagai novel berbahasa Inggris terbaik selama beberapa dekade,Termasuk dalam Modern Library's 100 Best Novels, Diterjemahkan ke lebih dari 65 bahasa, Diadaptasi ke banyak media berbeda, dari panggung teater hingga layar lebar, Menginspirasi banyak pemusik dalam berkarya, dari John Lennon (Only People), Incubus (Talk Show on Mute), Coldplay (Spies), Stevie Wonder (Big Brother), Radiohead (Karma Police), dan banyak lagi",
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "BF-028",
+          "isbn": "978-602-291-731-1",
+          "weight": "360",
+          "dimensi": [
+            {
+              "panjang": "14",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "408",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -501,13 +686,37 @@
       "name": "Animal Farm Ne",
       "image": "/src/assets/img/animal_farm-new_thumb_3230.png",
       "author": "George Orwell",
+      "publisher": "Bentang Pustaka",
       "price": "49.000",
       "discon": "15",
       "category": "Buku Novel Terlaris",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Novel Dewasa"
+        }
+      ],
+      "overview": "Suatu malam, Major, si babi tua yang bijaksana, mengumpulkan para binatang di peternakan untuk bercerita tentang mimpinya. Setelah sekian lama hidup di bawah tirani manusia, Major mendapat visi bahwa kelak sebuah pemberontakan akan dilakukan binatang terhadap manusia; menciptakan sebuah dunia di mana binatang akan berkuasa atas dirinya sendiri.   Tak…",
+      "description": "Suatu malam, Major, si babi tua yang bijaksana, mengumpulkan para binatang di peternakan untuk bercerita tentang mimpinya. Setelah sekian lama hidup di bawah tirani manusia, Major mendapat visi bahwa kelak sebuah pemberontakan akan dilakukan binatang terhadap manusia; menciptakan sebuah dunia di mana binatang akan berkuasa atas dirinya sendiri. Tak lama, pemberontakan benar-benar terjadi. Kekuasaan manusia digulingkan di bawah pimpinan dua babi cerdas: Snowball dan Napoleon. Namun, kekuasaan ternyata sungguh memabukkan. Demokrasi yang digaungkan perlahan berbelok kembali menjadi tiran di mana pemimpin harus selalu benar. Dualisme kepemimpinan tak bisa dibiarkan. Salah satu harus disingkirkan … walau harus dengan kekerasan. Animal Farm merupakan novel alegori politik yang ditulis Orwell pada masa Perang Dunia II sebagai satire atas totaliterisme Uni Soviet. Dianugerahi Retro Hugo Award untuk novela terbaik (1996",
       "primacy": "",
-      "qty": 0
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "BT-019",
+          "isbn": "9786022912828",
+          "weight": "120",
+          "dimensi": [
+            {
+              "panjang": "0",
+              "lebar": "0",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "148",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -515,13 +724,40 @@
       "name": "Sang Belas Kasih",
       "image": "/src/assets/img/sang_belas_kasih_thumb_3934.jpg",
       "author": "Haidar Bagir",
+      "publisher": "Noura Books",
       "price": "69.000",
       "discon": "15",
       "category": "Buku Agama Terlaris",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Agama Islam"
+        },
+        {
+          "genreTwo": "Spiritualitas"
+        }
+      ],
+      "overview": "Bukan saja puitis redaksinya, Surah Al-Rahmân, yang merupakan surah ke-55 dalam Al-Quran, juga sangat indah kandungannya. Dalam surah yang terdiri atas 78 ayat ini, Allah menggelar berbagai gambaran imbalan kebaikan berlipat-ganda dan nyaris tak terbatas bagi orang-orang yang berbuat kebaikan yang sempurna (ihsân). Bisa jadi karena taburan cinta dan belas…",
+      "description": "Bukan saja puitis redaksinya, Surah Al-Rahmân, yang merupakan surah ke-55 dalam Al-Quran, juga sangat indah kandungannya. Dalam surah yang terdiri atas 78 ayat ini, Allah menggelar berbagai gambaran imbalan kebaikan berlipat-ganda dan nyaris tak terbatas bagi orang-orang yang berbuat kebaikan yang sempurna (ihsân). Bisa jadi karena taburan cinta dan belas kasih Allah di dalamnya, Surah Ar-Rahmân disebut juga sebagai “‘Arus (Pengantin) Al-Qur’ân”. Dalam buku ini juga disinggung pemahaman-pemahaman alternative—yang lebih sufistik—atas beberapa gagasan dasar ajaran Islam yang juga diungkapkan di dalam surah ini.",
+      "primacy": "Ditulis oleh ahli di bidang tasawuf, Dr. Haidar Bagir.  Bahasa mudah dipahami pembaca. Membahas tentang Surah Ar-Rahmân, yakni salah satu surah dalam Al-Quran yang penting untuk dipelajari dan dipahami umat Islam karena termasuk surah Makkiyah, mengingat mayoritas surah Makkiyah berbicara tentang fondasi keimanan yang harus dimiliki setiap orang beriman. Buku ini mengajak setiap orang beriman untuk mengimani sifat Allah yang paling utama, yakni Yang Maha Belas Kasih, Maha Pengasih dan Penyayang. Surah Ar-Rahmân dikenal juga dengan nama ‘Arus Al-Quran, yang secara harfiah berarti Pengantin Al-Quran. Surah Ar-Rahmân bukan saja puitis dari segi redaksinya, melainkan juga indah dari segi kandungannya. Mengulas tentang pentingnya berbuat Ihsân—seperti disuratkan dan disiratkan dalam berbagai ayat Al-Quran dan hadis—yang merupakan puncak kebaikan, sekaligus puncak keberagamaan. Dalam surah dijelaskan bahwa siksa neraka pun sesungguhnya adalah wujud karunia (ala’)-Nya, yang memancar lagi-lagi dari khazanah Kasih-sayang-Nya Yang Tak Terbatas. Yakni, sebagai cara Allah untuk menyucikan makhluk-Nya dari kotoran dosa agar, pada saatnya, ia tetap bisa menerima karunia kedekatan dengan-Nya. Dengan kata lain, surah ini sepenuhnya berisi berita gembira, bahkan ketika menunjuk kepada siksa neraka. Surah Ar-Rahmân merupakan suatu surah—satu-satunya surah—yang secara eksplisit diarahkan juga kepada makhluk jin, selain manusia. Pada bagian akhir surah ini, penulis menjelaskan tentang gambaran ketakterbatasan karunia dan nikmat-Nya kepada makhluk-Nya yang berupa penggandaan surga yang berjumlah dua.",
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "NA-232",
+          "isbn": "978-602-441-198-5",
+          "weight": "200",
+          "dimensi": [
+            {
+              "panjang": "14",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "208",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -529,13 +765,37 @@
       "name": "Reopening Muslim Minds",
       "image": "/src/assets/img/reopening_muslim_minds_thumb_4754.jpg",
       "author": "Mustafa Akyal",
+      "publisher": "Noura Books",
       "price": "139.000",
       "discon": "15",
       "category": "Buku Agama Terlaris",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Agama Islam"
+        }
+      ],
+      "overview": "Keunggulan: • Ditulis oleh seorang jurnalis Turki yang cukup populer di semua kalangan. • Penulis berusaha mengurai penyebab kejumudan pemikiran di kalangan umat Islam yang terjadi saat ini. • Menggunakan bahasa yang mudah dipahami pembaca. Kalimatnya jelas, paragrafnya mengalir, dan gagasannya disusun rapi dengan disertai contoh-contoh mutakhir dan konkret. •…",
+      "description": "Teks Belakang Buku : “Mustafa Akyol telah menulis kisah tentang perjalanan intelektual yang membuka wacana dan akan menjadi pusat perhatian teman-teman Muslimnya, serta menimbulkan harapan bagi kita non-Muslim di seluruh dunia.” —Jack Miles, Penulis Buku God: A Bioraphy dan God in the Qur’an, yang Memenangkan Pulitzer Prize “Lebih dari sekadar pembelaan yang berapi-api terhadap toleransi dan nalar, Reopening Muslim Minds membawa pembaca pada perjalanan yang benar-benar menyenangkan dan mencerahkan melalui teologi dan hukum Islam. Dengan kecerdasan dan kefasihan yang brilian, Mustafa Akyol telah menulis sebuah buku yang kehadiran dan kekuatannya tak terbantahkan. Buku ini harus menjadi bacaan wajib bagi setiap pengkaji Islam dan Dunia Muslim secara serius.” —Khaled Abou El Fadl, Profesor Hukum terkemuka Fakultas Hukum UCLA, Penulis Buku",
+      "primacy": "Ditulis oleh seorang jurnalis Turki yang cukup populer di semua kalangan. Penulis berusaha mengurai penyebab kejumudan pemikiran di kalangan umat Islam yang terjadi saat ini. Menggunakan bahasa yang mudah dipahami pembaca. Kalimatnya jelas, paragrafnya mengalir, dan gagasannya disusun rapi dengan disertai contoh-contoh mutakhir dan konkret. Penulis melakukan pembelaan terhadap toleransi dan nalar melalui teologi dan hukum Islam.",
+      "about": "MUSTAFA AKYOL adalah anggota senior di Cato Institute, yang berfokus pada Islam dan modernitas. Dia juga penulis opini reguler yang berkontribusi untuk The New York Times sejak 2013, meliputi agama dan politik dalam Dunia Muslim. Buku-buku sebelumnya, Islam Without Extremes (2011) dan The Islamic Jesus (2017), telah diulas dan dipuji oleh The New York Times, The Wall Street Journal, Financial Times, dan The Economist. Islam Without Extremes telah lama terdaftar untuk anugerah sastra Lionel Gelber Prize 2012, sementara dilarang di Malaysia karena menantang otoritas “polisi agama”.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "NA-244",
+          "isbn": "978-623-242-339-8",
+          "weight": "440",
+          "dimensi": [
+            {
+              "panjang": "15",
+              "lebar": "23",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "404",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -543,13 +803,40 @@
       "name": "Makrifat Sakit dan Kematian",
       "image": "/src/assets/img/makrifat_sakit_dan_kematian_thumb_1350.jpg",
       "author": "Haidar Bagir",
+      "publisher": "Noura Books",
       "price": "69.000",
       "discon": "15",
       "category": "Buku Agama Terlaris",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Agama & Spiritualitas"
+        },
+        {
+          "genreTwo": "Spiritualitas"
+        }
+      ],
+      "overview": "Buku ini sejatinya merupakan suatu respons terhadap salah satu persoalan klasik dalam filsafat, yang disebut dengan masalah teodisi atau keadilan Tuhan. Begini rumusannya: jika Tuhan Maha Pengasih dan juga Mahakuasa, kenapa Dia membiarkan ada penderitaan dan keburukan di dunia ini?  Buku ini berupaya menggali makna positif—yang sejalan, dengan sifat Maha…",
+      "description": "Buku ini sejatinya merupakan suatu respons terhadap salah satu persoalan klasik dalam filsafat, yang disebut dengan masalah teodisi atau keadilan Tuhan. Begini rumusannya: jika Tuhan Maha Pengasih dan juga Mahakuasa, kenapa Dia membiarkan ada penderitaan dan keburukan di dunia ini? Buku ini berupaya menggali makna positif—yang sejalan, dengan sifat Maha Pengasih Tuhan—dari penderitaan, sakit, dan kematian, melalui sudut pandang makrifat (tasawuf). Gaya penulisannya yang populer dan akrab, menjadikan pembahasan buku ini mudah dimengerti dan enak dibaca.",
+      "primacy": "Ditulis oleh ahli di bidang tasawuf, Dr. Haidar Bagir. Gaya penulisannya yang populer dan akrab, menjadikan pembahasan buku ini mudah dimengerti dan enak dibaca. Relate dengan kehidupan masa kini. Terdapat muatan hikmah yang berlimpah. Buku ini berupaya menggali makna positif penderitaan, sakit, dan bahkan kematian melalui sudut pandang tasawuf.",
+      "about": "Haidar Bagir lahir di Solo, 20 Februari 1957. Ia meraih S-1 dari Jurusan Teknologi Industri ITB (1982), S-2 dari Pusat Studi Timur Tengah, Harvard University, AS (1992), dan S-3 dari Jurusan Filsafat Universitas Indonesia (UI) dengan riset selama setahun (2000-2001) di Departemen Sejarah dan Filsafat Sains, Indiana University, Bloomington, AS. Nama penerima tiga beasiswa Fulbright ini selama beberapa tahun berturut-turut masuk dalam daftar 500 Most Influential Muslims (The Royal Islamic Strategic Studies Centre, 2011). Di samping itu, ia memperolah beberapa great dan award nasional dan internasional untuk beberapa aktivitasnya. Selain sibuk mengurus yayasan dan menjadi presiden direktur sebuah rumah penerbitan, ia telah menulis buku bestseller: Buku Saku Tasawuf; Buku Saku Filsafat Islam; Buat Apa Shalat; Surga di Dunia, Surga di Akhirat; Islam Risalah Cinta dan Kebahagiaan; Islam Tuhan Islam Manusia; Epistemologi Tasawuf; Semesta Cinta: Pengantar kepada Pimikiran Ibn ‘Arabi; Belajar Hidup dari Rumi; Mereguk Cinta Rumi; Dari Allah Menju Allah, Sains “Religius”, Agama “Saintifik” (bersama Ulil Abshar Abdalla); Catatan untuk Diriku; Sang Belas Kasih; Alkimia Cinta; Manifesto Islam Cinta; Inilah Mazhabku; dan beberapa judul buku lain. Ia juga masih aktif memberikan ceramah keagamaan dan pendidikan di sejumlah tempat; menjadi pembicara di sejumlah seminar keilmuan, khususnya kajian tentang filsafat, tasawuf, dan pemikiran Islam kontemporer. Ia juga pendiri Gerakan Islam Cinta, anggota Dewan Internasional Compassionate Action International, dan Ketua Dewan Pembina Yayasan Amal Khair Yasmin. Haidar juga adalah di antara pendiri sekaligus Ketua Yayasan Lazuardi Hayati yang mengembangkan jaringan sekolah Islam di berbagai wilayah di Indonesia, serta pendiri dan pembina Nuralwala: Pusat Kajian Akhlak dan Tasawuf. Ia juga selama 9 (Sembilan) tahun mengasuh sebuah acara radio mingguan bertajuk Lite is Beautiful di Lite FM. @Haidar_Bagir www.haidarbagir.com",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "NA-247",
+          "isbn": "978-623-242-367-1",
+          "weight": "300",
+          "dimensi": [
+            {
+              "panjang": "13",
+              "lebar": "20",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "216",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -557,13 +844,40 @@
       "name": "Syaikh Nawawi Al Bantani Biografi Sosial Intelektual dan Spiritual",
       "image": "/src/assets/img/syaikh_nawawi_al-bantani_biografi_sosial_intelektual_dan_spiritual_thumb_4548.png",
       "author": "K.H. Zulfa Mustofa",
+      "publisher": "Iiman Real",
       "price": "120.00",
       "discon": "15",
       "category": "Buku Agama Terlaris",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Non Fiksi"
+        },
+        {
+          "genreTwo": "Umum"
+        }
+      ],
+      "overview": "Syaikh Nawawi Al-Bantani adalah sosok ulama Nusantara kelahiran Banten berkaliber internasional. Mendapatkan banyak julukan, di antaranya al-Imam al-Muhaqqiq wa al-Fahhamah al-Mudaqqiq (Imam yang Mumpuni ilmunya), A'yan Ulama al-Qarn al-Rabi' Asyar li al-Hijrah (Tokoh Ulama Abad 14 Hijriyah), hingga Imam Ulama al-Haramain (Imam Ulama Dua Kota Suci). Beliau adalah seorang ulama dan intelektual yang sangat produktif menulis kitab, jumlah…",
+      "description": "Syaikh Nawawi Al-Bantani adalah sosok ulama Nusantara kelahiran Banten berkaliber internasional. Mendapatkan banyak julukan, di antaranya al-Imam al-Muhaqqiq wa al-Fahhamah al-Mudaqqiq (Imam yang Mumpuni ilmunya), A'yan Ulama al-Qarn al-Rabi' Asyar li al-Hijrah (Tokoh Ulama Abad 14 Hijriyah), hingga Imam Ulama al-Haramain (Imam Ulama Dua Kota Suci). Beliau adalah seorang ulama dan intelektual yang sangat produktif menulis kitab, jumlah karyanya tidak kurang dari 115 kitab yang meliputi bidang ilmu fikih, tauhid, tasawuf, tafsir, dan hadis. Buku karya K.H. Zulfa Mustofa ini bisa dikatakan sebagai biografi resmi dan terlengkap yang membahas tuntas sejarah sosial, intelektual, spiritual, sanad guru, jejaring murid, pemikiran kebangsaan, inspirasi semangat antiimperialisme dan kolonialisme Sang Pemimpin Ulama Hijaz ini. Buku ini semakin menarik dan asyik, penulis menyajikan 57 bait nazam dalam Bahar Rajaz menceritakan sejarah hidup singkat Syaikh Nawawi Al-Bantani. Wajib dibaca oleh warga Nahdlatul Ulama dan seluruh masyarakat Indonesia. Endorsement:'Buku ini ditulis oleh K.H. Zulfa Mustofa yang merupakan cicit dari Syaikh Abdullah bin Umar, adik kandung Syaikh Nawawi Al-Bantani. Dalam buku ini dibahas kepribadian Syaikh Nawawi sebagai seorang mahaguru dari para ulama Jawi (Indonesia sekarang) dan pengaruh intelektual serta dakwahnya. Kontribusi besar Syaikh Nawawi dalam menyebarkan paham Ahlussunnah wal Jama’ah dan berdirinya berbagai organisasi keislaman di Indonesia melalui karya-karya dan murid-muridnya juga dibahas dalam buku ini. Di samping itu, buku ini mengulas peran Syaikh Nawawi dalam menanamkan semangat nasionalisme kepada generasi Indonesia melalui kata-kata dan karya-karyanya. Buku ini memiliki peran besar dalam menghidupkan kekayaan intelektual keislaman di negara kita, Indonesia. Buku ini juga memiliki kedudukan istimewa, khususnya bagi para santri pondok pesantren yang sedang mempelajari karya-karya Syaikh Nawawi Al-Bantani'.",
       "primacy": "",
-      "qty": 0
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "XS-28",
+          "isbn": "978-602-8648-38-7",
+          "weight": "400",
+          "dimensi": [
+            {
+              "panjang": "14",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "440",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -571,13 +885,40 @@
       "name": "Tuhan Maha Asyik 2",
       "image": "./src/assets/img/tuhan_maha_asyik_2_thumb_1512.jpg",
       "author": "SUJIWO TEJO & DRAMAWAN",
+      "publisher": "Iiman Real",
       "price": "90.000",
       "discon": "15",
       "category": "Buku Agama Terlaris",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Agama & Spiritualitas"
+        },
+        {
+          "genreTwo": "Umum"
+        }
+      ],
+      "overview": "Agama bukan untuk dibicarakan. Apalagi dibicarakan cuma dalam bahasa kata. Ia laksana napas bagi awam yang senantiasa bernapas tanpa membicarakannya. Kitab suci diturunkan bukan untuk dipenjara dalam bahasa kata. Agama dan kitab suci dihadirkan Tuhan untuk disejiwai dan disebadani oleh seisi alam dengan berbagai macam bahasa—bahasa lukisan, bahasa musik, bahasa…",
+      "description": "Agama bukan untuk dibicarakan. Apalagi dibicarakan cuma dalam bahasa kata. Ia laksana napas bagi awam yang senantiasa bernapas tanpa membicarakannya. Kitab suci diturunkan bukan untuk dipenjara dalam bahasa kata. Agama dan kitab suci dihadirkan Tuhan untuk disejiwai dan disebadani oleh seisi alam dengan berbagai macam bahasa—bahasa lukisan, bahasa musik, bahasa aroma, dan lain-lain bahasa bahkan bahasa keheningan—bukannya diributkan dalam perkelahian persepsi dan cuma dalam bahasa kata. Tapi, amit-amit, fakta yang jamak berlangsung kini malah: Agama dimonopoli golongan tertentu, lalu Tuhan ditunggangi untuk melegitimasi syahwat politik berkedok agama, bersenjatakan tusukan bahasa kata-kata di atas mimbar. Pesan-pesan miris inilah yang dihadirkan Sujiwo Tejo dan Dr. Muhammad Nursamad Kamba dalam sekuel Tuhan Maha Asyik ini. Kritik dalam buku ini, seperti edisi sebelumnya, dibangun dengan arif. Hadir melalui kisah-kisah lincah tentang kemerdekaan berpikir ala bocah-bocah yang nama-namanya mewakili berbagai keyakinan, seperti Christine, Parwati, Dharma, Samin, Kapitayan, Buchori, dan Pangestu, yang diimbangi kearifan Bu Guru Matematika dan Pak Guru Biologi dalam “angon” murid-muridnya yang sangat independen itu. Dan, ditutup dengan hikmah tentang kasih sayang Tuhan yang meliputi segala sesuatu. Tuhan adalah Kebaikan Absolut. Ia senantiasa mencipta tanpa jeda, sebagai wujud cinta pada makhluk-makhluk yang bersedia takluk pada kasih dan sayang-Nya. Cinta Tuhan tak terbatas ruang dan waktu. Dia Maha Asyik Sekali—sejauh manusia tidak kurang ajar, dengan nekat mempersepsikan-Nya, yang ujung-ujungnya malah mengajak Dia ribut. “Nursamad Kamba dan Sujiwo Tejo, dua ‘musafir di jalan Allah’, merasa perlu menegaskan ‘keasyikan’ Allah dengan mempersembahkan buku mereka, Tuhan Maha Asyik 2 ini, boleh jadi karena — atau terutama karena — melihat fenomena maraknya kelakuan mereka yang menganggap diri pemeluk paling teguh terhadap agama Tuhan dan menganggap orang lain sebagai hamba yang sesat karena tidak seperti mereka. Kelakuan yang sama sekali tidak asyik. Melihat mereka yang keasyikan beragama hingga tak melihat Tuhan Sang Pemilik Agama, Tuhan Yang Maha Asyik.”",
       "primacy": "",
-      "qty": 0
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "XT-36",
+          "isbn": "978-602-7926-53-0",
+          "weight": "350",
+          "dimensi": [
+            {
+              "panjang": "0",
+              "lebar": "0",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "366",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -585,13 +926,37 @@
       "name": "Kun Fayakun Menembus Palestina",
       "image": "./src/assets/img/kun_fayakun_menembus_palestina_thumb_4122.jpg",
       "author": "KHADIJAH PEGGY MELANI",
+      "publisher": "Noura Books",
       "price": "135.000",
       "discon": "15",
       "category": "Buku Agama Terlaris",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Lain - Lain"
+        }
+      ],
+      "overview": "“Maafkan, kami, mestinya bisa membantu lebih cepat mengirimkan materi foto dan lainnya yang sudah kami kumpulkan semampu kami. Tapi ..., kami tidak punya listrik. Listrik sedang susah sekali. Let me looking for electricity today and try to send everything we have for your book.” Kutipan di atas adalah pesan SMS…",
+      "description": "“Maafkan, kami, mestinya bisa membantu lebih cepat mengirimkan materi foto dan lainnya yang sudah kami kumpulkan semampu kami. Tapi ..., kami tidak punya listrik. Listrik sedang susah sekali. Let me looking for electricity today and try to send everything we have for your book.” Kutipan di atas adalah pesan SMS dari Jalur Gaza yang menggambarkan betapa untuk mengirim email saja begitu sulit. Bukan hanya itu, mereka hidup bagai dalam penjara besar yang dibatasi dengan dinding-dinding tebal dan kokoh. Untuk keluar dari wilayahnya, mereka harus melewati pos-pos militer Israel yang ketat dan tanpa kompromi, bahkan berisiko mati jika gerakan mereka dicurigai. Selain itu, rumah yang mereka tinggali rata-rata hancur sebagian karena dibombardir Israel. Masih banyak lagi kisah sedih mereka, warga Palestina, yang disaksikan langsung oleh Penulis. Buku ini menggambarkan betapa sulitnya kehidupan mereka di bawah tekanan Israel. Banyak hal yang terjadi di sana yang tak pernah kita bayangkan terjadi di era milenium ini, yang bisa membuat kita tercekat haru saat membacanya.",
       "primacy": "",
-      "qty": 0
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "NA-157",
+          "isbn": "9786023853168",
+          "weight": "400",
+          "dimensi": [
+            {
+              "panjang": "0",
+              "lebar": "0",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "444",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -599,13 +964,40 @@
       "name": "What Is Religious authority",
       "image": "./src/assets/img/what_is_religious_authority_thumb_4810.jpg",
       "author": "ISMAIL FAJRIE ALATAMA",
+      "publisher": "Bentang Pustaka",
       "price": "175.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Sosial & Politik"
+        },
+        {
+          "genreTwo": "Budaya"
+        }
+      ],
+      "overview": "“Alatas telah menulis salah satu buku terpenting mengenai Islam di Indonesia selama bertahun-tahun.” —Robert W. Hefner, Journal of Islamic Studies   “Sebuah pencapaian luar biasa. Alatas memiliki visi holistik yang diperkaya oleh naluri akan masa lalu seorang sejarawan dan wawasan etnografer yang kaya ke masa kini. —Webb Keane, penulis Ethical…",
+      "description": "“Alatas telah menulis salah satu buku terpenting mengenai Islam di Indonesia selama bertahun-tahun.”  —Robert W. Hefner, Journal of Islamic Studies. “Sebuah pencapaian luar biasa. Alatas memiliki visi holistik yang diperkaya oleh naluri akan masa lalu seorang sejarawan dan wawasan etnografer yang kaya ke masa kini.   —Webb Keane, penulis Ethical Life: Its Natural and Social Histories. “What Is Religious Authority? ditakdirkan menjadi sebuah buku klasik.”  —Magnus Marsden, penulis Trading Worlds: Afghan Merchants Across Modern Frontiers. What Is Religious Authority? mengangkat wawasan unik Ismail Fajrie Alatas sebagai antropolog dan sejarawan dalam memberikan pemahaman baru tentang otoritas keagamaan dalam Islam. Dalam buku ini, Alatas menelusuri pergerakan para wali dan ulama Bâ ‘Alawî (para Habib/Haba’ib) dari Hadramaut, Yaman ke Jawa, Indonesia, sejak abad ke-18 hingga saat ini. Para tokoh ini melintasi medan kultural yang kompleks dan membangun saluran untuk menyampaikan ajaran Nabi Muhammad Saw. beserta perwujudan sosialnya sebagai sunnah. Menantang konsepsi yang berlaku tentang apa artinya menjadi Muslim, What Is Religious Authority? menunjukkan bahwa kerja penerjemahan, mobilisasi, kolaborasi, dan kompetisi yang berkesinambungan merupakan dinamika yang memberi Islam kekuatan dan keragaman. ENDORSEMENT  “Sebuah studi yang sangat orisinal tentang kerja artikulasi di Jawa. Alatas telah menulis salah satu buku terpenting mengenai Islam di Indonesia selama bertahun-tahun. Karyanya sangat layak menjadi referensi utama bagi semua peneliti Islam dan otoritas Islam.” —Robert W. Hefner, Journal of Islamic Studies.  “Sebuah pencapaian luar biasa. Alatas memiliki visi holistik yang diperkaya oleh naluri akan masa lalu seorang sejarawan dan wawasan etnografer yang kaya ke masa kini. Ia sukses melahirkan gabungan yang unik dan langka, bersikap adil baik pada universalitas klaim kenabian di satu sisi maupun partikularitas perjuangan manusia untuk mewujudkannya.”   —Webb Keane, penulis Ethical Life: Its Natural and Social Histories. “Buku yang inovatif ini mengembangkan pendekatan analisis yang unik untuk memahami proses yang terus berlangsung di tempat komunitas Muslim didirikan oleh sosok-sosok otoritatif yang bertindak di dalam konteks politik dan budaya yang lebih luas. What Is Religious Authority? ditakdirkan menjadi sebuah buku klasik.” —Magnus Marsden, penulis Trading Worlds: Afghan Merchants Across Modern Frontiers.  “Enak dibaca. Alatas menempatkan Jawa dalam jejaring yang menghubungkan Samudra Hindia yang terislamisasi, membawa Jawa ke garis depan sembari menceritakan sejarah yang lebih luas.” —Chiara Formichi, penulis Islam and Asia: A History “Penulis melakukan pekerjaan luar biasa dalam memusatkan perhatian pada universalitas Islam, yang intinya adalah mengartikulasikan sunnah dan komunitas secara konsisten. Meskipun setiap realitas sosial Islam unik dan mungkin berbeda satu sama lain, semuanya secara historis terikat dan berevolusi dari satu momen fondasional kinerja Kenabian. Buku ini harus menjadi perhatian penting bagi para sarjana studi Asia Tenggara, pakar studi Islam, dan pembaca yang tertarik pada sosiologi dan antropologi agama.”—Asif Mohiuddin, Public Anthropologist “Studi paling detail tentang kiprah tokoh-tokoh Hadrami dalam mereproduksi Islam.”—Huub de Jonge, In Search of Identity",
       "primacy": "",
-      "qty": 0
+      "about": "Ismail Fajrie Alatas lahir di Semarang pada 1983. Dia menamatkan pendidikan S-1 (Sejarah) di University of Melbourne, S-2 (Sejarah) di National University of Singapore, dan S-3 (Sejarah dan Antropologi) di University of Michigan, Ann Arbor. Saat ini, dia menjabat sebagai associate professor dalam Studi Islam, Timur Tengah, dan Sejarah di New York University. Alatas juga merupakan associate editor Journal of the Royal Asiatic Society, lifetime fellow di The Royal Aal al-Bayt Institute for Islamic Thought, Jordan, dan pengurus Lakpesdam PBNU. Selain rutin menulis artikel ilmiah yang diterbitkan di berbagai jurnal akademik internasional, Alatas juga menerbitkan beberapa buku dalam bahasa Indonesia, di antaranya: Renungan Seorang Pemuda Muslim di Tengah Kemurungan (Teraju-Mizan, 2005), Sungai Tak Bermuara: Risalah Konsep Ilmu dalam Islam (Diwan, 2006), dan Al-Rashafat: Percikan Cinta para Kekasih (Bunyan-Bentang Pustaka, 2013). Alatas dapat diikuti di Twitter dan Instagram: @ifalatas.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "BS-551",
+          "isbn": "978-602-441-331-6",
+          "weight": "450",
+          "dimensi": [
+            {
+              "panjang": "15",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "416",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -613,13 +1005,40 @@
       "name": "Kado Untuk Bangsa",
       "image": "./src/assets/img/kado_untuk_bangsa_thumb_4530.jpg",
       "author": "Audrey Yu Jia Hui",
+      "publisher": "Bentang Pustaka",
       "price": "54.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Sosial & Politik"
+        },
+        {
+          "genreTwo": "Budaya"
+        }
+      ],
+      "overview": "Tergerak oleh berbagai kerusuhan yang dipicu isu “penistaan agama” di berbagai belahan Nusantara pada 2016–2017 silam, Audrey Yu Jia Hui--yang dijuluki gadis jenius Indonesia karena meraih gelar sarjana pada usia 16 tahun--bertekad untuk mempelajari semua agama yang dianut masyarakat Indonesia secara objektif dan mendalam. Audrey berhasil diterima program Magister (S-2)…",
+      "description": "Tergerak oleh berbagai kerusuhan yang dipicu isu “penistaan agama” di berbagai belahan Nusantara pada 2016–2017 silam, Audrey Yu Jia Hui--yang dijuluki gadis jenius Indonesia karena meraih gelar sarjana pada usia 16 tahun--bertekad untuk mempelajari semua agama yang dianut masyarakat Indonesia secara objektif dan mendalam. Audrey berhasil diterima program Magister (S-2) Ilmu Agama, jurusan Agama Dunia (World Religions), dengan beasiswa penuh di salah satu universitas terbaik dunia dalam bidang ilmu agama: University of Notre Dame, Indiana, Amerika Serikat.Pada beberapa situasi, agama dan kepercayaan kerap dijadikan alasan untuk memicu pertikaian. Padahal semua agama mengajarkan cinta kasih demi menggapai kebahagiaan sejati. Dan segala kebhinekaan yang ada di Indonesia justru merupakan modal besar untuk mewujudkan kekuatan sebuah bangsa. Semua sudah termaktub dalam dasar negara kita: Pancasila. Bagi Audrey, Pancasila bukan sekadar lambang atau teks yang wajib dihapal tapi alpa diamalkan. Ada begitu banyak rumusan mulia yang manjur diterapkan sebagai pencegah prasangka. Dalam buku ini, Audrey membedah esensi Pancasila dan Agama yang mampu menjernihkan akal dan menghangatkan hati kita semua.",
       "primacy": "",
-      "qty": 0
+      "about": "Audrey Yu Jia Hui adalah salah satu permata bangsa yang menyelesaikan pendidikan S-1 jurusan Fisika pada usia 16 tahun (summa cum laude) di The College of William and Mary, Virginia, Amerika Serikat. Dia merupakan anggota Phi Beta Kappa, sebuah organisasi yang mengakomodasi orang-orang dengan prestasi di bidang ilmu pengetahuan. Dia juga telah menyelesaikan pendidikan S-2 Ilmu Agama, jurusan Agama Dunia (World Religion) di University of Notre Dame, Indiana, Amerika Serikat. Sejak kecil, Audrey sudah sangat cinta pada Indonesia. Pada 2017, dia pun diangkat sebagai salah satu Ikon Pancasila. Karya-karya Audrey yang lain sudah masuk di seluruh perpustakaan, baik nasional maupun internasional, termasuk Harvard, Yale, Cornell, National Library of Australia, ISEAS -Yusuf Ishak Institute, The Library of Congress, Leiden University, UC Berkeley, University of Wisconsin-Madison, dan lain-lain.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "BB-534",
+          "isbn": "978-623-186-293-8",
+          "weight": "230",
+          "dimensi": [
+            {
+              "panjang": "13",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "148",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -627,13 +1046,40 @@
       "name": "Orang Makan Orang",
       "image": "./src/assets/img/orang_makan_orang_thumb_2905.jpg",
       "author": "SENO GUMIRA AJIDARMA",
+      "publisher": "Mizan Publishing",
       "price": "89.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Fiksi"
+        },
+        {
+          "genreTwo": "Sosial & Politik"
+        }
+      ],
+      "overview": "“Tiada apa pun yang dengan sendirinya benar—perjuangan makna, dengan segala kibulnyalah, yang meng-ada-kannya.”   Karena selalu dimaknai secara sempit sebagai pertarungan antarpartai politik demi memperebutkan kekuasaan, politik sering kali dianggap sebagai dunia kibul-kibul. Bahkan, dianggap sebagai tempat yang buruk untuk hidup. Padahal, perebutan untuk menang dan berkuasa, dalam segala arti…",
+      "description": "“Tiada apa pun yang dengan sendirinya benar—perjuangan makna,dengan segala kibulnyalah, yang meng-ada-kannya.” Karena selalu dimaknai secara sempit sebagai pertarungan antarpartai politik demi memperebutkan kekuasaan, politik sering kali dianggap sebagai dunia kibul-kibul. Bahkan, dianggap sebagai tempat yang buruk untuk hidup. Padahal, perebutan untuk menang dan berkuasa, dalam segala arti dan dengan segala cara, juga berlangsung di luar dunia politik. Dari sidang pengadilan sampai bencana pandemi, dari sinema sampai agama, dari wayang sampai sejarah, dari ekonomi sampai susastra, dari dunia militer sampai kriminal, dari humor sampai sepak bola, dari panggung politik itu sendiri sampai di dalam rumah tangga. Dalam buku Orang Makan Orang ini, Seno Gumira Ajidarma mencoba menunjukkan siasat, konsep, dan ideologi dari berbagai manuver dalam kehidupan politik sehari-hari—sekadar agar manipulasi itu terbongkar. Manipulasi demi tujuan politik mana pun perlu diketahui, sebab manipulasi itu tentu tersembunyi—sehingga tiada kesetaraan antara yang tahu dan tidak tahu.",
       "primacy": "",
-      "qty": 0
+      "about": "Seno Gumira Ajidarma adalah penulis yang telah menghasilkan sejumlah buku maupun artikel-artikel di media cetak dan elektronik. Di antaranya: Tiada Ojek di Paris (Mizan, 2015), Jejak Mata: Pyongyang (Muffin Graphics, 2015), dan Jokowi, Sangkuni, Machiavelli (Mizan, 2016).",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "UC-116",
+          "isbn": "978-602-441-334-7",
+          "weight": "390",
+          "dimensi": [
+            {
+              "panjang": "15",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "280",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -641,13 +1087,40 @@
       "name": "Lessons In Chemistry",
       "image": "./src/assets/img/lessons_in_chemistry_thumb_0857.jpg",
       "author": "Bonnie Gamos",
+      "publisher": "Bentang Pustaka",
       "price": "159.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Fiksi"
+        },
+        {
+          "genreTwo": "Novel"
+        }
+      ],
+      "overview": "Elizabeth Zott terbiasa terluka sejak muda. Meskipun diremehkan, difitnah, dilecehkan, dan dijegal langkahnya oleh para lelaki di laboratoriumnya, Elizabeth Zott terus bertekad membuktikan bahwa dia kimiawan berbakat. Tak ada yang mendukungnya, kecuali Calvin Evans, si genius pendendam yang disegani semua orang. Akan tetapi, hidup tak pernah berhenti memberi kejutan. Apron…",
+      "description": "Elizabeth Zott terbiasa terluka sejak muda. Meskipun diremehkan, difitnah, dilecehkan, dan dijegal langkahnya oleh para lelaki di laboratoriumnya, Elizabeth Zott terus bertekad membuktikan bahwa dia kimiawan berbakat. Tak ada yang mendukungnya, kecuali Calvin Evans, si genius pendendam yang disegani semua orang.Akan tetapi, hidup tak pernah berhenti memberi kejutan. Apron menggantikan jas laboratorium, panci menggusur tabung reaksi. Siapa sangka perempuan itu akan menjadi bintang acara masak paling populer di Amerika? Saat berbagai masalah menghampiri, kapasitasnya sebagai ibu tunggal ikut dipertanyakan. Tidak sedikit yang menentangnya. Namun, apakah akhirnya dia gagal? Jangan bercanda. Dia Elizabeth Zott, bukan wanita biasa. Dia kimiawan yang akan mengubah hidup semua orang. Dengan kimia, dia sanggup melakukan apa saja.",
+      "primacy": "Menduduki daftar New York Times Bestseller sejak terbit pertama di April 2022 Termasuk buku Amazon Charts Bestseller dalam kategori Humor & Fiksi Nominasi Goodreads Choice Award for Best Debut Novel pada 2022 Mendapatkan bintang dari media ulasan terkemuka di AS, yaitu Kirkus Review Diadaptasi ke dalam serial televisi oleh Sony Pictures Televivision Perkembangan karakter yang kuat, bukan hanya tokoh utama, tetapi juga tokoh-tokoh di sekelilingnya manjadi sosok yang lebih berani dan nyaman dengan diri sendiri. Penuh dengan kejutan yang akan membuat pembaca terus penasaran sampai akhir Mengangkat banyak isu sosial, utamanya kesetaraan gender dalam dunia sains dan teknologi Meskipun isu-isu yang disampaikan cukup serius, penyampaiannya jauh dari kesan menggurui, malah cenderung konyol dan menghibur Terjual lebih dari 6 juta kopi di seluruh dunia",
+      "about": "Bonnie Garmus adalah copywriter dan direktur kreatif yang bekerja secara luas di bidang teknologi, kedokteran, dan pendidikan. Dia perenang perairan terbuka, pedayung, dan ibu dua anak perempuan yang luar biasa. Lahir di California dan cukup lama tinggal di Seattle, dia saat ini bermukim di London bersama suami dan anjingnya, 99",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "BZ-508",
+          "isbn": "978-623-186-278-5",
+          "weight": "550",
+          "dimensi": [
+            {
+              "panjang": "13",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "524",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -655,13 +1128,37 @@
       "name": "Krak! Krak! Krak",
       "image": "./src/assets/img/krak_krak_krak_bilingual_thumb_1847.jpg",
       "author": "Benny Rhamdani",
+      "publisher": "DAR",
       "price": "59.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Keluarga"
+        }
+      ],
+      "overview": "Bayi Komodo terbangun. Ia tertidur sangat lama di dalam telurnya. Saat keluar dari dalam telur itu, Bayi Komodo bertemu banyak makhluk menyeramkan. Wah, siapa, ya … makhluk-makhluk tersebut? Baby Komodo wakes up from his long sleep inside his eggshell. He sees a lot of scary creatures as he peeks…",
+      "description": "Bayi Komodo terbangun. Ia tertidur sangat lama di dalam telurnya. Saat keluar dari dalam telur itu, Bayi Komodo bertemu banyak makhluk menyeramkan. Wah, siapa, ya … makhluk-makhluk tersebut? Baby Komodo wakes up from his long sleep inside his eggshell. He sees a lot of scary creatures as he peeks out of his shell. Guess who those creatures are!",
       "primacy": "",
-      "qty": 0
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "GP-495",
+          "isbn": "978-602-472-452-8",
+          "weight": "250",
+          "dimensi": [
+            {
+              "panjang": "21",
+              "lebar": "29",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "24",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -669,13 +1166,37 @@
       "name": "Belanja Bersama Ayah",
       "image": "./src/assets/img/belanja_bersama_ayah_bilingual_thumb_3717.jpg",
       "author": "Rei El Tsurayya A.",
+      "publisher": "Dar",
       "price": "59.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Keluarga"
+        }
+      ],
+      "overview": " Seekor kucing bernama Lopi dan ayahnya berbelanja ke supermarket. Mereka akan membuat hidangan istimewa untuk Ibu. Lopi lalu kehilangan Ayah di dalam supermarket yang luas tersebut. Tapi, Lopi punya ide untuk menemukan Ayah di tengah keramaian. Apa, ya ... ide Lopi itu?   Lopi the cat went grocery shopping with…",
+      "description": "Seekor kucing bernama Lopi dan ayahnya berbelanja ke supermarket. Mereka akan membuat hidangan istimewa untuk Ibu. Lopi lalu kehilangan Ayah di dalam supermarket yang luas tersebut. Tapi, Lopi punya ide untuk menemukan Ayah di tengah keramaian. Apa, ya ... ide Lopi itu? Lopi the cat went grocery shopping with her Dad. They wanted to prepare a special dish for Mom. Lopi lost her Dad in the spacious supermarket. But then she had thought of an idea on how to find her Dad in the crowd. What would the idea be?",
+      "primacy": "Mengenalkan kepada pembaca: Mengajarkan kebersamaan bersama ayah. Mengajarkan kerja sama. Mengajarkan cara memahami keadaan sekitar. Mengajarkan keberanian untuk bertanya dan meminta bantuan kepada orang lain. Mengajarkan bersikap tenang dan sistematis. Mengajarkan berpikir kritis dalam menghadapi masalah.",
+      "about": "Rei El Tsurayya A. (Kak Rei) adalah nama pena dari Ismayani. Kakak berdarah Sumatra Utara ini menyelesaikan Sarjana Psikologinya di UPI “YPTK” Padang. Ia menyukai buku dan senang menuntut ilmu. Kariernya dimulai sebagai editor buku-buku anak di Penerbit Bestari Buana Murni pada 2012. Sejak itu, ia mulai aktif menulis buku-buku anak dan buku penunjang pembelajaran PAUD.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "GP-493",
+          "isbn": "978-602-472-450-4",
+          "weight": "250",
+          "dimensi": [
+            {
+              "panjang": "21",
+              "lebar": "29",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "24",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -683,13 +1204,37 @@
       "name": "Ori Si Pemberani",
       "image": "./src/assets/img/ori_si_pemberani_bilingual_thumb_4426.jpg",
       "author": "Irawati Subrata",
+      "publisher": "Dar",
       "price": "59.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Binatang"
+        }
+      ],
+      "overview": "Ori, orang utan yatim-piatu, tinggal di tempat penampungan. Ori berlatih memanjat pohon dan bertahan hidup di hutan bersama Ito. Suatu hari, Ori mendapati dirinya sendirian di dalam hutan, jauh dari tempat penampungan. Ikuti petualangan pertama Ori di dalam hutan liar! Ori, an orphan orangutan, lives in sanctuary. He learn show to climb…",
+      "description": "Ori, orang utan yatim-piatu, tinggal di tempat penampungan. Ori berlatih memanjat pohon dan bertahan hidup di hutan bersama Ito. Suatu hari, Ori mendapati dirinya sendirian di dalam hutan, jauh dari tempat penampungan. Ikuti petualangan pertama Ori di dalam hutan liar! Ori, an orphan orangutan, lives in sanctuary. He learn show to climb trees and how to survive in the jungle with Ito. One day, he finds himself alone in the jungle, away from the sanctuary. Let’s follow his adventure in the wild jungle for the first time!",
+      "primacy": "Mengenalkan kepada pembaca, Mengenalkan hewan endemik Indonesia, Mengajarkan cara memahami keadaan sekitar. Mengajarkan keberanian untuk bertanya dan meminta bantuan kepada orang lain. Mengajarkan bersikap tenang dan sistematis. Mengajarkan berpikir kristis dalam menghadapi masalah.",
+      "about": "Irawati Subrata, seorang Sarjana Matematika yang sangat menyukai dunia buku dan membaca, mulai genre klasik hingga fiksi sains. Saat ini, ia bekerja sebagai editor lepas untuk novel remaja dan dewasa, serta buku cerita anak bergambar. Ia juga memiliki minat khusus terhadap alam dan lingkungan yang menginspirasi karya pertamanya ini.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "GP-494",
+          "isbn": "978-602-472-454-2",
+          "weight": "250",
+          "dimensi": [
+            {
+              "panjang": "21",
+              "lebar": "29",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "24",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -697,13 +1242,37 @@
       "name": "SCB: Aku Tidak Suka Memukul",
       "image": "./src/assets/img/scb_aku_tidak_suka_memukul_-_bilingual_boardbook_thumb_1348.jpg",
       "author": "Rien Nur Azizah",
+      "publisher": "Dar",
       "price": "79.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Board Books"
+        }
+      ],
+      "overview": "Saat bermain, Kiki memukul Timi. Kiki juga suka memukul-mukul Ayah. Ayah pun membelikan sesuatu agar Kiki tidak suka memukul lagi. Wah, Ayah membelikan apa, ya? Kita baca bersama ceritanya, yuk! Kiki hit Timi during their playdate. Kiki hit his Dad, too. His Dad bought him something, so he won’t hit…",
+      "description": "Saat bermain, Kiki memukul Timi. Kiki juga suka memukul-mukul Ayah. Ayah pun membelikan sesuatu agar Kiki tidak suka memukul lagi. Wah, Ayah membelikan apa, ya? Kita baca bersama ceritanya, yuk! Kiki hit Timi during their playdate. Kiki hit his Dad, too. His Dad bought him something, so he won’t hit others anymore. What could it be? Let’s read the story!",
+      "primacy": "Buku ini disajikan dengan bilingual atau dua bahasa, yaitu bahasa Indonesia dan Inggris. Buku ini bisa menjadi media yang tepat untuk mengenalkan kepada anak agar saling menyayangi. Cerita dan dialog dalam buku mudah dipahami oleh anak. Ilustrasi full colour, lucu, dan menggemaskan yang tentunya disukai oleh anak-anak. Format buku boardbook yang tebal sehingga tidak mudah sobek dengan ujung rounded yang tidak tajam serta aman bagi anak.",
+      "about": "Rien Nur Azizah, seorang penulis sekaligus konseptor buku yang sudah banyak menulis dan mengonsep buku-buku anak islami yang interaktif. Buku-buku karyanya mempunyai banyak keunggulan yang menarik dan bermanfaat tidak hanya bagi si Kecil, tetapi juga bagi orangtua yang memandu anak-anaknya di rumah. Penulis bisa dihubungi melalui surelnya: rien.editor@gmail.com atau akun Instagram-nya @riennurazizah.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "RA-481",
+          "isbn": "978-623-254-435-2",
+          "weight": "480",
+          "dimensi": [
+            {
+              "panjang": "17",
+              "lebar": "17",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "20",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -711,13 +1280,37 @@
       "name": "My First Book Of 101 Animals Boardbook",
       "image": "./src/assets/img/my_first_book_of_101_animals_boardbook_thumb_3704.jpg",
       "author": "Hafizh Nurul Faizah",
+      "publisher": "Bentang Pustaka",
       "price": "79.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Board Books"
+        }
+      ],
+      "overview": "Buku ini disusun untuk menjadi pilihan pertama bagi orang tua yang ingin mengenalkan binatang kepada anaknya. Ditulis berkelompok sehingga memudahkan anak untuk memahami isi. Selain itu, buku ini dilengkapi dengan kosakata bahasa inggris, sebagai sarana untuk mengajak anak belajar bahasa asing sejak dini. Menggunakan foto gambar nyata,supaya anak lebih terbantu…",
+      "description": "Buku ini disusun untuk menjadi pilihan pertama bagi orang tua yang ingin mengenalkan binatang kepada anaknya. Ditulis berkelompok sehingga memudahkan anak untuk memahami isi. Selain itu, buku ini dilengkapi dengan kosakata bahasa inggris, sebagai sarana untuk mengajak anak belajar bahasa asing sejak dini. Menggunakan foto gambar nyata,supaya anak lebih terbantu dan terasah imajinasi serta pemahamannya akan binatang di dunia dan khususnya yang ada di sekitar mereka. Dilengkapi fakta menarik untuk belajar sains sederhana.",
+      "primacy": "Seri keempat dari seri “My First Book”, sebagai rujukan baca pertama bagi balita Media bagi orang tua untuk mengenalkan anak pada binatang di sekelilingnya. Menggunakan foto asli/gambar nyata, membantu anak mengasah imajinasi dan pemahaman akan binatang di dunia, khususnya binatang di sekeliling mereka Menggunakan bahasa Inggris dan Indonesia, menjadi media bagi orang tua untuk mengajarkan dan mengenalkan bahasa asing kepada anak sejak dini. Binatang dikelompokkan berdasarkan habitat dan kelompoknya (di sekeliling kita, yang bisa terbang), melatih anak untuk berkenalan dengan klasifikasi hewan. Dilengkapi worksheet mewarnai binatang yang bisa diakses melalui barcode. Dilengkapi fakta menarik binatang untuk belajar sains sederhana bagi anak. Buku bisa ditulis-hapus menggunakan spidol. Merangsang kecerdasan visual, linguistik, dan imajinasi anak. Bahan buku yang tidak mudah rusak dan robek. Buku berusia lama, dengan bahan yang awet sehingga bisa diteruskan untuk saudara yang membutuhkan jika anak sudah bertambah dewasa.",
+      "about": "Hafizh Nurul Faizah adalah seorang pembaca buku yang menyukai dunia literasi anak. Baginya, anak-anak adalah harta karun yang menyimpan banyak sekali keajaiban lewat imajinasi dan cerita-cerita mereka. Menyukai buku sejak kecil, yakni sejak kenal Julian dan saudara-saudaranya di cerita Lima Sekawan. Saat kecil, menyukai cerita detektif dan petualangan. Sekarang buku-buku favoritnya adalah fiksi apapun yang menyenangkan untuk dibaca, disamping buku-buku anak yang menjadi makanannya--tentu saja",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "BX-668",
+          "isbn": "978-623-186-284-6",
+          "weight": "480",
+          "dimensi": [
+            {
+              "panjang": "17",
+              "lebar": "17",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "20",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -725,13 +1318,37 @@
       "name": "Komik Next G Vol 563 Jujur Sejak Kecil",
       "image": "./src/assets/img//komik_next_g_vol_563_jujur_sejak_kecil_thumb_3628.jpg",
       "author": "Bryan Kwan & Puja",
+      "publisher": "Curhat anak bangsa",
       "price": "39.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
+      "genres": [
+        {
+          "genreOne": "Budaya"
+        }
+      ],
+      "overview": "Kak Budi dan Adik menemukan dompet yang terjatuh di jalan. Setelah mereka cek, ternyata di dalamnya ada beberapa lembar uang dan juga kartu identitas. Kebetulan sekali, mereka ingin jajan tapi lupa membawa uang. Apakah mereka akan memilih memakai dulu uang yang ada di dompet itu untuk jajan atau mencari alamat…",
+      "description": "Kak Budi dan Adik menemukan dompet yang terjatuh di jalan. Setelah mereka cek, ternyata di dalamnya ada beberapa lembar uang dan juga kartu identitas. Kebetulan sekali, mereka ingin jajan tapi lupa membawa uang. Apakah mereka akan memilih memakai dulu uang yang ada di dompet itu untuk jajan atau mencari alamat pemilik dompetnya, ya? ",
       "primacy": "",
-      "qty": 0
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "MC-1501",
+          "isbn": "978-623-150-055-7",
+          "weight": "200",
+          "dimensi": [
+            {
+              "panjang": "15",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "88",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -739,13 +1356,37 @@
       "name": "Seri Panduan Anak Muslim Shalat Yuk Panduan Shalat Wudhu dan Zikir",
       "image": "./src/assets/img/seri_panduan_anak_muslim_shalat_yuk_panduan_shalat_wudu_dan_zikir_thumb_2931.png",
       "author": "ALI ABDULLAH",
+      "publisher": "Bentang Pustaka",
       "price": "54.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Agama"
+        }
+      ],
+      "overview": "Melalui haditsnya, Rasulullah bersabda supaya para orang tua mengajarkan shalat kepada anaknya sejak usia tujuh tahun. Buku ini merupakan pilihan terbaik untuk menjadi media bagi orang tua dalam mengajarkan shalat kepada anak-anak. Disusun dengan ilustrasi gerakan shalat yang memudahkan anak untuk menirunya. Buku ini juga dilengkapi dengan bacaan dzikir sesudah…",
+      "description": "Melalui haditsnya, Rasulullah bersabda supaya para orang tua mengajarkan shalat kepada anaknya sejak usia tujuh tahun. Buku ini merupakan pilihan terbaik untuk menjadi media bagi orang tua dalam mengajarkan shalat kepada anak-anak. Disusun dengan ilustrasi gerakan shalat yang memudahkan anak untuk menirunya. Buku ini juga dilengkapi dengan bacaan dzikir sesudah shalat, sebagai media untuk menumbuhkan kebiasaan beribadah pada anak. Serta dilengkapi bacaan Al-Ma’tsurat (zikir-zikir Rasulullah) dan bonus beberapa doa sehari-hari. Segera miliki buku ini, dan tumbuhkan kebiasaan beribadah tanpa paksaan pada anak!",
+      "primacy": "Media bagi orang tua untuk mengenalkan dan mengajarkan anaknya wudu dan salat, serta bacaan zikir setelah shalat. Disertai transliterasi arab-latin, memudahkan anak membaca dan menghafal bacaan shalat, serta bacaan zikir yang tertulis dalam bahasa arab. Dilengkapi dengan ilustrasi gerakan shalat dan wudhu, serta penjelasan rincinya. Memudahkan anak dalam proses belajar dan mempraktikkan. Menumbuhkan kebiasaan untuk berzikir dan berdoa setelah sholat.Sebagai media untuk mengajarkan dan menumbuhkan cinta ibadah sejak dini. Mengajarkan anak untuk selalu mengagungkan Allah dan memahami perannya sebagai manusia dan hambaNya. Media untuk mengenalkan konsep ibadah sejak dini kepada anak. Menumbuhkan spiritualitas anak. Membantu menumbuhkan kebiasaan baik kepada anak",
+      "about": " Ali Abdullah, tinggal di Bantul, D.I. Yogyakarta. Kegiatan sehari-harinya adalah mengajar di sebuah madrasah aliyah swasta. Selain mengajar, penulis juga menyibukkan diri dengan kegiatan literer. Pernah beberapa kali mengisi pelatihan kepenulisan pada berbagai lembaga. Beberapa kali juga ia menjadi pembedah buku dalam beberapa acara diskusi dan bedah buku. Ia pun kerap menjadi editor freelance pada beberapa penerbit buku. Ia masih aktif menulis untuk beberapa media massa. Tulisan-tulisannya dalam bidang keagamaan, pendidikan, sosial, politik, dan lain sebagainya telah tersebar di sejumlah media massa baik lokal maupun nasional. Saat ini, penulis masih menekuni dunia literer untuk melahirkan karya-karya lainnya. Sejak tahun 2014 lalu, penulis menggeluti dunia kepenulisan buku. Dalam hal ini, penulis memilih untuk menulis buku-buku keislaman baik bergenre motivasi, peribadatan, pemikiran, tasawuf kekinian, maupun sejarah. Ia menganggap bahwa itu merupakan bagian dari dakwah karena sejatinya dakwah adalah mengajak kepada kebaikan dan menyampaikannya. Sampai saat ini, ia telah menulis beberapa buku yang diterbitkan oleh penerbit-penerbit besar nasional.",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "BY-049",
+          "isbn": "978-623-186-261-7",
+          "weight": "250",
+          "dimensi": [
+            {
+              "panjang": "21",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "52",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     },
     {
       "status": true,
@@ -753,13 +1394,37 @@
       "name": "Komik KKPK Roadshow 5 MyPegasus Friend",
       "image": "./src/assets/img/komik_kkpk_roadshow_5_my_pegasus_friend_thumb_5120.jpg",
       "author": "Defitri Annisa dkk",
+      "publisher": "Mizan Publishing",
       "price": "39.000",
       "discon": "15",
       "category": "Buku Terbaru",
-      "overview": "",
-      "description": "",
-      "primacy": "",
-      "qty": 0
+      "genres": [
+        {
+          "genreOne": "Komik"
+        }
+      ],
+      "overview": "Hari itu adalah pertama kalinya Anne, si peri kecil, bisa berjalan. Anne Grizelle baru berusia 10 bulan, tapi ia sudah memberikan banyak keajaiban di rumahnya. Kini, ketika tengah berjalan tanpa berpegangan ke arah pintu, Anne menemukan sesuatu. “Woah! Seekor pegasus?” Ayah Anne berseru. Ayah dan Ibu Anne sepakat untuk memelihara…",
+      "description": "Hari itu adalah pertama kalinya Anne, si peri kecil, bisa berjalan. Anne Grizelle baru berusia 10 bulan, tapi ia sudah memberikan banyak keajaiban di rumahnya. Kini, ketika tengah berjalan tanpa berpegangan ke arah pintu, Anne menemukan sesuatu. “Woah! Seekor pegasus?” Ayah Anne berseru. Ayah dan Ibu Anne sepakat untuk memelihara pegasus itu dan menamainya Selena. Anne sangat tak sabar untuk tumbuh besar bersama Selena. Tetapi, tepat setelah makanan mereka habis, terdengar suara hewan menjerit kesakitan. “Ayah, apakah kau mendengar itu?” Ibu bertanya. Ayah menggendong Anne dan menempatkannya di atas Selena, karena sayap Anne belum begitu besar untuk terbang. Mereka lalu terbang mencari asal jeritan itu. Apa yang terjadi selanjutnya? Apakah Anne tetap bisa bersahabat dengan Selena selamanya?",
+      "primacy": "Sejak 2003, KKPK merupakan seri yang menerbitkan karya anak-anak Indonesia usia 6-12 tahun. Seri ini menjadi pelopor media literasi bagi anak-anak untuk membuat kreasi berupa cerita. Seri KKPK mengangkat tema yang beragam. Tema-tema tersebut dapat disingkat menjadi 5F, yaitu: Family, Friendship, Food, Frightening, dan Fantasy. Seri KKPK sangat asyik untuk dinikmati anak-anak, karena ceritanya dibuat oleh anak-anak dan ditujukan untuk pembaca berusia anak-anak. Selain itu, tema cerita yang diangkat juga dekat dengan kehidupan anak.Komik KKPK dibuat dengan gaya komik populer yang akrab dengan anak-anak masa kini, sehingga memiliki daya tarik visual bagi anak-anak Mengasah kemampuan anak-anak dalam menulis, berpikir kritis, dan berkarya.",
+      "about": "",
+      "qty": 0,
+      "specification": [
+        {
+          "sku": "RK-1872",
+          "isbn": "978-623-254-443-7",
+          "weight": "200",
+          "dimensi": [
+            {
+              "panjang": "15",
+              "lebar": "21",
+              "tinggi": "0"
+            }
+          ],
+          "halaman": "88",
+          "jenis_cover": "Soft Cover"
+        }
+      ],
+      "ulasan": null
     }
   ]
 }
