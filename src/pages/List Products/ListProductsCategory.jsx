@@ -3,7 +3,7 @@ import star from "../../assets/img/images-removebg-preview.png";
 import image1 from "../../assets/img/card_game_dilan_tanya_kartu_dilan_thumb.jpg";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import DropdownFilter from "./components/DropdownFilter";
+import DropdownFilter from "../../components/DropdownFilter/DropdownFilter";
 const ListProducts = () => {
   return (
     <>

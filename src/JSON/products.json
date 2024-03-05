@@ -52,6 +52,14 @@
           "price": "125.000",
           "discon": "20"
         }
+      ],
+      "genre": [
+        "Sastra & Filsafat",
+        "Agama & Spiritualitas",
+        "Hiburan, Seni & Budaya",
+        "Puisi",
+        "Agama Islam",
+        "Budaya Daerah"
       ]
     },
     {
@@ -106,7 +114,8 @@
           "price": "139.000",
           "discon": "15"
         }
-      ]
+      ],
+      "genre": ["Agama", "Board Books", "Keluarga", "Referensi"]
     },
     {
       "id": "3",
@@ -160,7 +169,8 @@
           "price": "49.000",
           "discon": "15"
         }
-      ]
+      ],
+      "genre": ["Fiksi", "Novel", "Novel Dewasa"]
     },
     {
       "id": "4",
@@ -214,6 +224,14 @@
           "price": "135.000",
           "discon": "15"
         }
+      ],
+      "genre": [
+        "Agama & Spiritualitas",
+        "Agama Islam",
+        "Non Fiksi",
+        "Umum",
+        "Spiritualitas",
+        "Lain - Lain"
       ]
     },
     {
@@ -316,6 +334,17 @@
           "price": "39.000",
           "discon": "15"
         }
+      ],
+      "genre": [
+        "Agama",
+        "Sosial & Politik",
+        "Budaya",
+        "Binatang",
+        "Board Books",
+        "Fiksi",
+        "Novel",
+        "Keluarga",
+        "Komik"
       ]
     }
   ]
