@@ -30,12 +30,11 @@ const CategoryCard = ({ category }) => {
           </ul>
         </div>
         <div className="flex justify-end">
-          <a
-            href="#"
-            className="px-8 py-2 text-xs font-bold text-red-600 border border-red-600 rounded-full hover:text-white hover:bg-red-600"
-          >
-            SELENGKAPNYA
-          </a>
+          <Link to={`promo/${category.id}`}>
+            <p className="px-8 py-2 text-xs font-bold text-red-600 border border-red-600 rounded-full hover:text-white hover:bg-red-600">
+              SELENGKAPNYA
+            </p>
+          </Link>
         </div>
       </div>
     </section>

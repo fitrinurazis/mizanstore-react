@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import SectionContent from "../../components/SectionPageDetailProduct/SectionContent";
 import BookCard from "../../components/Book Card/BookCard";
 import axios from "axios";
@@ -86,15 +86,16 @@ const DetailProduct = () => {
                 <hr className="mx-5" />
                 <div className="flex flex-row p-5 overflow-x-scroll pt-7 gap-7 md:gap-5">
                   {getAuthorProduct?.map((item) => (
-                    <BookCard
-                      key={item.id}
-                      id={item.id}
-                      name={item.name}
-                      image={item.image}
-                      author={item.author}
-                      price={item.price}
-                      discon={item.discon}
-                    />
+                    <Link key={item.id} to={`/product/${item.id}`}>
+                      <BookCard
+                        id={item.id}
+                        name={item.name}
+                        image={item.image}
+                        author={item.author}
+                        price={item.price}
+                        discon={item.discon}
+                      />
+                    </Link>
                   ))}
                 </div>
               </section>

@@ -6,6 +6,7 @@ import iconWhatsapp from "../../assets/icon/whatsapp.png";
 import iconTwitter from "../../assets/icon/twitter.png";
 import iconLine from "../../assets/icon/logoLine.png";
 import iconLinkedin from "../../assets/icon/linkedin.png";
+import { Link } from "react-router-dom";
 
 const SectionContent = (props) => {
   const item = props.data;
@@ -17,25 +18,32 @@ const SectionContent = (props) => {
     const hargaDiskon = parseInt(item.price) - parseInt(diskon);
     return parseInt(hargaDiskon);
   };
+
   return (
     <>
       <section className="pb-1">
         <div className="flex flex-row gap-2 pt-2 pl-6 text-blue-500">
-          <p className="text-xs font-bold md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800">
-            Home
-          </p>
+          <Link to={"/"}>
+            <p className="text-xs font-bold md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800">
+              Home
+            </p>
+          </Link>
           <span className="text-xs text-gray-600 md:text-base lg:text-lg">
             •
           </span>
-          <p className="text-xs font-bold md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800">
-            {item.category}
-          </p>
+          <Link to={`/listProduct/${item.category}`}>
+            <p className="text-xs font-bold md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800">
+              {item.category}
+            </p>
+          </Link>
           <span className="text-xs text-gray-600 md:text-base lg:text-lg">
             •
           </span>
-          <p className="text-xs font-bold md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800">
-            {item.genres.map((item) => item.genreOne)}
-          </p>
+          <Link to={`/genre/${item.genres.map((item) => item.genreOne)}`}>
+            <p className="text-xs font-bold md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800">
+              {item.genres.map((item) => item.genreOne)}
+            </p>
+          </Link>
           <span className="text-xs text-gray-600 md:text-base lg:text-lg">
             •
           </span>
