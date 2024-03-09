@@ -1,30 +1,20 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import BookList from "../../components/Book Card/BookLIst";
 import Carousel from "../../components/Carousel/Carousel";
+import { useDispatch, useSelector } from "react-redux";
+import { getDataCategoryCall } from "../../store/action/productAction";
 
 const HomeBase = () => {
-  const [apiData, setApiData] = useState(null);
-
+  const { category } = useSelector((state) => state.products);
+  const dispatch = useDispatch();
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          "https://mocki.io/v1/79d0d4b9-fb89-4a3f-9fdb-c66db76df118"
-        );
-        const data = await response.json();
-        setApiData(data);
-      } catch (error) {
-        console.error("Error fetching data from API:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
+    dispatch(getDataCategoryCall());
+  }, [dispatch]);
 
   return (
     <>
       <Carousel />
-      {apiData ? <BookList data={apiData} /> : <p>Loading...</p>}
+      {category ? <BookList data={category} /> : <p>Loading...</p>}
     </>
   );
 };
