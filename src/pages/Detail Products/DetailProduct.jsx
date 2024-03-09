@@ -1,61 +1,35 @@
 import { Link, useParams } from "react-router-dom";
 import SectionContent from "../../components/SectionPageDetailProduct/SectionContent";
 import BookCard from "../../components/Book Card/BookCard";
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  getDataCategoryCall,
+  getDataDetailCall,
+  getDataProductCall,
+} from "../../store/action/productAction";
 
 const DetailProduct = () => {
-  const [detail, setDetail] = useState();
-  const [product, setProduct] = useState();
-  const [productAll, setProductAll] = useState();
   const params = useParams();
-  const fetchDataDetail = async () => {
-    try {
-      const response = await axios.get(
-        `https://mocki.io/v1/f460ee8d-848e-46c7-9f76-aabec0617370`
-      );
-      setDetail(response.data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
 
-  const fetchDataCategory = async () => {
-    try {
-      const response = await axios.get(
-        "https://mocki.io/v1/79d0d4b9-fb89-4a3f-9fdb-c66db76df118"
-      );
+  const { detail } = useSelector((state) => state.products);
+  const { category } = useSelector((state) => state.products);
+  const { productAll } = useSelector((state) => state.products);
+  const dispatch = useDispatch();
 
-      setProduct(response.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  const fetchDataProductAll = async () => {
-    try {
-      const response = await axios.get(
-        "https://mocki.io/v1/06fa080d-3fc1-4e61-a07d-0153cf52a292"
-      );
-
-      setProductAll(response.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
   useEffect(() => {
-    fetchDataDetail();
-    fetchDataCategory();
-    fetchDataProductAll();
-  }, []);
+    dispatch(getDataDetailCall());
+    dispatch(getDataCategoryCall());
+    dispatch(getDataProductCall());
+  }, [dispatch]);
   const dataProductParams = detail?.detail?.filter(
     (item) => item.idProduct == params.id
   );
   const dataCategoryParams = dataProductParams?.map((item) => item.category);
 
-  const categoryProduct = product?.categories?.filter(
+  const categoryProduct = category?.categories?.filter(
     (item) => item.name == dataCategoryParams
   );
 
