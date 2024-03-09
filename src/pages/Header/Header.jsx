@@ -1,7 +1,7 @@
-import burger from "../../assets/img/burger-bar.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import DropdownMenu from "../../components/DropdownMenu/DropdownMenu";
+import HamburgerMenu from "../../components/HamburgerMenu/HamburgerMenu";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,21 +9,29 @@ const Header = () => {
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+  const [isMenuOpen, setMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
   return (
-    <header className="">
+    <header>
       <div className="flex justify-end lg:justify-around items-center p-2.5 lg:p-5 bg-[#ce2e2e] ">
         <ul className="hidden gap-5 text-sm text-white list-none lg:flex decoration-transparent">
           <li>
-            <a href="#">KONFIRMASI INFORMASI</a>
+            <Link className="" to={"/"}>
+              KONFIRMASI INFORMASI
+            </Link>
           </li>
           <li>
-            <a href="#">TRACKING ORDER</a>
+            <Link className="" to={"/"}>
+              TRACKING ORDER
+            </Link>
           </li>
         </ul>
         <ul className="flex gap-5 text-sm text-white list-none decoration-transparent">
           <li>
-            <Link className="flex items-end gap-2">
+            <Link className="flex items-end gap-2 " to={"/"}>
               <svg
                 className="fill-white"
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +78,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <nav className="flex flex-col bg-gray-200 lg:justify-around">
+      <nav className="flex flex-col bg-white lg:justify-around">
         <div className="flex justify-between px-5 lg:justify-around">
           <div className="w-30">
             <Link to={"/"}>
@@ -78,39 +86,46 @@ const Header = () => {
             </Link>
           </div>
           <div className="flex flex-col ">
-            <div className="flex justify-between py-2 font-bold">
+            <div className="justify-between py-2 font-bold md:flex">
+              <HamburgerMenu isOpen={isMenuOpen} toggleMenu={toggleMenu} />
               <ul
-                id="menu_list"
-                className="justify-between hidden gap-5 text-sm list-none lg:flex"
+                className={`absolute w-full text-center bg-white top-0 left-0 z-10 md:justify-between  lg:gap-5 md:flex py-10 lg:relative lg:py-0  ${
+                  isMenuOpen ? "block" : "hidden"
+                }`}
               >
-                <li className="flex gap-5">
+                <li className="gap-5 lg:flex">
                   <DropdownMenu
                     isOpen={isOpen}
                     toggleDropdown={toggleDropdown}
                   />
-                  <span>/</span>
+                  <span className="hidden lg:block">/</span>
                 </li>
-                <li className="flex gap-5">
-                  <Link to={"/"}>POD</Link>
-                  <span>/</span>
+                <li className="gap-5 lg:flex">
+                  <Link className="hover:text-[#ce2e2e]" to={"/"}>
+                    POD
+                  </Link>
+                  <span className="hidden lg:block">/</span>
                 </li>
-                <li className="flex gap-5">
-                  <Link to={"/"}>SELF PUB</Link>
-                  <span>/</span>
+                <li className="gap-5 lg:flex">
+                  <Link className="hover:text-[#ce2e2e]" to={"/"}>
+                    SELF PUB
+                  </Link>
+                  <span className="hidden lg:block">/</span>
                 </li>
-                <li className="flex gap-5">
-                  <Link to={"/"}>EBOOK</Link>
-                  <span>/</span>
+                <li className="gap-5 lg:flex">
+                  <Link className="hover:text-[#ce2e2e]" to={"/"}>
+                    EBOOK
+                  </Link>
+                  <span className="hidden lg:block">/</span>
                 </li>
                 <li>
-                  <Link to={"/"}>BLOG</Link>
+                  <Link className="hover:text-[#ce2e2e]" to={"/"}>
+                    BLOG
+                  </Link>
                 </li>
               </ul>
-              <button className="w-5 mx-auto lg:hidden">
-                <img src={burger} alt="menu" />
-              </button>
             </div>
-            <div className="z-20 justify-between hidden h-8 text-sm lg:flex lg:text-md">
+            <div className="z-20 justify-between hidden h-8 text-sm md:flex md:text-md">
               <input
                 type="search"
                 placeholder="Cari Judul"
@@ -130,7 +145,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="flex h-8 mx-5 text-sm lg:hidden">
+        <div className="flex h-8 mx-5 text-sm md:hidden">
           <input
             type="search"
             placeholder="Cari Judul"
