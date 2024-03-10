@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Image from "../../assets/img/BookLogo.jpg";
 import Logo from "../../assets/img/GoogleLogo.jpg";
 import { useState } from "react";
@@ -8,12 +8,14 @@ function Login() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
 
   const handleLogin = () => {
     //validasi email dan password
     if (email === "example@gmail.com" && password === "password123") {
       // Login berhasil,pengguna ke halaman lain atau melakukan tindakan lainnya
       alert("Login berhasil!");
+      navigate("/");
     } else {
       setError("Alamat email atau password yang dimasukkan salah.");
     }
@@ -31,7 +33,7 @@ function Login() {
           {/* form */}
           <div className="px-16 sm:w-1/2">
             <h1 className="mb-3 text-2xl font-bold">
-              <a href="#">Mizan Store</a>
+              <Link to={"/"}>Mizan Store</Link>
             </h1>
             <p className="text-sm first-letter:text-4xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-1 ">
               Kemampuan membaca itu sebuah rahmat.Kegemaran membaca;sebuah
@@ -69,7 +71,7 @@ function Login() {
               {/* toogle end */}
               <button
                 onClick={handleLogin}
-                className="flex items-center justify-center w-2xl h-6 text-sm duration-200 mx-14 bg-slate-100 rounded-2xl hover:scale-110"
+                className="flex items-center justify-center h-6 text-sm duration-200 w-2xl mx-14 bg-slate-100 rounded-2xl hover:scale-110"
               >
                 Login
               </button>
