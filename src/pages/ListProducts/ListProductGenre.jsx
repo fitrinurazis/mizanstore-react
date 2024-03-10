@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import DropdownFilter from "../../components/DropdownFilter/DropdownFilter";
 import genre from "../../JSON/genre.json";
-import BookCard from "../../components/Book Card/BookCard";
+import BookCard from "../../components/BookCard/BookCard";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 const ListProductGenre = () => {

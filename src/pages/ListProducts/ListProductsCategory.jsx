@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import DropdownFilter from "../../components/DropdownFilter/DropdownFilter";
 import { Link, useParams } from "react-router-dom";
-import BookCard from "../../components/Book Card/BookCard";
+import BookCard from "../../components/BookCard/BookCard";
 import DropdownGenre from "../../components/DropdownGenre/DropdownGenre";
 const ListProducts = () => {
   const params = useParams();
@@ -17,7 +17,7 @@ const ListProducts = () => {
       {dataCategoryParams.map((item) => (
         <main className="flex justify-center" key={item.id}>
           <div className="flex items-start justify-around w-[1280px] p-[56px] bg-white">
-            <div className="font-sans hidden md:block">
+            <div className="hidden font-sans md:block">
               <h1 className="text-xl font-semibold">{item.name}</h1>
               <div className="mt-5">
                 <ul type="none">
@@ -35,12 +35,12 @@ const ListProducts = () => {
               <div className="font-[18px] font-sans pb-[32px]">
                 <h1 className="text-[#ce2e2e] text-lg sm:text-xl">
                   {item.name}{" "}
-                  <span className="text-black text-lg">
+                  <span className="text-lg text-black">
                     ({item.items.length} Judul Produk)
                   </span>
                 </h1>
               </div>
-              <div className="md:hidden block">
+              <div className="block md:hidden">
                 <DropdownGenre data={item} />
               </div>
               <DropdownFilter />
