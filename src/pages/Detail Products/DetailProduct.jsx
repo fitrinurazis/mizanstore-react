@@ -43,7 +43,7 @@ const DetailProduct = () => {
       <Header />
       {dataProductParams?.map((item, index) => {
         return (
-          <main className="mt-44 container-md md:mt-0" key={index}>
+          <main className="mt-3 container-md md:mt-5" key={index}>
             <div className="h-full mx-0 bg-white rounded-sm md:mx-10 lg:mx-40">
               <SectionContent data={item} />
             </div>

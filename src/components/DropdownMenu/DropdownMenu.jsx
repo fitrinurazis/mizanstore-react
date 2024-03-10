@@ -18,7 +18,7 @@ const DropdownMenu = () => {
         {isOpen ? "KATEGORI ʌ" : "KATEGORI v"}
       </button>
       {isOpen && (
-        <div className="relative grid text-sm lg:-left-[650px] lg:flex  lg:pt-20 lg:absolute lg:text-lg font-normal text-start pl-8 lg:pb-10 lg:bg-white">
+        <div className="relative grid text-sm lg:-left-[650px] lg:flex  lg:mt-16 lg:absolute lg:text-lg font-normal text-start pl-8 lg:pb-10 lg:bg-white">
           <ul className="flex-col gap-2 px-5 pt-3 lg:pt-0 lg:w-60 lg:flex lg:bg-white">
             <li className="hover:text-white hover:bg-[#ce2e2e] pl-2 py-1 lg:hover:text-[#ce2e2e] lg:hover:bg-white lg:pl-0 lg:py-0">
               <Link to="/">Agama & Spritualitas</Link>
