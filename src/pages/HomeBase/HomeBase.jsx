@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import BookList from "../../components/Book Card/BookLIst";
+import BookList from "../../components/BookCard/BookLIst";
 import Carousel from "../../components/Carousel/Carousel";
 import { useDispatch, useSelector } from "react-redux";
 import { getDataCategoryCall } from "../../store/action/productAction";

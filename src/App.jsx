@@ -1,12 +1,12 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout";
-import DetailProduct from "./pages/Detail Products/DetailProduct";
+import DetailProduct from "./pages/DetailProducts/DetailProduct";
 import Login from "./pages/Login/Login";
-import SignUp from "./pages/Sign Up/SignUp";
-import ListProductsCategory from "./pages/List Products/ListProductsCategory";
-import ListProductPromo from "./pages/List Products/ListProductPromo";
-import ListProductGenre from "./pages/List Products/ListProductGenre";
+import SignUp from "./pages/SignUp/SignUp";
+import ListProductsCategory from "./pages/ListProducts/ListProductsCategory";
+import ListProductPromo from "./pages/ListProducts/ListProductPromo";
+import ListProductGenre from "./pages/ListProducts/ListProductGenre";
 
 function App() {
   return (

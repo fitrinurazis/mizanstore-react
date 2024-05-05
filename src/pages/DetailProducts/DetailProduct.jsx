@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import SectionContent from "../../components/SectionPageDetailProduct/SectionContent";
-import BookCard from "../../components/Book Card/BookCard";
+import BookCard from "../../components/BookCard/BookCard";
 import { useEffect } from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
