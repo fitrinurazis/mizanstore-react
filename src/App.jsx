@@ -7,6 +7,7 @@ import SignUp from "./pages/SignUp/SignUp";
 import ListProductsCategory from "./pages/ListProducts/ListProductsCategory";
 import ListProductPromo from "./pages/ListProducts/ListProductPromo";
 import ListProductGenre from "./pages/ListProducts/ListProductGenre";
+import DashboardUser from "./pages/DashboardUser/DashboardUser";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="listProduct/:category" element={<ListProductsCategory />} />
       <Route path="genre/:name" element={<ListProductGenre />} />
       <Route path="promo/:id" element={<ListProductPromo />} />
+      <Route path="pelanggan/dashboard" element={<DashboardUser />} />
     </Routes>
   );
 }
