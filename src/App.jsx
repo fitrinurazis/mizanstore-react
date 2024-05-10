@@ -8,6 +8,9 @@ import ListProductsCategory from "./pages/ListProducts/ListProductsCategory";
 import ListProductPromo from "./pages/ListProducts/ListProductPromo";
 import ListProductGenre from "./pages/ListProducts/ListProductGenre";
 import DashboardUser from "./pages/DashboardUser/DashboardUser";
+import Wishlist from "./pages/Wishlist/Wishlist";
+import Alamat from "./pages/Alamat/Alamat";
+import Profil from "./pages/Profil/Profil";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
       <Route path="genre/:name" element={<ListProductGenre />} />
       <Route path="promo/:id" element={<ListProductPromo />} />
       <Route path="pelanggan/dashboard" element={<DashboardUser />} />
+      <Route path="pelanggan/dashboard/wishlist" element={<Wishlist />} />
+      <Route path="pelanggan/dashboard/alamat" element={<Alamat />} />
+      <Route path="pelanggan/dashboard/profil" element={<Profil />} />
     </Routes>
   );
 }

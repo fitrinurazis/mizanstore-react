@@ -1,9 +1,8 @@
-import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import HistoriOrder from "../HistoriOrder/HistoriOrder";
+import Footer from "../Footer/Footer";
 import MenuDashboard from "../../components/MenuDashboard/MenuDashboard";
-
-const DashboardUser = () => {
+import ContentProfil from "./components/ContentProfil";
+const Profil = () => {
   return (
     <>
       <Header />
@@ -12,15 +11,15 @@ const DashboardUser = () => {
           <div className="flex flex-row justify-center gap-x-5">
             <div className="basis-[17%] h-[35rem] bg-neutral-200">
               <MenuDashboard
-                status1={true}
+                status1={false}
                 status2={false}
                 status3={false}
-                status4={false}
+                status4={true}
               />
             </div>
             <div className="basis-[54%]">
               <div>
-                <HistoriOrder />
+                <ContentProfil />
               </div>
             </div>
           </div>
@@ -31,4 +30,4 @@ const DashboardUser = () => {
   );
 };
 
-export default DashboardUser;
+export default Profil;
