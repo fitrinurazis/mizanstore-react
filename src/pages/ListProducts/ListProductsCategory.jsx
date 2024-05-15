@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import product from "../../JSON/products.json";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -6,7 +7,7 @@ import { Link, useParams } from "react-router-dom";
 import BookCard from "../../components/BookCard/BookCard";
 import DropdownGenre from "../../components/DropdownGenre/DropdownGenre";
 import { useState } from "react";
-const ListProducts = () => {
+const ListProducts = ({ token, setToken }) => {
   const [value, setValue] = useState("");
   const params = useParams();
   const dataCategoryParams = product.categories.filter(
@@ -14,7 +15,7 @@ const ListProducts = () => {
   );
   return (
     <>
-      <Header />
+      <Header token={token} setToken={setToken} />
       {dataCategoryParams.map((item) => (
         <main className="flex justify-center" key={item.id}>
           <div className="flex items-start justify-around w-[1280px] p-[56px] bg-white">

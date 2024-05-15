@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import BookCard from "../../components/BookCard/BookCard";
 import Footer from "../Footer/Footer";
@@ -6,7 +7,7 @@ import DropdownFilter from "../../components/DropdownFilter/DropdownFilter";
 import axios from "axios";
 import { useParams } from "react-router";
 
-const ListProductPromo = () => {
+const ListProductPromo = ({ token, setToken }) => {
   const [data, setData] = useState([]);
   const params = useParams();
   const fetchDataCategory = async () => {
@@ -28,7 +29,7 @@ const ListProductPromo = () => {
   }, []);
   return (
     <>
-      <Header />
+      <Header token={token} setToken={setToken} />
       <main className="mx-20 md:mx-32">
         <div className="flex justify-center py-5">
           <h1 className="font-sans text-2xl font-bold">

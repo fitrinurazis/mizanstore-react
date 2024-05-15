@@ -1,12 +1,13 @@
+/* eslint-disable react/prop-types */
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import HistoriOrder from "../HistoriOrder/HistoriOrder";
 import MenuDashboard from "../../components/MenuDashboard/MenuDashboard";
 
-const DashboardUser = () => {
+const DashboardUser = ({ token, setToken }) => {
   return (
     <>
-      <Header />
+      <Header token={token} setToken={setToken} />
       <main className="container-md">
         <section className="pt-5 pb-2">
           <div className="flex flex-row justify-center gap-x-5">
