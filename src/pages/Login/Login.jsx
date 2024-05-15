@@ -1,23 +1,39 @@
+/* eslint-disable react/prop-types */
 import { Link, useNavigate } from "react-router-dom";
 import Image from "../../assets/img/BookLogo.jpg";
-import Logo from "../../assets/img/GoogleLogo.jpg";
 import { useState } from "react";
+import axios from "axios";
 
-function Login() {
+function Login({ setToken }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
-  const handleLogin = () => {
-    //validasi email dan password
-    if (email === "example@gmail.com" && password === "password123") {
-      // Login berhasil,pengguna ke halaman lain atau melakukan tindakan lainnya
-      alert("Login berhasil!");
-      navigate("/");
-    } else {
-      setError("Alamat email atau password yang dimasukkan salah.");
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    if (email === "") {
+      alert("Email is required");
+      return;
+    }
+    if (password === "") {
+      alert("Password is required");
+      return;
+    }
+    try {
+      const data = {
+        email,
+        password,
+      };
+      const res = await axios.post("http://localhost:8080/users/login", data);
+      if (res.data.token) {
+        localStorage.setItem("token", res.data.token);
+        setToken(res.data.token);
+      }
+      alert("login berhasil!");
+      navigate("/pelanggan/dashboard");
+    } catch (error) {
+      alert(error.response.data.message);
     }
   };
 
@@ -36,12 +52,16 @@ function Login() {
               <Link to={"/"}>Mizan Store</Link>
             </h1>
             <p className="text-sm first-letter:text-4xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-1 ">
-              Kemampuan membaca itu sebuah rahmat.Kegemaran membaca;sebuah
+              Kemampuan membaca itu sebuah rahmat. Kegemaran membaca dan sebuah
               kebahagiaan
             </p>
             <form className="flex flex-col gap-4">
               <input
-                className="p-2 duration-200 border mt-7 rounded-2xl hover:scale-110 bg-slate-100"
+                className={
+                  email !== ""
+                    ? "p-2 duration-200 border mt-7 rounded-2xl bg-slate-100"
+                    : "p-2 duration-200 hover:border-2 hover:border-red-700 mt-7 rounded-2xl bg-slate-100"
+                }
                 type="text"
                 name="email"
                 value={email}
@@ -49,7 +69,11 @@ function Login() {
                 placeholder="example@gmail.com"
               />
               <input
-                className="p-2 duration-200 border rounded-2xl hover:scale-110 bg-slate-100"
+                className={
+                  password !== ""
+                    ? "p-2 duration-200 border mt-7 rounded-2xl bg-slate-100"
+                    : "p-2 duration-200 hover:border-2 hover:border-red-700 mt-7 rounded-2xl bg-slate-100"
+                }
                 type={showPassword ? "text" : "password"}
                 name="password"
                 value={password}
@@ -75,18 +99,6 @@ function Login() {
               >
                 Login
               </button>
-              {error && <p className="text-red-500">{error}</p>}
-              <div className="grid items-center grid-cols-3 mt-1 text-black">
-                <hr className="border-slate-100" />
-                <p className="flex justify-center -my-10">OR</p>
-                <hr className="border-slate-100" />
-              </div>
-              {/* logo google */}
-              <button className="flex items-center justify-center w-full py-2 text-sm duration-200 border bg-slate-100 rounded-xl hover:scale-110">
-                <img className="h-5 mr-2 bg-none" src={Logo} alt="" /> Login
-                dengan Google
-              </button>
-              {/* logo google end */}
               <div className="flex items-center justify-between mt-3 text-xs text">
                 <p>Tidak punya akun?</p>
                 <Link to="/register">

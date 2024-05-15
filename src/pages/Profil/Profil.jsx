@@ -1,11 +1,12 @@
+/* eslint-disable react/prop-types */
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import MenuDashboard from "../../components/MenuDashboard/MenuDashboard";
 import ContentProfil from "./components/ContentProfil";
-const Profil = () => {
+const Profil = ({ token, setToken }) => {
   return (
     <>
-      <Header />
+      <Header token={token} setToken={setToken} />
       <main className="container-md">
         <section className="pt-5 pb-2">
           <div className="flex flex-row justify-center gap-x-5">

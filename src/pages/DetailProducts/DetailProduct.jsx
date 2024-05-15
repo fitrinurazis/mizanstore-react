@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link, useParams } from "react-router-dom";
 import SectionContent from "../../components/SectionPageDetailProduct/SectionContent";
 import BookCard from "../../components/BookCard/BookCard";
@@ -11,7 +12,7 @@ import {
   getDataProductCall,
 } from "../../store/action/productAction";
 
-const DetailProduct = () => {
+const DetailProduct = ({ token, setToken }) => {
   const params = useParams();
 
   const { detail } = useSelector((state) => state.products);
@@ -40,7 +41,7 @@ const DetailProduct = () => {
 
   return (
     <>
-      <Header />
+      <Header token={token} setToken={setToken} />
       {dataProductParams?.map((item, index) => {
         return (
           <main className="mt-3 container-md md:mt-5" key={index}>
