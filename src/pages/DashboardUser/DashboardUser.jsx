@@ -4,10 +4,10 @@ import Header from "../Header/Header";
 import HistoriOrder from "../HistoriOrder/HistoriOrder";
 import MenuDashboard from "../../components/MenuDashboard/MenuDashboard";
 
-const DashboardUser = ({ token, setToken }) => {
+const DashboardUser = () => {
   return (
     <>
-      <Header token={token} setToken={setToken} />
+      <Header />
       <main className="container-md">
         <section className="pt-5 pb-2">
           <div className="flex flex-row justify-center gap-x-5">

@@ -3,10 +3,14 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import DropdownMenu from "../../components/DropdownMenu/DropdownMenu";
 import HamburgerMenu from "../../components/HamburgerMenu/HamburgerMenu";
+import { useDispatch, useSelector } from "react-redux";
+import { logout } from "../../store/action/authAction";
 
-const Header = ({ token, setToken }) => {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { token } = useSelector((state) => state.auth);
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -19,8 +23,7 @@ const Header = ({ token, setToken }) => {
 
   const handleLogout = (e) => {
     e.preventDefault();
-    localStorage.removeItem("token");
-    setToken(null);
+    dispatch(logout());
     navigate("/");
   };
   return (

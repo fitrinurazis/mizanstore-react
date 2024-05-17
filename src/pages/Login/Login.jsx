@@ -2,13 +2,15 @@
 import { Link, useNavigate } from "react-router-dom";
 import Image from "../../assets/img/BookLogo.jpg";
 import { useState } from "react";
-import axios from "axios";
+import { useDispatch } from "react-redux";
+import { login } from "../../store/action/authAction";
 
-function Login({ setToken }) {
+function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -25,15 +27,11 @@ function Login({ setToken }) {
         email,
         password,
       };
-      const res = await axios.post("http://localhost:8080/users/login", data);
-      if (res.data.token) {
-        localStorage.setItem("token", res.data.token);
-        setToken(res.data.token);
-      }
+      dispatch(login(data));
       alert("login berhasil!");
       navigate("/pelanggan/dashboard");
     } catch (error) {
-      alert(error.response.data.message);
+      alert(error);
     }
   };
 

@@ -5,7 +5,7 @@ import genre from "../../JSON/genre.json";
 import BookCard from "../../components/BookCard/BookCard";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-const ListProductGenre = ({ token, setToken }) => {
+const ListProductGenre = () => {
   const params = useParams();
   const dataGenreParams = genre.genres.filter(
     (item) => item.name == params.name
@@ -13,7 +13,7 @@ const ListProductGenre = ({ token, setToken }) => {
   console.log(dataGenreParams);
   return (
     <>
-      <Header token={token} setToken={setToken} />
+      <Header />
       {dataGenreParams.map((item) => (
         <main className="flex justify-center" key={item.id}>
           <div className="flex items-start justify-around w-[1280px] p-[56px] bg-white list-product">
