@@ -4,26 +4,26 @@ import BookCard from "./BookCard";
 
 const CategoryCard = ({ category }) => {
   return (
-    <section className="grid mx-auto mt-4 bg-white md:mt-0 px-5 pt-5 pb-5">
-      <h1 className="text-2xl font-bold uppercase text-center">
+    <section className="grid px-5 pt-5 pb-5 mx-auto mt-4 bg-white md:mt-0">
+      <h1 className="text-2xl font-bold text-center uppercase">
         {category.name}
       </h1>
-      <div className="md:grid md:mx-auto ">
-        <div className="lg:ml-5 lg:mb-5 pb-3">
+      <div className="md:grid md:mx-auto">
+        <div className="pb-3 lg:ml-5 lg:mb-5 ">
           <div className="w-16 border-t-[3px] border-red-600 mt-5"></div>
         </div>
         <div className="overflow-x-scroll snap-x lg:overflow-x-hidden ">
           <ul className="flex lg:flex-wrap gap-3 lg:gap-7 w-0 md:w-[830px] lg:w-[1024px] mb-5">
-            {category.items.map((item) => (
+            {category.barang.map((item) => (
               <Link key={item.id} to={`product/${item.id}`}>
                 <BookCard
                   key={item.id}
                   id={item.id}
-                  name={item.name}
-                  image={item.image}
-                  author={item.author}
-                  price={item.price}
-                  discon={item.discon}
+                  name={item.namaBarang}
+                  image={item.gambar}
+                  author={item.author.name}
+                  price={item.harga}
+                  discon={item.diskon}
                 />
               </Link>
             ))}
