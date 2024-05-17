@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Link, useParams } from "react-router-dom";
 import SectionContent from "../../components/SectionPageDetailProduct/SectionContent";
-import BookCard from "../../components/Book Card/BookCard";
+import BookCard from "../../components/BookCard/BookCard";
 import { useEffect } from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -11,7 +12,7 @@ import {
   getDataProductCall,
 } from "../../store/action/productAction";
 
-const DetailProduct = () => {
+const DetailProduct = ({ token, setToken }) => {
   const params = useParams();
 
   const { detail } = useSelector((state) => state.products);
@@ -40,10 +41,10 @@ const DetailProduct = () => {
 
   return (
     <>
-      <Header />
+      <Header token={token} setToken={setToken} />
       {dataProductParams?.map((item, index) => {
         return (
-          <main className="mt-44 container-md md:mt-0" key={index}>
+          <main className="mt-3 container-md md:mt-5" key={index}>
             <div className="h-full mx-0 bg-white rounded-sm md:mx-10 lg:mx-40">
               <SectionContent data={item} />
             </div>

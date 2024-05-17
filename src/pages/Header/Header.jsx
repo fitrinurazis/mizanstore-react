@@ -1,29 +1,37 @@
-import burger from "../../assets/img/burger-bar.png";
-import { Link } from "react-router-dom";
+/* eslint-disable react/prop-types */
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import DropdownMenu from "../../components/DropdownMenu/DropdownMenu";
+import HamburgerMenu from "../../components/HamburgerMenu/HamburgerMenu";
 
-const Header = () => {
+const Header = ({ token, setToken }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+  const [isMenuOpen, setMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
+  const handleLogout = (e) => {
+    e.preventDefault();
+    localStorage.removeItem("token");
+    setToken(null);
+    navigate("/");
+  };
   return (
-    <header className="">
-      <div className="flex justify-end lg:justify-around items-center p-2.5 lg:p-5 bg-[#ce2e2e] ">
-        <ul className="hidden gap-5 text-sm text-white list-none lg:flex decoration-transparent">
-          <li>
-            <a href="#">KONFIRMASI INFORMASI</a>
-          </li>
-          <li>
-            <a href="#">TRACKING ORDER</a>
-          </li>
-        </ul>
+    <header>
+      <div className="flex justify-end items-center p-2.5 lg:p-5 lg:pr-48 bg-[#ce2e2e] ">
         <ul className="flex gap-5 text-sm text-white list-none decoration-transparent">
           <li>
-            <Link className="flex items-end gap-2">
+            <Link
+              className="flex items-end gap-2 hover:cursor-pointer hover:underline "
+              to={"/"}
+            >
               <svg
                 className="fill-white"
                 xmlns="http://www.w3.org/2000/svg"
@@ -36,6 +44,27 @@ const Header = () => {
               <span>WHATSAPP</span>
             </Link>
           </li>
+          {token ? (
+            <li>
+              <Link
+                className="flex items-end gap-2 hover:cursor-pointer hover:underline"
+                to={"/pelanggan/dashboard"}
+              >
+                <svg
+                  className="fill-white"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={17}
+                  height={19}
+                >
+                  <path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z" />
+                </svg>
+                <span>DASHBOARD</span>
+              </Link>
+            </li>
+          ) : (
+            <></>
+          )}
           <li>
             <Link className="flex">
               <svg
@@ -54,23 +83,45 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to={"/login"} className="flex items-end gap-2">
-              <svg
-                className="fill-white"
-                width={20}
-                height={18}
-                xmlns="http://www.w3.org/2000/svg"
-                fillRule="evenodd"
-                clipRule="evenodd"
+            {!token ? (
+              <Link
+                to={"/login"}
+                className="flex items-end gap-2 hover:cursor-pointer hover:underline"
               >
-                <path d="M12 0c-5.083 0-8.465 4.949-3.733 13.678 1.596 2.945-1.725 3.641-5.09 4.418-3.073.709-3.187 2.235-3.177 4.904l.004 1h23.99l.004-.969c.012-2.688-.093-4.223-3.177-4.935-3.438-.794-6.639-1.49-5.09-4.418 4.719-8.912 1.251-13.678-3.731-13.678m0 1c1.89 0 3.39.764 4.225 2.15 1.354 2.251.866 5.824-1.377 10.06-.577 1.092-.673 2.078-.283 2.932.937 2.049 4.758 2.632 6.032 2.928 2.303.534 2.412 1.313 2.401 3.93h-21.998c-.01-2.615.09-3.396 2.401-3.93 1.157-.266 5.138-.919 6.049-2.94.387-.858.284-1.843-.304-2.929-2.231-4.115-2.744-7.764-1.405-10.012.84-1.412 2.353-2.189 4.259-2.189" />
-              </svg>
-              <span>LOGIN / DAFTAR</span>
-            </Link>
+                <svg
+                  className="fill-white"
+                  width={20}
+                  height={18}
+                  xmlns="http://www.w3.org/2000/svg"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                >
+                  <path d="M12 0c-5.083 0-8.465 4.949-3.733 13.678 1.596 2.945-1.725 3.641-5.09 4.418-3.073.709-3.187 2.235-3.177 4.904l.004 1h23.99l.004-.969c.012-2.688-.093-4.223-3.177-4.935-3.438-.794-6.639-1.49-5.09-4.418 4.719-8.912 1.251-13.678-3.731-13.678m0 1c1.89 0 3.39.764 4.225 2.15 1.354 2.251.866 5.824-1.377 10.06-.577 1.092-.673 2.078-.283 2.932.937 2.049 4.758 2.632 6.032 2.928 2.303.534 2.412 1.313 2.401 3.93h-21.998c-.01-2.615.09-3.396 2.401-3.93 1.157-.266 5.138-.919 6.049-2.94.387-.858.284-1.843-.304-2.929-2.231-4.115-2.744-7.764-1.405-10.012.84-1.412 2.353-2.189 4.259-2.189" />
+                </svg>
+                <span>LOGIN / DAFTAR</span>
+              </Link>
+            ) : (
+              <div
+                className="flex items-end gap-2 hover:cursor-pointer hover:underline"
+                onClick={handleLogout}
+              >
+                <svg
+                  className="fill-white"
+                  width={20}
+                  height={18}
+                  xmlns="http://www.w3.org/2000/svg"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                >
+                  <path d="M12 0c-5.083 0-8.465 4.949-3.733 13.678 1.596 2.945-1.725 3.641-5.09 4.418-3.073.709-3.187 2.235-3.177 4.904l.004 1h23.99l.004-.969c.012-2.688-.093-4.223-3.177-4.935-3.438-.794-6.639-1.49-5.09-4.418 4.719-8.912 1.251-13.678-3.731-13.678m0 1c1.89 0 3.39.764 4.225 2.15 1.354 2.251.866 5.824-1.377 10.06-.577 1.092-.673 2.078-.283 2.932.937 2.049 4.758 2.632 6.032 2.928 2.303.534 2.412 1.313 2.401 3.93h-21.998c-.01-2.615.09-3.396 2.401-3.93 1.157-.266 5.138-.919 6.049-2.94.387-.858.284-1.843-.304-2.929-2.231-4.115-2.744-7.764-1.405-10.012.84-1.412 2.353-2.189 4.259-2.189" />
+                </svg>
+                <span>LOGOUT</span>
+              </div>
+            )}
           </li>
         </ul>
       </div>
-      <nav className="flex flex-col bg-gray-200 lg:justify-around">
+      <nav className="flex flex-col bg-white lg:justify-around">
         <div className="flex justify-between px-5 lg:justify-around">
           <div className="w-30">
             <Link to={"/"}>
@@ -78,39 +129,46 @@ const Header = () => {
             </Link>
           </div>
           <div className="flex flex-col ">
-            <div className="flex justify-between py-2 font-bold">
+            <div className="justify-between py-2 font-bold md:flex">
+              <HamburgerMenu isOpen={isMenuOpen} toggleMenu={toggleMenu} />
               <ul
-                id="menu_list"
-                className="justify-between hidden gap-5 text-sm list-none lg:flex"
+                className={`absolute w-full text-center bg-white top-0 left-0 z-10 md:justify-between  lg:gap-5 md:flex py-10 lg:relative lg:py-0  ${
+                  isMenuOpen ? "block" : "hidden"
+                }`}
               >
-                <li className="flex gap-5">
+                <li className="gap-5 lg:flex">
                   <DropdownMenu
                     isOpen={isOpen}
                     toggleDropdown={toggleDropdown}
                   />
-                  <span>/</span>
+                  <span className="hidden lg:block">/</span>
                 </li>
-                <li className="flex gap-5">
-                  <Link to={"/"}>POD</Link>
-                  <span>/</span>
+                <li className="gap-5 lg:flex">
+                  <Link className="hover:text-[#ce2e2e]" to={"/"}>
+                    POD
+                  </Link>
+                  <span className="hidden lg:block">/</span>
                 </li>
-                <li className="flex gap-5">
-                  <Link to={"/"}>SELF PUB</Link>
-                  <span>/</span>
+                <li className="gap-5 lg:flex">
+                  <Link className="hover:text-[#ce2e2e]" to={"/"}>
+                    SELF PUB
+                  </Link>
+                  <span className="hidden lg:block">/</span>
                 </li>
-                <li className="flex gap-5">
-                  <Link to={"/"}>EBOOK</Link>
-                  <span>/</span>
+                <li className="gap-5 lg:flex">
+                  <Link className="hover:text-[#ce2e2e]" to={"/"}>
+                    EBOOK
+                  </Link>
+                  <span className="hidden lg:block">/</span>
                 </li>
                 <li>
-                  <Link to={"/"}>BLOG</Link>
+                  <Link className="hover:text-[#ce2e2e]" to={"/"}>
+                    BLOG
+                  </Link>
                 </li>
               </ul>
-              <button className="w-5 mx-auto lg:hidden">
-                <img src={burger} alt="menu" />
-              </button>
             </div>
-            <div className="z-20 justify-between hidden h-8 text-sm lg:flex lg:text-md">
+            <div className="z-20 justify-between hidden h-8 text-sm md:flex md:text-md">
               <input
                 type="search"
                 placeholder="Cari Judul"
@@ -130,7 +188,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="flex h-8 mx-5 text-sm lg:hidden">
+        <div className="flex h-8 mx-5 text-sm md:hidden">
           <input
             type="search"
             placeholder="Cari Judul"

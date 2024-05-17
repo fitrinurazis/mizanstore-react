@@ -1,4 +1,4 @@
-import BookList from "../../components/Book Card/BookLIst";
+import BookList from "../../components/BookCard/BookLIst";
 import Carousel from "../../components/Carousel/Carousel";
 
 const HomeBase = () => {

@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import { useParams } from "react-router-dom";
 import DropdownFilter from "../../components/DropdownFilter/DropdownFilter";
 import genre from "../../JSON/genre.json";
-import BookCard from "../../components/Book Card/BookCard";
+import BookCard from "../../components/BookCard/BookCard";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-const ListProductGenre = () => {
+const ListProductGenre = ({ token, setToken }) => {
   const params = useParams();
   const dataGenreParams = genre.genres.filter(
     (item) => item.name == params.name
@@ -12,7 +13,7 @@ const ListProductGenre = () => {
   console.log(dataGenreParams);
   return (
     <>
-      <Header />
+      <Header token={token} setToken={setToken} />
       {dataGenreParams.map((item) => (
         <main className="flex justify-center" key={item.id}>
           <div className="flex items-start justify-around w-[1280px] p-[56px] bg-white list-product">
