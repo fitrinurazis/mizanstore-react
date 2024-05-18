@@ -1,8 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getDetailPelanggan } from "../action/pelangganAction";
+import { getDetailPelanggan, updatePelanggan } from "../action/pelangganAction";
 
 const initialState = {
   detail: [],
+  update: null,
 };
 
 export const pelangganReducer = createSlice({
@@ -11,6 +12,9 @@ export const pelangganReducer = createSlice({
   extraReducers: (builder) => {
     builder.addCase(getDetailPelanggan.fulfilled, (state, action) => {
       state.detail = action.payload.data;
+    });
+    builder.addCase(updatePelanggan.fulfilled, (state, action) => {
+      state.update = action.payload;
     });
   },
 });
