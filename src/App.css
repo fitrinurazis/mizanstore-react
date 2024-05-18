@@ -13,3 +13,11 @@ li {
     width: 100%; /* Lebar kontainer form dan gambar 100% */
   }
 }
+
+#tableAlamat {
+  counter-reset: tableCount;
+}
+#counterCell::before {
+  content: counter(tableCount);
+  counter-increment: tableCount;
+}
