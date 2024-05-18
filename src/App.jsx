@@ -13,6 +13,7 @@ import Alamat from "./pages/Alamat/Alamat";
 import Profil from "./pages/Profil/Profil";
 import EditProfil from "./pages/Profil/EditProfil";
 import DetailAlamat from "./pages/Alamat/DetailAlamat";
+import TambahAlamat from "./pages/Alamat/TambahAlamat";
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
       <Route
         path="pelanggan/dashboard/alamat/detail/:id"
         element={<DetailAlamat />}
+      />
+      <Route
+        path="pelanggan/dashboard/alamat/tambah"
+        element={<TambahAlamat />}
       />
       <Route path="pelanggan/dashboard/profil" element={<Profil />} />
       <Route

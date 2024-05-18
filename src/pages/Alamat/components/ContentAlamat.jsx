@@ -56,39 +56,41 @@ const ContentAlamat = () => {
         <>
           <div className="flex flex-row  justify-between">
             <h6 className="text-xl mb-5">Daftar Alamat</h6>
-            <button
-              type="button"
-              className="bg-blue-800 text-white px-2 text-xs text-center inline-flex items-center rounded-lg font-medium hover:bg-blue-600 hover:duration-1000"
-            >
-              <svg
-                height="17px"
-                id="Layer_1"
-                version="1.1"
-                viewBox="0 0 50 50"
-                width="17px"
-                xmlns="http://www.w3.org/2000/svg"
+            <Link to={"/pelanggan/dashboard/alamat/tambah"}>
+              <button
+                type="button"
+                className="bg-blue-800 text-white px-2 py-2 text-xs text-center inline-flex items-center rounded-lg font-medium hover:bg-blue-600 hover:duration-1000"
               >
-                <line
-                  fill="none"
-                  stroke="#fff"
-                  strokeWidth="3"
-                  x1="9"
-                  x2="41"
-                  y1="25"
-                  y2="25"
-                />
-                <line
-                  fill="none"
-                  stroke="#fff"
-                  strokeWidth="3"
-                  x1="25"
-                  x2="25"
-                  y1="9"
-                  y2="41"
-                />
-              </svg>
-              Tambah Alamat
-            </button>
+                <svg
+                  height="17px"
+                  id="Layer_1"
+                  version="1.1"
+                  viewBox="0 0 50 50"
+                  width="17px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    fill="none"
+                    stroke="#fff"
+                    strokeWidth="3"
+                    x1="9"
+                    x2="41"
+                    y1="25"
+                    y2="25"
+                  />
+                  <line
+                    fill="none"
+                    stroke="#fff"
+                    strokeWidth="3"
+                    x1="25"
+                    x2="25"
+                    y1="9"
+                    y2="41"
+                  />
+                </svg>
+                Tambah Alamat
+              </button>
+            </Link>
           </div>
           <div className="mt-2">
             <table
