@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { infoMe } from "../../../store/action/authAction";
-
+import { Link } from "react-router-dom";
 const ContentAlamat = () => {
   const { token, user } = useSelector((state) => state.auth);
 
@@ -56,39 +56,41 @@ const ContentAlamat = () => {
         <>
           <div className="flex flex-row  justify-between">
             <h6 className="text-xl mb-5">Daftar Alamat</h6>
-            <button
-              type="button"
-              className="bg-blue-800 text-white px-2 text-xs text-center inline-flex items-center rounded-lg font-medium hover:bg-blue-600 hover:duration-1000"
-            >
-              <svg
-                height="17px"
-                id="Layer_1"
-                version="1.1"
-                viewBox="0 0 50 50"
-                width="17px"
-                xmlns="http://www.w3.org/2000/svg"
+            <Link to={"/pelanggan/dashboard/alamat/tambah"}>
+              <button
+                type="button"
+                className="bg-blue-800 text-white px-2 py-2 text-xs text-center inline-flex items-center rounded-lg font-medium hover:bg-blue-600 hover:duration-1000"
               >
-                <line
-                  fill="none"
-                  stroke="#fff"
-                  strokeWidth="3"
-                  x1="9"
-                  x2="41"
-                  y1="25"
-                  y2="25"
-                />
-                <line
-                  fill="none"
-                  stroke="#fff"
-                  strokeWidth="3"
-                  x1="25"
-                  x2="25"
-                  y1="9"
-                  y2="41"
-                />
-              </svg>
-              Tambah Alamat
-            </button>
+                <svg
+                  height="17px"
+                  id="Layer_1"
+                  version="1.1"
+                  viewBox="0 0 50 50"
+                  width="17px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    fill="none"
+                    stroke="#fff"
+                    strokeWidth="3"
+                    x1="9"
+                    x2="41"
+                    y1="25"
+                    y2="25"
+                  />
+                  <line
+                    fill="none"
+                    stroke="#fff"
+                    strokeWidth="3"
+                    x1="25"
+                    x2="25"
+                    y1="9"
+                    y2="41"
+                  />
+                </svg>
+                Tambah Alamat
+              </button>
+            </Link>
           </div>
           <div className="mt-2">
             <table
@@ -111,27 +113,31 @@ const ContentAlamat = () => {
                       <td>{item.firstName}</td>
                       <td>{item.alamatLengkap}</td>
                       <td className="inline-flex gap-1 items-center pt-1">
-                        <button
-                          type="button"
-                          className="bg-green-600 w-10 h-8 px-3 inline-flex items-center rounded-lg hover:duration-700 hover:bg-green-700"
+                        <Link
+                          to={`/pelanggan/dashboard/alamat/detail/${item.id}`}
                         >
-                          <svg
-                            fill="white"
-                            height="25px"
-                            id="Layer_1"
-                            version="1.1"
-                            viewBox="0 0 512 512"
-                            width="25px"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            type="button"
+                            className="bg-green-600 w-10 h-8 px-3 inline-flex items-center rounded-lg hover:duration-700 hover:bg-green-700"
                           >
-                            <g>
-                              <path d="M256,128c-81.9,0-145.7,48.8-224,128c67.4,67.7,124,128,224,128c99.9,0,173.4-76.4,224-126.6   C428.2,198.6,354.8,128,256,128z M256,347.3c-49.4,0-89.6-41-89.6-91.3c0-50.4,40.2-91.3,89.6-91.3s89.6,41,89.6,91.3   C345.6,306.4,305.4,347.3,256,347.3z" />
+                            <svg
+                              fill="white"
+                              height="25px"
+                              id="Layer_1"
+                              version="1.1"
+                              viewBox="0 0 512 512"
+                              width="25px"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
                               <g>
-                                <path d="M256,224c0-7.9,2.9-15.1,7.6-20.7c-2.5-0.4-5-0.6-7.6-0.6c-28.8,0-52.3,23.9-52.3,53.3c0,29.4,23.5,53.3,52.3,53.3    s52.3-23.9,52.3-53.3c0-2.3-0.2-4.6-0.4-6.9c-5.5,4.3-12.3,6.9-19.8,6.9C270.3,256,256,241.7,256,224z" />
+                                <path d="M256,128c-81.9,0-145.7,48.8-224,128c67.4,67.7,124,128,224,128c99.9,0,173.4-76.4,224-126.6   C428.2,198.6,354.8,128,256,128z M256,347.3c-49.4,0-89.6-41-89.6-91.3c0-50.4,40.2-91.3,89.6-91.3s89.6,41,89.6,91.3   C345.6,306.4,305.4,347.3,256,347.3z" />
+                                <g>
+                                  <path d="M256,224c0-7.9,2.9-15.1,7.6-20.7c-2.5-0.4-5-0.6-7.6-0.6c-28.8,0-52.3,23.9-52.3,53.3c0,29.4,23.5,53.3,52.3,53.3    s52.3-23.9,52.3-53.3c0-2.3-0.2-4.6-0.4-6.9c-5.5,4.3-12.3,6.9-19.8,6.9C270.3,256,256,241.7,256,224z" />
+                                </g>
                               </g>
-                            </g>
-                          </svg>
-                        </button>
+                            </svg>
+                          </button>
+                        </Link>
                         <button
                           type="button"
                           className="bg-yellow-400 w-10 h-8 px-3 inline-flex items-center rounded-lg hover:duration-700 hover:bg-yellow-600"
