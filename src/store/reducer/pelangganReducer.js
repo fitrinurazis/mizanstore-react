@@ -3,7 +3,6 @@ import { getDetailPelanggan, updatePelanggan } from "../action/pelangganAction";
 
 const initialState = {
   detail: [],
-  update: null,
 };
 
 export const pelangganReducer = createSlice({
@@ -14,7 +13,7 @@ export const pelangganReducer = createSlice({
       state.detail = action.payload.data;
     });
     builder.addCase(updatePelanggan.fulfilled, (state, action) => {
-      state.update = action.payload;
+      state.detail = action.payload;
     });
   },
 });
