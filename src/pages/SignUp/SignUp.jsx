@@ -1,6 +1,7 @@
-import axios from "axios";
 import { useState } from "react";
+import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
+import { register } from "../../store/action/authAction";
 
 const SignUp = () => {
   const [firstName, setFirstName] = useState("");
@@ -16,6 +17,8 @@ const SignUp = () => {
   const [kecamatan, setKecamatan] = useState("");
   const [alamatLengkap, setAlamatLengkap] = useState("");
   const [kodePos, setKodePos] = useState("");
+
+  const dispatch = useDispatch();
 
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
@@ -62,8 +65,8 @@ const SignUp = () => {
         kodePos,
       };
       try {
-        await axios.post("http://localhost:8080/users/register", data);
-        alert("berhasil login!");
+        dispatch(register(data));
+        alert("berhasil buat akun!");
         navigate("/login");
       } catch (error) {
         alert(error.response.message);

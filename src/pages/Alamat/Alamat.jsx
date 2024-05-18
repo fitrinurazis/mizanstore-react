@@ -4,10 +4,10 @@ import Header from "../Header/Header";
 import MenuDashboard from "../../components/MenuDashboard/MenuDashboard";
 import ContentAlamat from "./components/ContentAlamat";
 
-const Alamat = ({ token, setToken }) => {
+const Alamat = () => {
   return (
     <>
-      <Header token={token} setToken={setToken} />
+      <Header />
       <main className="container-md">
         <section className="pt-5 pb-2">
           <div className="flex flex-row justify-center gap-x-5">

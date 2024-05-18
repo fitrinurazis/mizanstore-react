@@ -7,8 +7,6 @@ const MenuDashboard = ({ status1, status2, status3, status4 }) => {
   const [alamat, setAlamat] = useState(status3);
   const [profil, setProfil] = useState(status4);
 
-  console.log(histori);
-
   const navigate = useNavigate();
   return (
     <div className="grid grid-rows-5  text-sm font-normal">

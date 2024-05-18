@@ -7,7 +7,7 @@ import { Link, useParams } from "react-router-dom";
 import BookCard from "../../components/BookCard/BookCard";
 import DropdownGenre from "../../components/DropdownGenre/DropdownGenre";
 import { useState } from "react";
-const ListProducts = ({ token, setToken }) => {
+const ListProducts = () => {
   const [value, setValue] = useState("");
   const params = useParams();
   const dataCategoryParams = product.categories.filter(
@@ -15,7 +15,7 @@ const ListProducts = ({ token, setToken }) => {
   );
   return (
     <>
-      <Header token={token} setToken={setToken} />
+      <Header />
       {dataCategoryParams.map((item) => (
         <main className="flex justify-center" key={item.id}>
           <div className="flex items-start justify-around w-[1280px] p-[56px] bg-white">

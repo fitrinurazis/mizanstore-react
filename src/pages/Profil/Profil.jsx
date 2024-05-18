@@ -3,10 +3,10 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import MenuDashboard from "../../components/MenuDashboard/MenuDashboard";
 import ContentProfil from "./components/ContentProfil";
-const Profil = ({ token, setToken }) => {
+const Profil = () => {
   return (
     <>
-      <Header token={token} setToken={setToken} />
+      <Header />
       <main className="container-md">
         <section className="pt-5 pb-2">
           <div className="flex flex-row justify-center gap-x-5">
