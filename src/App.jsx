@@ -12,6 +12,7 @@ import Wishlist from "./pages/Wishlist/Wishlist";
 import Alamat from "./pages/Alamat/Alamat";
 import Profil from "./pages/Profil/Profil";
 import EditProfil from "./pages/Profil/EditProfil";
+import DetailAlamat from "./pages/Alamat/DetailAlamat";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
       <Route path="pelanggan/dashboard" element={<DashboardUser />} />
       <Route path="pelanggan/dashboard/wishlist" element={<Wishlist />} />
       <Route path="pelanggan/dashboard/alamat" element={<Alamat />} />
+      <Route
+        path="pelanggan/dashboard/alamat/detail/:id"
+        element={<DetailAlamat />}
+      />
       <Route path="pelanggan/dashboard/profil" element={<Profil />} />
       <Route
         path="pelanggan/dashboard/profil/edit/:id"
