@@ -10,21 +10,25 @@ import {
   getDataCategoryCall,
   getDataDetailCall,
   getDataProductCall,
+  getDataDetailCallById,
 } from "../../store/action/productAction";
 
 const DetailProduct = ({ token, setToken }) => {
   const params = useParams();
 
-  const { detail } = useSelector((state) => state.products);
   const { category } = useSelector((state) => state.products);
   const { productAll } = useSelector((state) => state.products);
+  const { detailById } = useSelector((state) => state.products);
   const dispatch = useDispatch();
+  console.log(detailById);
 
   useEffect(() => {
     dispatch(getDataDetailCall());
     dispatch(getDataCategoryCall());
     dispatch(getDataProductCall());
-  }, [dispatch]);
+    dispatch(getDataDetailCallById(params.id));
+  }, [dispatch, params]);
+
   const dataProductParams = detail?.detail?.filter(
     (item) => item.idProduct == params.id
   );
@@ -106,7 +110,6 @@ const DetailProduct = ({ token, setToken }) => {
           </main>
         );
       })}
-      \
       <Footer />
     </>
   );

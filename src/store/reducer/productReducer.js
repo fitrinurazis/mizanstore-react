@@ -3,12 +3,14 @@ import {
   getDataCategoryCall,
   getDataDetailCall,
   getDataProductCall,
+  getDataDetailCallById,
 } from "../action/productAction";
 
 const initialState = {
   productAll: [],
   category: [],
   detail: [],
+  detailById: [],
 };
 
 export const productReducer = createSlice({
@@ -24,6 +26,9 @@ export const productReducer = createSlice({
       builder.addCase(getDataDetailCall.fulfilled, (state, action) => {
         state.detail = action.payload.data;
       });
+    builder.addCase(getDataDetailCallById.fulfilled, (state, action) => {
+      state.detailById = action.payload;
+    });
   },
 });
 
